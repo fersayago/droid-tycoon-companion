@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Search, Trash2, X } from "lucide-react";
+import { Moon, Search, Sun, Trash2, X } from "lucide-react";
 import { droids, maxLevel, rebirths } from "@/data/droidex";
 import {
   droidById,
@@ -25,6 +25,7 @@ import { Select } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
 
 const storageKey = "droid-tycoon-companion:v1";
+const themeStorageKey = "droid-tycoon-companion:theme";
 
 const defaultState: InventoryState = {
   selectedRebirth: 1,
@@ -50,27 +51,27 @@ const statusClasses: Record<DroidStatus | RequirementStatus, string> = {
   "need-later": "border-sky-700 bg-sky-500 text-sky-950 shadow-sm shadow-sky-950/20",
   keep: "border-violet-700 bg-violet-500 text-white shadow-sm shadow-violet-950/20",
   "sell-candidate": "border-slate-600 bg-slate-300 text-slate-950 shadow-sm shadow-slate-950/10",
-  neutral: "border-slate-300 bg-white text-slate-700",
-  past: "border-slate-200 bg-slate-100 text-slate-500",
+  neutral: "border-slate-300 bg-white text-slate-700 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-200",
+  past: "border-slate-200 bg-slate-100 text-slate-500 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400",
 };
 
 const rowStatusClasses: Record<DroidStatus | RequirementStatus, string> = {
-  covered: "border-emerald-300 bg-emerald-50",
-  "need-now": "border-red-400 bg-red-50 ring-2 ring-red-200",
-  "need-soon": "border-orange-300 bg-orange-50",
-  "need-later": "border-sky-300 bg-sky-50",
-  keep: "border-violet-300 bg-violet-50",
-  "sell-candidate": "border-slate-300 bg-slate-100",
-  neutral: "border-slate-200 bg-white",
-  past: "border-slate-200 bg-slate-50 opacity-60",
+  covered: "border-emerald-300 bg-emerald-50 dark:border-emerald-800 dark:bg-emerald-950/40",
+  "need-now": "border-red-400 bg-red-50 ring-2 ring-red-200 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900",
+  "need-soon": "border-orange-300 bg-orange-50 dark:border-orange-800 dark:bg-orange-950/40",
+  "need-later": "border-sky-300 bg-sky-50 dark:border-sky-800 dark:bg-sky-950/40",
+  keep: "border-violet-300 bg-violet-50 dark:border-violet-800 dark:bg-violet-950/40",
+  "sell-candidate": "border-slate-300 bg-slate-100 dark:border-slate-600 dark:bg-slate-800",
+  neutral: "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900",
+  past: "border-slate-200 bg-slate-50 opacity-60 dark:border-slate-700 dark:bg-slate-900",
 };
 
 const rarityClasses: Record<DroidRarity, string> = {
-  COMMON: "text-slate-700",
-  RARE: "text-blue-700",
-  EPIC: "text-purple-700",
-  LEGENDARY: "text-amber-700",
-  MYTHIC: "text-red-700",
+  COMMON: "text-slate-700 dark:text-slate-300",
+  RARE: "text-blue-700 dark:text-blue-300",
+  EPIC: "text-purple-700 dark:text-purple-300",
+  LEGENDARY: "text-amber-700 dark:text-amber-300",
+  MYTHIC: "text-red-700 dark:text-red-300",
 };
 
 function normalizeLoadedInventory(rawInventory: unknown): Inventory {
@@ -116,18 +117,28 @@ export function DroidTracker() {
   const [search, setSearch] = useState("");
   const [rarity, setRarity] = useState<DroidRarity | "ALL">("ALL");
   const [status, setStatus] = useState<DroidStatus | "ALL">("ALL");
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     setState(safeLoadState());
+    setDarkMode(window.localStorage.getItem(themeStorageKey) === "dark");
     setHydrated(true);
   }, []);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", darkMode);
+    if (hydrated) window.localStorage.setItem(themeStorageKey, darkMode ? "dark" : "light");
+  }, [darkMode, hydrated]);
 
   useEffect(() => {
     if (hydrated) window.localStorage.setItem(storageKey, JSON.stringify(state));
   }, [hydrated, state]);
 
   const rebirthRequirements = useMemo(() => getRequirementsForRebirth(state.selectedRebirth), [state.selectedRebirth]);
-  const levelGroups = useMemo(() => groupRequirementsByLevel(rebirthRequirements), [rebirthRequirements]);
+  const levelGroups = useMemo(
+    () => groupRequirementsByLevel(rebirthRequirements).filter((group) => group.fromLevel >= state.currentLevel),
+    [rebirthRequirements, state.currentLevel],
+  );
 
   const filteredDroids = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -163,26 +174,36 @@ export function DroidTracker() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-100 px-4 py-6 text-slate-950 md:px-8">
+    <main className="min-h-screen bg-slate-100 px-4 py-6 text-slate-950 transition-colors dark:bg-slate-950 dark:text-slate-100 md:px-8">
       <div className="mx-auto flex max-w-[1900px] flex-col gap-6">
-        <header className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm lg:flex-row lg:items-end lg:justify-between">
+        <header className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-colors dark:border-slate-800 dark:bg-slate-900 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <Badge variant="secondary" className="mb-3 w-fit">Fortnite Droid Tycoon</Badge>
             <h1 className="text-3xl font-bold tracking-tight md:text-5xl">Droid Tycoon Companion</h1>
-            <p className="mt-2 max-w-3xl text-sm text-slate-600 md:text-base">
+            <p className="mt-2 max-w-3xl text-sm text-slate-600 dark:text-slate-300 md:text-base">
               Marcá la variante máxima de cada droide, elegí tu reset y nivel actual, y priorizá qué buscar, qué guardar y qué vender.
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-3 lg:min-w-[520px]">
+          <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[520px] lg:grid-cols-4">
+            <Button
+              type="button"
+              variant="secondary"
+              className="gap-2 sm:col-span-2 lg:col-span-1"
+              aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+              onClick={() => setDarkMode((current) => !current)}
+            >
+              {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+              {darkMode ? "Light mode" : "Dark mode"}
+            </Button>
             <label htmlFor="selected-rebirth" className="text-sm font-medium">
               Reset path
-              <Select id="selected-rebirth" value={String(state.selectedRebirth)} onChange={(event) => patchState({ selectedRebirth: Number(event.target.value) as Rebirth })} className="mt-1 bg-white">
+              <Select id="selected-rebirth" value={String(state.selectedRebirth)} onChange={(event) => patchState({ selectedRebirth: Number(event.target.value) as Rebirth })} className="mt-1 bg-white dark:bg-slate-800">
                 {rebirths.map((rebirth) => <option key={rebirth} value={rebirth}>Rebirth {rebirth}</option>)}
               </Select>
             </label>
             <label htmlFor="current-level" className="text-sm font-medium">
               Current level
-              <Select id="current-level" value={String(state.currentLevel)} onChange={(event) => patchState({ currentLevel: Number(event.target.value) })} className="mt-1 bg-white">
+              <Select id="current-level" value={String(state.currentLevel)} onChange={(event) => patchState({ currentLevel: Number(event.target.value) })} className="mt-1 bg-white dark:bg-slate-800">
                 {Array.from({ length: maxLevel }, (_, level) => <option key={level} value={level}>{level} → {level + 1}</option>)}
               </Select>
             </label>
@@ -200,20 +221,20 @@ export function DroidTracker() {
         </section>
 
         <section className="grid gap-6 xl:grid-cols-[minmax(720px,1fr)_minmax(700px,1fr)]">
-          <Card className="overflow-hidden border-slate-200 bg-white">
+          <Card className="overflow-hidden border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
               <CardTitle>Your Droidex</CardTitle>
               <CardDescription>Una fila por droide y una columna por variante. Marcá solo la variante máxima que tenés.</CardDescription>
               <div className="grid gap-3 pt-3 md:grid-cols-3">
                 <label className="relative md:col-span-1">
                   <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-500" />
-                  <Input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search droid" className="bg-white pl-9" />
+                  <Input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search droid" className="bg-white pl-9 dark:bg-slate-800" />
                 </label>
-                <Select value={rarity} onChange={(event) => setRarity(event.target.value as DroidRarity | "ALL")} className="bg-white">
+                <Select value={rarity} onChange={(event) => setRarity(event.target.value as DroidRarity | "ALL")} className="bg-white dark:bg-slate-800">
                   <option value="ALL">All rarities</option>
                   {rarityOrder.map((item) => <option key={item} value={item}>{item}</option>)}
                 </Select>
-                <Select value={status} onChange={(event) => setStatus(event.target.value as DroidStatus | "ALL")} className="bg-white">
+                <Select value={status} onChange={(event) => setStatus(event.target.value as DroidStatus | "ALL")} className="bg-white dark:bg-slate-800">
                   <option value="ALL">All statuses</option>
                   {(["need-now", "need-soon", "need-later", "keep", "sell-candidate", "covered", "neutral"] as DroidStatus[]).map((item) => <option key={item} value={item}>{statusLabels[item]}</option>)}
                 </Select>
@@ -221,12 +242,12 @@ export function DroidTracker() {
             </CardHeader>
             <CardContent className="max-h-[calc(100vh-260px)] overflow-auto p-0">
               <table className="w-full min-w-[760px] border-collapse text-sm">
-                <thead className="sticky top-0 z-10 bg-slate-100 text-xs uppercase tracking-wide text-slate-600">
+                <thead className="sticky top-0 z-10 bg-slate-100 text-xs uppercase tracking-wide text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                   <tr>
-                    <th className="border-b border-slate-200 px-4 py-3 text-left">Droid</th>
-                    <th className="border-b border-slate-200 px-3 py-3 text-left">Status</th>
-                    {variantOrder.map((variant) => <th key={variant} className="border-b border-slate-200 px-2 py-3 text-center">{variant}</th>)}
-                    <th className="border-b border-slate-200 px-2 py-3 text-center">Clear</th>
+                    <th className="border-b border-slate-200 px-4 py-3 text-left dark:border-slate-700">Droid</th>
+                    <th className="border-b border-slate-200 px-3 py-3 text-left dark:border-slate-700">Status</th>
+                    {variantOrder.map((variant) => <th key={variant} className="border-b border-slate-200 px-2 py-3 text-center dark:border-slate-700">{variant}</th>)}
+                    <th className="border-b border-slate-200 px-2 py-3 text-center dark:border-slate-700">Clear</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -257,7 +278,7 @@ export function DroidTracker() {
                             type="button"
                             onClick={() => handleVariantChange(droid.id, undefined)}
                             aria-label={`Clear ${droid.name}`}
-                            className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-600 hover:bg-slate-100"
+                            className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-600 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
                           >
                             <X className="h-3.5 w-3.5" />
                           </button>
@@ -270,7 +291,7 @@ export function DroidTracker() {
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden border-slate-200 bg-white">
+          <Card className="overflow-hidden border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
               <CardTitle>Rebirth {state.selectedRebirth} requirements</CardTitle>
               <CardDescription>Ahora muestra requisito, rareza, variante propia, cobertura y próxima aparición del mismo droide.</CardDescription>
@@ -282,7 +303,7 @@ export function DroidTracker() {
                   const isPast = group.fromLevel < state.currentLevel;
                   const coveredCount = group.requirements.filter((requirement) => hasRequirement(state.inventory, requirement)).length;
                   return (
-                    <section key={group.fromLevel} className={cn("rounded-xl border p-4", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white")}>
+                    <section key={group.fromLevel} className={cn("rounded-xl border p-4", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
                       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
                         <div>
                           <h3 className="text-lg font-bold">Level {group.label}</h3>
@@ -330,15 +351,15 @@ function RequirementRow({ requirement, inventory, currentLevel, rebirth }: { req
         <StatusBadge status={reqStatus} />
       </div>
       <dl className="mt-3 grid gap-2 text-xs text-slate-700 sm:grid-cols-3">
-        <div className="rounded-md bg-white/80 p-2">
+        <div className="rounded-md bg-white/80 p-2 dark:bg-slate-900/60">
           <dt className="font-semibold uppercase tracking-wide text-slate-500">You have</dt>
           <dd className="font-bold">{ownedVariant ?? "Missing"}</dd>
         </div>
-        <div className="rounded-md bg-white/80 p-2">
+        <div className="rounded-md bg-white/80 p-2 dark:bg-slate-900/60">
           <dt className="font-semibold uppercase tracking-wide text-slate-500">Coverage</dt>
           <dd className="font-bold">{covers ? "Variant covers requirement" : "Need this or higher"}</dd>
         </div>
-        <div className="rounded-md bg-white/80 p-2">
+        <div className="rounded-md bg-white/80 p-2 dark:bg-slate-900/60">
           <dt className="font-semibold uppercase tracking-wide text-slate-500">Next use</dt>
           <dd className="font-bold">{nextRequirement ? `Level ${nextRequirement.levelLabel} · ${nextRequirement.requiredVariant}` : "No later use in this reset"}</dd>
         </div>
@@ -349,10 +370,10 @@ function RequirementRow({ requirement, inventory, currentLevel, rebirth }: { req
 
 function StatCard({ label, value, urgent = false }: { label: string; value: number | string; urgent?: boolean }) {
   return (
-    <Card className={cn("border-slate-200 bg-white", urgent && "border-red-400 bg-red-50")}>
+    <Card className={cn("border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900", urgent && "border-red-400 bg-red-50 dark:border-red-800 dark:bg-red-950/40")}>
       <CardContent className="p-4">
         <p className="text-xs uppercase tracking-wide text-slate-500">{label}</p>
-        <p className="mt-1 text-2xl font-bold text-slate-950">{value}</p>
+        <p className="mt-1 text-2xl font-bold text-slate-950 dark:text-slate-100">{value}</p>
       </CardContent>
     </Card>
   );

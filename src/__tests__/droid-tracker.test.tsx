@@ -30,6 +30,16 @@ describe("DroidTracker", () => {
     expect(within(currentLevel!).getAllByText("Need now").length).toBeGreaterThan(0);
   });
 
+  it("hides levels that are already past the current level", () => {
+    render(<DroidTracker />);
+
+    fireEvent.change(screen.getByLabelText("Current level"), { target: { value: "2" } });
+
+    expect(screen.queryByText("Level 0→1")).not.toBeInTheDocument();
+    expect(screen.queryByText("Level 1→2")).not.toBeInTheDocument();
+    expect(screen.getByText("Level 2→3")).toBeInTheDocument();
+  });
+
   it("marks a requirement as covered when a satisfying variant is selected", () => {
     render(<DroidTracker />);
 
