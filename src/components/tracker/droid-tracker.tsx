@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
+import { CheckCircle2, Crosshair, Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
 import { droids, maxLevel, rebirths } from "@/data/droidex";
 import {
   droidById,
@@ -34,14 +34,14 @@ const defaultState: InventoryState = {
 };
 
 const statusLabels: Record<DroidStatus | RequirementStatus, string> = {
-  covered: "Covered",
-  "need-now": "Need now",
-  "need-soon": "Need soon",
-  "need-later": "Need later",
-  keep: "Keep",
-  "sell-candidate": "Sell candidate",
-  neutral: "Neutral",
-  past: "Past",
+  covered: "Cubierto",
+  "need-now": "Necesitás ahora",
+  "need-soon": "Necesitás pronto",
+  "need-later": "Necesitás después",
+  keep: "Guardá",
+  "sell-candidate": "Podés vender",
+  neutral: "Sin prioridad",
+  past: "Pasado",
 };
 
 const statusClasses: Record<DroidStatus | RequirementStatus, string> = {
@@ -122,6 +122,7 @@ export function DroidTracker() {
   const [currentLevelOrHigherOnly, setCurrentLevelOrHigherOnly] = useState(true);
   const [darkMode, setDarkMode] = useState(false);
   const [highlightedDroidId, setHighlightedDroidId] = useState<string | null>(null);
+  const [highlightedRequirementId, setHighlightedRequirementId] = useState<string | null>(null);
   const highlightTimeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -180,6 +181,16 @@ export function DroidTracker() {
     return { remaining: remaining.length, covered, needNow, ownedCount };
   }, [rebirthRequirements, state.currentLevel, state.inventory]);
 
+  const currentLevelGroup = useMemo(
+    () => levelGroups.find((group) => group.fromLevel === state.currentLevel),
+    [levelGroups, state.currentLevel],
+  );
+  const currentLevelCoveredCount = currentLevelGroup?.requirements.filter((requirement) => hasRequirement(state.inventory, requirement)).length ?? 0;
+  const nextMissingRequirement = useMemo(
+    () => rebirthRequirements.find((requirement) => requirement.fromLevel >= state.currentLevel && !hasRequirement(state.inventory, requirement)),
+    [rebirthRequirements, state.currentLevel, state.inventory],
+  );
+
   function patchState(patch: Partial<InventoryState>) {
     setState((current) => ({ ...current, ...patch }));
   }
@@ -196,13 +207,22 @@ export function DroidTracker() {
   function highlightDroid(droidId: string) {
     if (highlightTimeoutRef.current) window.clearTimeout(highlightTimeoutRef.current);
     setHighlightedDroidId(droidId);
-    highlightTimeoutRef.current = window.setTimeout(() => setHighlightedDroidId(null), 2000);
+    highlightTimeoutRef.current = window.setTimeout(() => {
+      setHighlightedDroidId(null);
+      setHighlightedRequirementId(null);
+    }, 2000);
+  }
+
+  function focusRequirement(requirement: Requirement) {
+    setHighlightedRequirementId(requirement.id);
+    highlightDroid(requirement.droidId);
+    window.setTimeout(() => document.getElementById(`requirement-${requirement.id}`)?.scrollIntoView({ block: "center", behavior: "smooth" }), 0);
   }
 
   return (
     <main className="min-h-screen bg-slate-100 px-4 py-6 text-slate-950 transition-colors dark:bg-slate-950 dark:text-slate-100 md:px-8">
       <div className="mx-auto flex max-w-[1900px] flex-col gap-6">
-        <header className="flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-colors dark:border-slate-800 dark:bg-slate-900 lg:flex-row lg:items-end lg:justify-between">
+        <header className="flex flex-col gap-5 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition-colors dark:border-slate-800 dark:bg-slate-900 xl:flex-row xl:items-end xl:justify-between">
           <div>
             <Badge variant="secondary" className="mb-3 w-fit">Fortnite Droid Tycoon</Badge>
             <h1 className="text-3xl font-bold tracking-tight md:text-5xl">Droid Tycoon Companion</h1>
@@ -210,26 +230,26 @@ export function DroidTracker() {
               Marcá la variante máxima de cada droide, elegí tu reset y nivel actual, y priorizá qué buscar, qué guardar y qué vender.
             </p>
           </div>
-          <div className="grid gap-3 sm:grid-cols-2 lg:min-w-[520px] lg:grid-cols-4">
+          <div className="grid w-full gap-3 sm:grid-cols-2 xl:w-auto xl:min-w-[640px] xl:grid-cols-4">
             <Button
               type="button"
               variant="secondary"
-              className="gap-2 sm:col-span-2 lg:col-span-1"
-              aria-label={darkMode ? "Switch to light mode" : "Switch to dark mode"}
+              className="gap-2 sm:col-span-2 xl:col-span-1"
+              aria-label={darkMode ? "Cambiar al modo claro" : "Cambiar al modo oscuro"}
               onClick={() => setDarkMode((current) => !current)}
             >
               {darkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-              {darkMode ? "Light mode" : "Dark mode"}
+              {darkMode ? "Modo claro" : "Modo oscuro"}
             </Button>
             <label htmlFor="selected-rebirth" className="text-sm font-medium">
-              Reset path
+              Ruta de reset
               <Select id="selected-rebirth" value={String(state.selectedRebirth)} onChange={(event) => patchState({ selectedRebirth: Number(event.target.value) as Rebirth })} className="mt-1 bg-white dark:bg-slate-800">
                 {rebirths.map((rebirth) => <option key={rebirth} value={rebirth}>Rebirth {rebirth}</option>)}
               </Select>
             </label>
             <label htmlFor="current-level" className="text-sm font-medium">
               <span className="flex items-center justify-between gap-2">
-                Current level
+                Nivel actual
                 <button
                   type="button"
                   title="Subir un nivel"
@@ -248,20 +268,20 @@ export function DroidTracker() {
               </div>
             </label>
             <div className="flex items-end">
-              <Button variant="destructive" className="w-full gap-2" onClick={resetLocalData}><Trash2 className="h-4 w-4" /> Reset local data</Button>
+              <Button variant="destructive" className="w-full gap-2" onClick={resetLocalData}><Trash2 className="h-4 w-4" /> Borrar datos locales</Button>
             </div>
           </div>
         </header>
 
         <section className="grid gap-4 md:grid-cols-4">
-          <StatCard label="Owned droids" value={stats.ownedCount} />
-          <StatCard label="Remaining reqs" value={stats.remaining} />
-          <StatCard label="Covered reqs" value={`${stats.covered}/${stats.remaining}`} />
-          <StatCard label="Need now" value={stats.needNow} urgent={stats.needNow > 0} />
+          <StatCard label="Droids que tenés" value={stats.ownedCount} />
+          <StatCard label="Requisitos pendientes" value={stats.remaining} />
+          <StatCard label="Requisitos cubiertos" value={`${stats.covered}/${stats.remaining}`} />
+          <StatCard label="Necesitás ahora" value={stats.needNow} urgent={stats.needNow > 0} />
         </section>
 
         <section className="grid gap-6 xl:grid-cols-[minmax(720px,1fr)_minmax(700px,1fr)]">
-          <Card className="overflow-hidden border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+          <Card className="overflow-hidden border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
               <div className="flex items-center justify-between gap-3">
                 <CardTitle>Your Droidex</CardTitle>
@@ -282,14 +302,14 @@ export function DroidTracker() {
                 </label>
                 <label className="relative md:col-span-1">
                   <Search className="pointer-events-none absolute left-3 top-3 h-4 w-4 text-slate-500" />
-                  <Input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search droid" className="bg-white pl-9 dark:bg-slate-800" />
+                  <Input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Buscar droide" className="bg-white pl-9 dark:bg-slate-800" />
                 </label>
                 <Select value={rarity} onChange={(event) => setRarity(event.target.value as DroidRarity | "ALL")} className="bg-white dark:bg-slate-800">
-                  <option value="ALL">All rarities</option>
+                  <option value="ALL">Todas las rarezas</option>
                   {rarityOrder.map((item) => <option key={item} value={item}>{item}</option>)}
                 </Select>
                 <Select value={status} onChange={(event) => setStatus(event.target.value as DroidStatus | "ALL")} className="bg-white dark:bg-slate-800">
-                  <option value="ALL">All statuses</option>
+                  <option value="ALL">Todos los estados</option>
                   {(["need-now", "need-soon", "need-later", "keep", "sell-candidate", "covered", "neutral"] as DroidStatus[]).map((item) => <option key={item} value={item}>{statusLabels[item]}</option>)}
                 </Select>
               </div>}
@@ -298,10 +318,10 @@ export function DroidTracker() {
               <table className="w-full min-w-[760px] border-collapse text-sm">
                 <thead className="sticky top-0 z-10 bg-slate-100 text-xs uppercase tracking-wide text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                   <tr>
-                    <th className="border-b border-slate-200 px-4 py-3 text-left dark:border-slate-700">Droid</th>
-                    <th className="border-b border-slate-200 px-3 py-3 text-left dark:border-slate-700">Status</th>
+                    <th className="border-b border-slate-200 px-4 py-3 text-left dark:border-slate-700">Droide</th>
+                    <th className="border-b border-slate-200 px-3 py-3 text-left dark:border-slate-700">Estado</th>
                     {variantOrder.map((variant) => <th key={variant} className="border-b border-slate-200 px-2 py-3 text-center dark:border-slate-700">{variant}</th>)}
-                    <th className="border-b border-slate-200 px-2 py-3 text-center dark:border-slate-700">Clear</th>
+                    <th className="border-b border-slate-200 px-2 py-3 text-center dark:border-slate-700">Limpiar</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -331,7 +351,7 @@ export function DroidTracker() {
                           <button
                             type="button"
                             onClick={() => handleVariantChange(droid.id, undefined)}
-                            aria-label={`Clear ${droid.name}`}
+                            aria-label={`Limpiar ${droid.name}`}
                             className="inline-flex h-7 w-7 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-600 hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
                           >
                             <X className="h-3.5 w-3.5" />
@@ -345,10 +365,38 @@ export function DroidTracker() {
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
+          <Card className="overflow-hidden border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
-              <CardTitle>Rebirth {state.selectedRebirth} requirements</CardTitle>
-              <CardDescription>Ahora muestra requisito, rareza, variante propia, cobertura y próxima aparición del mismo droide.</CardDescription>
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <CardTitle>Requisitos de Rebirth {state.selectedRebirth}</CardTitle>
+                  <CardDescription>Requisito, rareza, variante propia, cobertura y próxima aparición del mismo droide.</CardDescription>
+                </div>
+                {nextMissingRequirement && (
+                  <Button type="button" variant="secondary" className="h-9 gap-2 text-xs" onClick={() => focusRequirement(nextMissingRequirement)}>
+                    <Crosshair className="h-3.5 w-3.5" />
+                    Ver próximo faltante
+                  </Button>
+                )}
+              </div>
+              {currentLevelGroup && (
+                <div className={cn(
+                  "flex flex-wrap items-center justify-between gap-3 rounded-lg border px-3 py-2.5 text-sm",
+                  currentLevelCoveredCount === currentLevelGroup.requirements.length
+                    ? "border-emerald-300 bg-emerald-50 text-emerald-950 dark:border-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-100"
+                    : "border-slate-200 bg-slate-50 text-slate-800 dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-100",
+                )}>
+                  <div className="flex items-center gap-2">
+                    <CheckCircle2 className={cn("h-4 w-4", currentLevelCoveredCount === currentLevelGroup.requirements.length ? "text-emerald-600 dark:text-emerald-400" : "text-slate-500 dark:text-slate-300")} />
+                    <span className="font-semibold">
+                      {currentLevelCoveredCount === currentLevelGroup.requirements.length
+                        ? `Listo para subir a nivel ${state.currentLevel + 1}`
+                        : `Nivel ${currentLevelGroup.label}: ${currentLevelCoveredCount}/${currentLevelGroup.requirements.length} cubiertos`}
+                    </span>
+                  </div>
+                  {nextMissingRequirement && <span className="text-xs text-slate-600 dark:text-slate-300">Siguiente: {nextMissingRequirement.requiredVariant} {nextMissingRequirement.droidName}</span>}
+                </div>
+              )}
             </CardHeader>
             <CardContent className="max-h-[calc(100vh-260px)] overflow-auto pr-2">
               <div className="space-y-3">
@@ -360,8 +408,8 @@ export function DroidTracker() {
                     <section key={group.fromLevel} className={cn("rounded-xl border p-4", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
                       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
                         <div>
-                          <h3 className="text-lg font-bold">Level {group.label}</h3>
-                          <p className="text-xs text-slate-500">Credits: {group.credits} · Covered: {coveredCount}/{group.requirements.length}</p>
+                          <h3 className="text-lg font-bold">Nivel {group.label}</h3>
+                          <p className="text-xs text-slate-500 dark:text-slate-400">Créditos: {group.credits} · Cubiertos: {coveredCount}/{group.requirements.length}</p>
                         </div>
                         {isCurrent && <Badge>Current</Badge>}
                       </div>
@@ -374,6 +422,7 @@ export function DroidTracker() {
                             currentLevel={state.currentLevel}
                             rebirth={state.selectedRebirth}
                             onDroidClick={highlightDroid}
+                            highlighted={highlightedRequirementId === requirement.id}
                           />
                         ))}
                       </div>
@@ -389,7 +438,7 @@ export function DroidTracker() {
   );
 }
 
-function RequirementRow({ requirement, inventory, currentLevel, rebirth, onDroidClick }: { requirement: Requirement; inventory: Inventory; currentLevel: number; rebirth: Rebirth; onDroidClick: (droidId: string) => void }) {
+function RequirementRow({ requirement, inventory, currentLevel, rebirth, onDroidClick, highlighted }: { requirement: Requirement; inventory: Inventory; currentLevel: number; rebirth: Rebirth; onDroidClick: (droidId: string) => void; highlighted: boolean }) {
   const reqStatus = getRequirementStatus(requirement, inventory, currentLevel);
   const ownedVariant = inventory[requirement.droidId];
   const covers = variantSatisfies(ownedVariant, requirement.requiredVariant);
@@ -397,28 +446,28 @@ function RequirementRow({ requirement, inventory, currentLevel, rebirth, onDroid
   const droid = droidById.get(requirement.droidId);
 
   return (
-    <div className="p-3">
+    <div id={`requirement-${requirement.id}`} className={cn("rounded-lg p-3 transition-shadow", highlighted && "ring-2 ring-amber-400 ring-inset dark:ring-amber-500")}>
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <button type="button" className="text-left font-bold underline decoration-dotted underline-offset-4 hover:text-slate-600 dark:hover:text-slate-300" onClick={() => onDroidClick(requirement.droidId)} title="Ubicar en Your Droidex">
             {requirement.requiredVariant} {requirement.droidName}
           </button>
-          <p className="text-xs text-slate-600">Required rarity: {requirement.requiredRarity}{droid ? ` · Droidex rarity: ${droid.rarity}` : ""}</p>
+          <p className="text-xs text-slate-600 dark:text-slate-300">Rareza requerida: {requirement.requiredRarity}{droid ? ` · Rareza en Droidex: ${droid.rarity}` : ""}</p>
         </div>
         <StatusBadge status={reqStatus} />
       </div>
-      <dl className="mt-3 grid gap-2 text-xs text-slate-700 sm:grid-cols-3">
+      <dl className="mt-3 grid gap-2 text-xs text-slate-700 dark:text-slate-200 sm:grid-cols-3">
         <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500">You have</dt>
-          <dd className="font-bold">{ownedVariant ?? "Missing"}</dd>
+          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Tenés</dt>
+          <dd className="font-bold">{ownedVariant ?? "Te falta"}</dd>
         </div>
         <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500">Coverage</dt>
-          <dd className="font-bold">{covers ? "Variant covers requirement" : "Need this or higher"}</dd>
+          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Cobertura</dt>
+          <dd className="font-bold">{covers ? "La variante cumple el requisito" : "Necesitás esta o una superior"}</dd>
         </div>
         <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500">Next use</dt>
-          <dd className="font-bold">{nextRequirement ? `Level ${nextRequirement.levelLabel} · ${nextRequirement.requiredVariant}` : "No later use in this reset"}</dd>
+          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Próximo uso</dt>
+          <dd className="font-bold">{nextRequirement ? `Nivel ${nextRequirement.levelLabel} · ${nextRequirement.requiredVariant}` : "No vuelve a usarse en este reset"}</dd>
         </div>
       </dl>
     </div>
@@ -429,7 +478,7 @@ function StatCard({ label, value, urgent = false }: { label: string; value: numb
   return (
     <Card className={cn("border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900", urgent && "border-red-400 bg-red-50 dark:border-red-800 dark:bg-red-950/40")}>
       <CardContent className="p-4">
-        <p className="text-xs uppercase tracking-wide text-slate-500">{label}</p>
+        <p className="text-xs uppercase tracking-wide text-slate-500 dark:text-slate-400">{label}</p>
         <p className="mt-1 text-2xl font-bold text-slate-950 dark:text-slate-100">{value}</p>
       </CardContent>
     </Card>
