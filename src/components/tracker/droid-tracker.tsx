@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { CheckCircle2, Crosshair, Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
+import { Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
 import { droids, maxLevel, rebirths } from "@/data/droidex";
 import {
   droidById,
   getDroidStatus,
-  getNextRequirementForDroid,
   getRequirementStatus,
   getRequirementsForRebirth,
   groupRequirementsByLevel,
@@ -14,7 +13,6 @@ import {
   rarityOrder,
   setOwnedVariant,
   variantOrder,
-  variantSatisfies,
 } from "@/lib/droid-domain";
 import type { DroidRarity, DroidStatus, Inventory, InventoryState, Rebirth, Requirement, RequirementStatus, Variant } from "@/types/droid";
 import { Badge } from "@/components/ui/badge";
@@ -122,7 +120,6 @@ export function DroidTracker() {
   const [currentLevelOrHigherOnly, setCurrentLevelOrHigherOnly] = useState(true);
   const [darkMode, setDarkMode] = useState(false);
   const [highlightedDroidId, setHighlightedDroidId] = useState<string | null>(null);
-  const [highlightedRequirementId, setHighlightedRequirementId] = useState<string | null>(null);
   const highlightTimeoutRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -181,16 +178,6 @@ export function DroidTracker() {
     return { remaining: remaining.length, covered, needNow, ownedCount };
   }, [rebirthRequirements, state.currentLevel, state.inventory]);
 
-  const currentLevelGroup = useMemo(
-    () => levelGroups.find((group) => group.fromLevel === state.currentLevel),
-    [levelGroups, state.currentLevel],
-  );
-  const currentLevelCoveredCount = currentLevelGroup?.requirements.filter((requirement) => hasRequirement(state.inventory, requirement)).length ?? 0;
-  const nextMissingRequirement = useMemo(
-    () => rebirthRequirements.find((requirement) => requirement.fromLevel >= state.currentLevel && !hasRequirement(state.inventory, requirement)),
-    [rebirthRequirements, state.currentLevel, state.inventory],
-  );
-
   function patchState(patch: Partial<InventoryState>) {
     setState((current) => ({ ...current, ...patch }));
   }
@@ -209,14 +196,7 @@ export function DroidTracker() {
     setHighlightedDroidId(droidId);
     highlightTimeoutRef.current = window.setTimeout(() => {
       setHighlightedDroidId(null);
-      setHighlightedRequirementId(null);
     }, 2000);
-  }
-
-  function focusRequirement(requirement: Requirement) {
-    setHighlightedRequirementId(requirement.id);
-    highlightDroid(requirement.droidId);
-    window.setTimeout(() => document.getElementById(`requirement-${requirement.id}`)?.scrollIntoView({ block: "center", behavior: "smooth" }), 0);
   }
 
   return (
@@ -367,46 +347,18 @@ export function DroidTracker() {
 
           <Card className="overflow-hidden border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
-              <div className="flex flex-wrap items-start justify-between gap-3">
-                <div>
-                  <CardTitle>Requisitos de Rebirth {state.selectedRebirth}</CardTitle>
-                  <CardDescription>Requisito, rareza, variante propia, cobertura y próxima aparición del mismo droide.</CardDescription>
-                </div>
-                {nextMissingRequirement && (
-                  <Button type="button" variant="secondary" className="h-9 gap-2 text-xs" onClick={() => focusRequirement(nextMissingRequirement)}>
-                    <Crosshair className="h-3.5 w-3.5" />
-                    Ver próximo faltante
-                  </Button>
-                )}
-              </div>
-              {currentLevelGroup && (
-                <div className={cn(
-                  "flex flex-wrap items-center justify-between gap-3 rounded-lg border px-3 py-2.5 text-sm",
-                  currentLevelCoveredCount === currentLevelGroup.requirements.length
-                    ? "border-emerald-300 bg-emerald-50 text-emerald-950 dark:border-emerald-800 dark:bg-emerald-950/30 dark:text-emerald-100"
-                    : "border-slate-200 bg-slate-50 text-slate-800 dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-100",
-                )}>
-                  <div className="flex items-center gap-2">
-                    <CheckCircle2 className={cn("h-4 w-4", currentLevelCoveredCount === currentLevelGroup.requirements.length ? "text-emerald-600 dark:text-emerald-400" : "text-slate-500 dark:text-slate-300")} />
-                    <span className="font-semibold">
-                      {currentLevelCoveredCount === currentLevelGroup.requirements.length
-                        ? `Listo para subir a nivel ${state.currentLevel + 1}`
-                        : `Nivel ${currentLevelGroup.label}: ${currentLevelCoveredCount}/${currentLevelGroup.requirements.length} cubiertos`}
-                    </span>
-                  </div>
-                  {nextMissingRequirement && <span className="text-xs text-slate-600 dark:text-slate-300">Siguiente: {nextMissingRequirement.requiredVariant} {nextMissingRequirement.droidName}</span>}
-                </div>
-              )}
+              <CardTitle>Requisitos de Rebirth {state.selectedRebirth}</CardTitle>
+              <CardDescription>Requisito, rareza y variante propia.</CardDescription>
             </CardHeader>
             <CardContent className="max-h-[calc(100vh-260px)] overflow-auto pr-2">
-              <div className="space-y-3">
+              <div className="space-y-2">
                 {levelGroups.map((group) => {
                   const isCurrent = group.fromLevel === state.currentLevel;
                   const isPast = group.fromLevel < state.currentLevel;
                   const coveredCount = group.requirements.filter((requirement) => hasRequirement(state.inventory, requirement)).length;
                   return (
-                    <section key={group.fromLevel} className={cn("rounded-xl border p-4", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
-                      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+                    <section key={group.fromLevel} className={cn("rounded-xl border p-3", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
+                      <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
                         <div>
                           <h3 className="text-lg font-bold">Nivel {group.label}</h3>
                           <p className="text-xs text-slate-500 dark:text-slate-400">Créditos: {group.credits} · Cubiertos: {coveredCount}/{group.requirements.length}</p>
@@ -420,9 +372,7 @@ export function DroidTracker() {
                             requirement={requirement}
                             inventory={state.inventory}
                             currentLevel={state.currentLevel}
-                            rebirth={state.selectedRebirth}
                             onDroidClick={highlightDroid}
-                            highlighted={highlightedRequirementId === requirement.id}
                           />
                         ))}
                       </div>
@@ -438,38 +388,25 @@ export function DroidTracker() {
   );
 }
 
-function RequirementRow({ requirement, inventory, currentLevel, rebirth, onDroidClick, highlighted }: { requirement: Requirement; inventory: Inventory; currentLevel: number; rebirth: Rebirth; onDroidClick: (droidId: string) => void; highlighted: boolean }) {
+function RequirementRow({ requirement, inventory, currentLevel, onDroidClick }: { requirement: Requirement; inventory: Inventory; currentLevel: number; onDroidClick: (droidId: string) => void }) {
   const reqStatus = getRequirementStatus(requirement, inventory, currentLevel);
   const ownedVariant = inventory[requirement.droidId];
-  const covers = variantSatisfies(ownedVariant, requirement.requiredVariant);
-  const nextRequirement = getNextRequirementForDroid(requirement, rebirth);
   const droid = droidById.get(requirement.droidId);
 
   return (
-    <div id={`requirement-${requirement.id}`} className={cn("rounded-lg p-3 transition-shadow", highlighted && "ring-2 ring-amber-400 ring-inset dark:ring-amber-500")}>
-      <div className="flex flex-wrap items-start justify-between gap-3">
+    <div className="flex flex-wrap items-center justify-between gap-3 rounded-lg px-2 py-1.5">
+      <div>
         <div>
           <button type="button" className="text-left font-bold underline decoration-dotted underline-offset-4 hover:text-slate-600 dark:hover:text-slate-300" onClick={() => onDroidClick(requirement.droidId)} title="Ubicar en Your Droidex">
             {requirement.requiredVariant} {requirement.droidName}
           </button>
           <p className="text-xs text-slate-600 dark:text-slate-300">Rareza requerida: {requirement.requiredRarity}{droid ? ` · Rareza en Droidex: ${droid.rarity}` : ""}</p>
         </div>
+      </div>
+      <div className="flex items-center gap-3 text-xs text-slate-700 dark:text-slate-200">
+        <span><span className="font-semibold text-slate-500 dark:text-slate-400">Tenés:</span> <span className="font-bold">{ownedVariant ?? "Te falta"}</span></span>
         <StatusBadge status={reqStatus} />
       </div>
-      <dl className="mt-3 grid gap-2 text-xs text-slate-700 dark:text-slate-200 sm:grid-cols-3">
-        <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Tenés</dt>
-          <dd className="font-bold">{ownedVariant ?? "Te falta"}</dd>
-        </div>
-        <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Cobertura</dt>
-          <dd className="font-bold">{covers ? "La variante cumple el requisito" : "Necesitás esta o una superior"}</dd>
-        </div>
-        <div className="p-2">
-          <dt className="font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Próximo uso</dt>
-          <dd className="font-bold">{nextRequirement ? `Nivel ${nextRequirement.levelLabel} · ${nextRequirement.requiredVariant}` : "No vuelve a usarse en este reset"}</dd>
-        </div>
-      </dl>
     </div>
   );
 }

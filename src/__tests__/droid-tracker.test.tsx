@@ -40,6 +40,16 @@ describe("DroidTracker", () => {
     expect(screen.getByText("Nivel 2 → 3")).toBeInTheDocument();
   });
 
+  it("keeps the requirements column compact", () => {
+    render(<DroidTracker />);
+
+    expect(screen.queryByRole("button", { name: "Ver próximo faltante" })).not.toBeInTheDocument();
+    expect(screen.queryByText("Cobertura")).not.toBeInTheDocument();
+    expect(screen.queryByText("Próximo uso")).not.toBeInTheDocument();
+    expect(screen.queryByText("Listo para subir a nivel 1")).not.toBeInTheDocument();
+    expect(screen.queryByText(/^Siguiente:/)).not.toBeInTheDocument();
+  });
+
   it("marks a requirement as covered when a satisfying variant is selected", () => {
     render(<DroidTracker />);
 
