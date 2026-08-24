@@ -13,7 +13,7 @@ La v1 usa únicamente la hoja `DroidexRebirths`.
 - Lista de droides no-Iconic.
 - Rareza.
 - Variantes disponibles.
-- Requisitos de los 4 rebirth/reset paths.
+- Requisitos de los 5 ciclos de rebirth/reset.
 - Créditos requeridos por tramo de nivel.
 
 ## Excluded data
@@ -34,5 +34,5 @@ La planilla contiene una fila `TOTAL COLLECTED` dentro del bloque visual de droi
 Resultado de extracción actual:
 
 - 62 droides trackeables no-Iconic.
-- 324 requisitos totales.
-- 4 rebirths × 27 niveles × 3 requisitos.
+- 525 requisitos totales.
+- 5 ciclos × 35 niveles × 3 requisitos.

@@ -1,8 +1,8 @@
 export type DroidRarity = "COMMON" | "RARE" | "EPIC" | "LEGENDARY" | "MYTHIC";
 
-export type Variant = "BASE" | "GOLD" | "DIAMOND" | "RAINBOW" | "BESKAR" | "FLAWLESS";
+export type Variant = "BASE" | "GOLD" | "DIAMOND" | "RAINBOW" | "BESKAR" | "GALACTIC" | "STELLAR" | "FLAWLESS";
 
-export type Rebirth = 1 | 2 | 3 | 4;
+export type Rebirth = 1 | 2 | 3 | 4 | 5;
 
 export interface Droid {
   id: string;
