@@ -13,7 +13,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -28,7 +28,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -43,7 +43,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -58,7 +58,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -73,7 +73,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -88,7 +88,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -103,7 +103,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -118,7 +118,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -133,7 +133,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -148,7 +148,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -163,7 +163,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -178,7 +178,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -193,7 +193,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -208,7 +208,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -223,7 +223,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -238,7 +238,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -253,7 +253,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -268,7 +268,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -283,7 +283,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -298,7 +298,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -313,7 +313,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -328,7 +328,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -343,7 +343,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -358,7 +358,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -373,7 +373,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -388,7 +388,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -403,7 +403,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -418,7 +418,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -433,7 +433,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -448,7 +448,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -463,7 +463,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -478,7 +478,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -493,7 +493,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -508,7 +508,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -523,7 +523,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -538,7 +538,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -553,7 +553,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -568,7 +568,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -583,7 +583,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -598,7 +598,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -613,7 +613,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -628,7 +628,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -643,7 +643,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -658,7 +658,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -673,7 +673,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -688,7 +688,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -703,7 +703,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -718,7 +718,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -733,7 +733,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -748,7 +748,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -763,7 +763,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -778,7 +778,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -793,7 +793,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -808,7 +808,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -823,7 +823,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -838,7 +838,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -853,7 +853,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -868,7 +868,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -883,7 +883,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -898,7 +898,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -913,7 +913,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   },
   {
@@ -928,7 +928,7 @@ export const droids = [
       "BESKAR",
       "GALACTIC",
       "STELLAR",
-      "FLAWLESS"
+      "KYBER"
     ]
   }
 ] satisfies Droid[];
@@ -1444,7 +1444,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -1456,7 +1456,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -1468,7 +1468,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -1480,7 +1480,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -1492,7 +1492,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -1504,7 +1504,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -1516,7 +1516,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -1528,7 +1528,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -1540,7 +1540,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -1552,7 +1552,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -1564,7 +1564,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -1576,7 +1576,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -1588,7 +1588,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -1600,7 +1600,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -1612,7 +1612,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -1624,7 +1624,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -1636,7 +1636,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -1648,7 +1648,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -1660,7 +1660,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "BB",
     "droidId": "bb",
     "requiredRarity": "EPIC",
@@ -1672,7 +1672,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
     "requiredRarity": "EPIC",
@@ -1684,7 +1684,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
     "requiredRarity": "EPIC",
@@ -1696,7 +1696,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
     "requiredRarity": "EPIC",
@@ -1708,7 +1708,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
     "requiredRarity": "EPIC",
@@ -1720,7 +1720,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -1732,7 +1732,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -1744,7 +1744,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -1756,7 +1756,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -1768,7 +1768,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -1780,7 +1780,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -1792,7 +1792,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -1804,7 +1804,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -1816,7 +1816,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -1828,7 +1828,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
@@ -1840,7 +1840,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
     "requiredRarity": "MYTHIC",
@@ -1852,7 +1852,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
     "requiredRarity": "MYTHIC",
@@ -1864,7 +1864,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
     "requiredRarity": "MYTHIC",
@@ -1876,7 +1876,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
     "requiredRarity": "MYTHIC",
@@ -1888,7 +1888,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -1900,7 +1900,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -1912,7 +1912,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -1924,7 +1924,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -1936,7 +1936,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
@@ -1948,7 +1948,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -1960,7 +1960,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -1972,7 +1972,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -2193,6 +2193,186 @@ export const requirements = [
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r1-l35-bdx-explorer-kyber",
+    "rebirth": 1,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "BDX EXPLORER",
+    "droidId": "bdx-explorer",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l35-2bb-kyber",
+    "rebirth": 1,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "2BB",
+    "droidId": "2bb",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l35-a-lt-kyber",
+    "rebirth": 1,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "A-LT",
+    "droidId": "a-lt",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l36-b1-heavy-kyber",
+    "rebirth": 1,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "B1 HEAVY",
+    "droidId": "b1-heavy",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l36-groundmech-kyber",
+    "rebirth": 1,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "GROUNDMECH",
+    "droidId": "groundmech",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l36-bb-kyber",
+    "rebirth": 1,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "BB",
+    "droidId": "bb",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l37-r2-kyber",
+    "rebirth": 1,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "R2",
+    "droidId": "r2",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l37-r6-kyber",
+    "rebirth": 1,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "R6",
+    "droidId": "r6",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l37-bb9-kyber",
+    "rebirth": 1,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "BB9",
+    "droidId": "bb9",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l38-r7-kyber",
+    "rebirth": 1,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "R7",
+    "droidId": "r7",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l38-proto-roller-kyber",
+    "rebirth": 1,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "PROTO-ROLLER",
+    "droidId": "proto-roller",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l38-ig-kyber",
+    "rebirth": 1,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "IG",
+    "droidId": "ig",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l39-snow-mouse-kyber",
+    "rebirth": 1,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "SNOW MOUSE",
+    "droidId": "snow-mouse",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l39-drft-r-kyber",
+    "rebirth": 1,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "DRFT-R",
+    "droidId": "drft-r",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r1-l39-cyclens-kyber",
+    "rebirth": 1,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "CYCLENS",
+    "droidId": "cyclens",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
   },
   {
     "id": "r2-l0-id10-base",
@@ -2704,7 +2884,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
     "requiredRarity": "EPIC",
@@ -2716,7 +2896,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -2728,7 +2908,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -2740,7 +2920,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
     "requiredRarity": "EPIC",
@@ -2752,7 +2932,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -2764,7 +2944,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -2776,7 +2956,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
     "requiredRarity": "EPIC",
@@ -2788,7 +2968,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -2800,7 +2980,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -2812,7 +2992,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
     "requiredRarity": "EPIC",
@@ -2824,7 +3004,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -2836,7 +3016,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -2848,7 +3028,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -2860,7 +3040,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -2872,7 +3052,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -2884,7 +3064,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -2896,7 +3076,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -2908,7 +3088,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -2920,7 +3100,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
     "requiredRarity": "EPIC",
@@ -2932,7 +3112,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
     "requiredRarity": "EPIC",
@@ -2944,7 +3124,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
     "requiredRarity": "EPIC",
@@ -2956,7 +3136,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
     "requiredRarity": "EPIC",
@@ -2968,7 +3148,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
     "requiredRarity": "EPIC",
@@ -2980,7 +3160,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -2992,7 +3172,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -3004,7 +3184,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -3016,7 +3196,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -3028,7 +3208,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -3040,7 +3220,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -3052,7 +3232,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -3064,7 +3244,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -3076,7 +3256,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -3088,7 +3268,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
     "requiredRarity": "MYTHIC",
@@ -3100,7 +3280,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
     "requiredRarity": "MYTHIC",
@@ -3112,7 +3292,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
@@ -3124,7 +3304,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -3136,7 +3316,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
     "requiredRarity": "MYTHIC",
@@ -3148,7 +3328,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
     "requiredRarity": "MYTHIC",
@@ -3160,7 +3340,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -3172,7 +3352,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -3184,7 +3364,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -3196,7 +3376,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -3208,7 +3388,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -3220,7 +3400,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -3232,7 +3412,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
@@ -3453,6 +3633,186 @@ export const requirements = [
     "droidId": "cyclens",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r2-l35-b1-security-kyber",
+    "rebirth": 2,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "B1 SECURITY",
+    "droidId": "b1-security",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l35-r4-kyber",
+    "rebirth": 2,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "R4",
+    "droidId": "r4",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l35-r9-kyber",
+    "rebirth": 2,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "R9",
+    "droidId": "r9",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l36-lo-kyber",
+    "rebirth": 2,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "LO",
+    "droidId": "lo",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l36-trak-r-kyber",
+    "rebirth": 2,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "TRAK-R",
+    "droidId": "trak-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l36-orb-walker-kyber",
+    "rebirth": 2,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "ORB-WALKER",
+    "droidId": "orb-walker",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l37-b2-super-kyber",
+    "rebirth": 2,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "B2 SUPER",
+    "droidId": "b2-super",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l37-b2-heavy-kyber",
+    "rebirth": 2,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "B2 HEAVY",
+    "droidId": "b2-heavy",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l37-b2-rp-kyber",
+    "rebirth": 2,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "B2-RP",
+    "droidId": "b2-rp",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l38-mecha-droid-kyber",
+    "rebirth": 2,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "MECHA-DROID",
+    "droidId": "mecha-droid",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l38-cyclo-grav-kyber",
+    "rebirth": 2,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "CYCLO-GRAV",
+    "droidId": "cyclo-grav",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l38-kx-kyber",
+    "rebirth": 2,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "KX",
+    "droidId": "kx",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l39-ric-kyber",
+    "rebirth": 2,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "RIC",
+    "droidId": "ric",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l39-loadlifter-kyber",
+    "rebirth": 2,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "LOADLIFTER",
+    "droidId": "loadlifter",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r2-l39-lep-kyber",
+    "rebirth": 2,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "LEP",
+    "droidId": "lep",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
   },
   {
     "id": "r3-l0-mouse-base",
@@ -3964,7 +4324,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
     "requiredRarity": "EPIC",
@@ -3976,7 +4336,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -3988,7 +4348,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -4000,7 +4360,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
     "requiredRarity": "EPIC",
@@ -4012,7 +4372,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -4024,7 +4384,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -4036,7 +4396,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
     "requiredRarity": "EPIC",
@@ -4048,7 +4408,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -4060,7 +4420,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -4072,7 +4432,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
     "requiredRarity": "EPIC",
@@ -4084,7 +4444,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -4096,7 +4456,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -4108,7 +4468,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -4120,7 +4480,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -4132,7 +4492,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -4144,7 +4504,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -4156,7 +4516,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -4168,7 +4528,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -4180,7 +4540,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
     "requiredRarity": "EPIC",
@@ -4192,7 +4552,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
     "requiredRarity": "EPIC",
@@ -4204,7 +4564,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "R2",
     "droidId": "r2",
     "requiredRarity": "EPIC",
@@ -4216,7 +4576,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
     "requiredRarity": "EPIC",
@@ -4228,7 +4588,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "LNG-SHOT",
     "droidId": "lng-shot",
     "requiredRarity": "EPIC",
@@ -4240,7 +4600,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -4252,7 +4612,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -4264,7 +4624,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -4276,7 +4636,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -4288,7 +4648,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -4300,7 +4660,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -4312,7 +4672,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
@@ -4324,7 +4684,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -4336,7 +4696,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
     "requiredRarity": "MYTHIC",
@@ -4348,7 +4708,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -4360,7 +4720,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
     "requiredRarity": "MYTHIC",
@@ -4372,7 +4732,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -4384,7 +4744,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -4396,7 +4756,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
     "requiredRarity": "MYTHIC",
@@ -4408,7 +4768,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -4420,7 +4780,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
@@ -4432,7 +4792,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -4444,7 +4804,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
@@ -4456,7 +4816,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -4468,7 +4828,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -4480,7 +4840,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -4492,7 +4852,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -4713,6 +5073,186 @@ export const requirements = [
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r3-l35-arg-kyber",
+    "rebirth": 3,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "ARG",
+    "droidId": "arg",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l35-senate-hovercam-kyber",
+    "rebirth": 3,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "SENATE HOVERCAM",
+    "droidId": "senate-hovercam",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l35-bu-4d-kyber",
+    "rebirth": 3,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "BU-4D",
+    "droidId": "bu-4d",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l36-strike-orb-kyber",
+    "rebirth": 3,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "STRIKE-ORB",
+    "droidId": "strike-orb",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l36-amp-walker-kyber",
+    "rebirth": 3,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "AMP WALKER",
+    "droidId": "amp-walker",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l36-util-tec-kyber",
+    "rebirth": 3,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "UTIL-TEC",
+    "droidId": "util-tec",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l37-haul-r-kyber",
+    "rebirth": 3,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "HAUL-R",
+    "droidId": "haul-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l37-lng-shot-kyber",
+    "rebirth": 3,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "LNG-SHOT",
+    "droidId": "lng-shot",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l37-opti-strk-kyber",
+    "rebirth": 3,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "OPTI-STRK",
+    "droidId": "opti-strk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l38-mono-wlkr-kyber",
+    "rebirth": 3,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "MONO-WLKR",
+    "droidId": "mono-wlkr",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l38-bb9-kyber",
+    "rebirth": 3,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "BB9",
+    "droidId": "bb9",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l38-ric-1200-kyber",
+    "rebirth": 3,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "RIC-1200",
+    "droidId": "ric-1200",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l39-mo-trak-kyber",
+    "rebirth": 3,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "MO-TRAK",
+    "droidId": "mo-trak",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l39-tri-tek-kyber",
+    "rebirth": 3,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "TRI-TEK",
+    "droidId": "tri-tek",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r3-l39-ig-kyber",
+    "rebirth": 3,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "IG",
+    "droidId": "ig",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
   },
   {
     "id": "r4-l0-id10-base",
@@ -5224,7 +5764,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
     "requiredRarity": "EPIC",
@@ -5236,7 +5776,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
     "requiredRarity": "EPIC",
@@ -5248,7 +5788,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -5260,7 +5800,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
     "requiredRarity": "EPIC",
@@ -5272,7 +5812,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -5284,7 +5824,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -5296,7 +5836,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -5308,7 +5848,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -5320,7 +5860,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -5332,7 +5872,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -5344,7 +5884,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -5356,7 +5896,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -5368,7 +5908,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -5380,7 +5920,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -5392,7 +5932,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -5404,7 +5944,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -5416,7 +5956,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -5428,7 +5968,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -5440,7 +5980,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
     "requiredRarity": "EPIC",
@@ -5452,7 +5992,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
     "requiredRarity": "EPIC",
@@ -5464,7 +6004,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
     "requiredRarity": "EPIC",
@@ -5476,7 +6016,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
     "requiredRarity": "EPIC",
@@ -5488,7 +6028,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
     "requiredRarity": "EPIC",
@@ -5500,7 +6040,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
     "requiredRarity": "EPIC",
@@ -5512,7 +6052,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -5524,7 +6064,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -5536,7 +6076,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -5548,7 +6088,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -5560,7 +6100,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -5572,7 +6112,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -5584,7 +6124,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -5596,7 +6136,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -5608,7 +6148,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
@@ -5620,7 +6160,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
     "requiredRarity": "MYTHIC",
@@ -5632,7 +6172,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
     "requiredRarity": "MYTHIC",
@@ -5644,7 +6184,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -5656,7 +6196,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
     "requiredRarity": "MYTHIC",
@@ -5668,7 +6208,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -5680,7 +6220,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
     "requiredRarity": "MYTHIC",
@@ -5692,7 +6232,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -5704,7 +6244,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -5716,7 +6256,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
     "requiredRarity": "MYTHIC",
@@ -5728,7 +6268,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -5740,7 +6280,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -5752,7 +6292,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -5973,6 +6513,186 @@ export const requirements = [
     "droidId": "lep",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r4-l35-nav-ex-kyber",
+    "rebirth": 4,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "NAV-EX",
+    "droidId": "nav-ex",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l35-bal-core-kyber",
+    "rebirth": 4,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "BAL-CORE",
+    "droidId": "bal-core",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l35-vect-arm-kyber",
+    "rebirth": 4,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "VECT-ARM",
+    "droidId": "vect-arm",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l36-sen-tri-kyber",
+    "rebirth": 4,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "SEN-TRI",
+    "droidId": "sen-tri",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l36-opti-pod-kyber",
+    "rebirth": 4,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "OPTI-POD",
+    "droidId": "opti-pod",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l36-gunrunner-kyber",
+    "rebirth": 4,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "GUNRUNNER",
+    "droidId": "gunrunner",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l37-b1-heavy-kyber",
+    "rebirth": 4,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "B1 HEAVY",
+    "droidId": "b1-heavy",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l37-groundmech-kyber",
+    "rebirth": 4,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "GROUNDMECH",
+    "droidId": "groundmech",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l37-r7-kyber",
+    "rebirth": 4,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "R7",
+    "droidId": "r7",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l38-proto-roller-kyber",
+    "rebirth": 4,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "PROTO-ROLLER",
+    "droidId": "proto-roller",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l38-b2-rp-kyber",
+    "rebirth": 4,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "B2-RP",
+    "droidId": "b2-rp",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l38-snow-mouse-kyber",
+    "rebirth": 4,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "SNOW MOUSE",
+    "droidId": "snow-mouse",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l39-drft-r-kyber",
+    "rebirth": 4,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "DRFT-R",
+    "droidId": "drft-r",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l39-cyclens-kyber",
+    "rebirth": 4,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "CYCLENS",
+    "droidId": "cyclens",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r4-l39-kx-kyber",
+    "rebirth": 4,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "KX",
+    "droidId": "kx",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
   },
   {
     "id": "r5-l0-id10-base",
@@ -6484,7 +7204,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
     "requiredRarity": "EPIC",
@@ -6496,7 +7216,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
     "requiredRarity": "EPIC",
@@ -6508,7 +7228,7 @@ export const requirements = [
     "fromLevel": 14,
     "toLevel": 15,
     "levelLabel": "14→15",
-    "credits": "21B CREDITS",
+    "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -6520,7 +7240,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -6532,7 +7252,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -6544,7 +7264,7 @@ export const requirements = [
     "fromLevel": 15,
     "toLevel": 16,
     "levelLabel": "15→16",
-    "credits": "52B CREDITS",
+    "credits": "52.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
     "requiredRarity": "LEGENDARY",
@@ -6556,7 +7276,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -6568,7 +7288,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -6580,7 +7300,7 @@ export const requirements = [
     "fromLevel": 16,
     "toLevel": 17,
     "levelLabel": "16→17",
-    "credits": "130B CREDITS",
+    "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -6592,7 +7312,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -6604,7 +7324,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -6616,7 +7336,7 @@ export const requirements = [
     "fromLevel": 17,
     "toLevel": 18,
     "levelLabel": "17→18",
-    "credits": "325B CREDITS",
+    "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -6628,7 +7348,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -6640,7 +7360,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -6652,7 +7372,7 @@ export const requirements = [
     "fromLevel": 18,
     "toLevel": 19,
     "levelLabel": "18→19",
-    "credits": "810B CREDITS",
+    "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -6664,7 +7384,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -6676,7 +7396,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -6688,7 +7408,7 @@ export const requirements = [
     "fromLevel": 19,
     "toLevel": 20,
     "levelLabel": "19→20",
-    "credits": "2T CREDITS",
+    "credits": "2.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
     "requiredRarity": "LEGENDARY",
@@ -6700,7 +7420,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
     "requiredRarity": "EPIC",
@@ -6712,7 +7432,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
     "requiredRarity": "EPIC",
@@ -6724,7 +7444,7 @@ export const requirements = [
     "fromLevel": 20,
     "toLevel": 21,
     "levelLabel": "20→21",
-    "credits": "3T CREDITS",
+    "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
     "requiredRarity": "EPIC",
@@ -6736,7 +7456,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
     "requiredRarity": "EPIC",
@@ -6748,7 +7468,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
     "requiredRarity": "EPIC",
@@ -6760,7 +7480,7 @@ export const requirements = [
     "fromLevel": 21,
     "toLevel": 22,
     "levelLabel": "21→22",
-    "credits": "4.5T CREDITS",
+    "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
     "requiredRarity": "EPIC",
@@ -6772,7 +7492,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -6784,7 +7504,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
     "requiredRarity": "LEGENDARY",
@@ -6796,7 +7516,7 @@ export const requirements = [
     "fromLevel": 22,
     "toLevel": 23,
     "levelLabel": "22→23",
-    "credits": "6T CREDITS",
+    "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
     "requiredRarity": "LEGENDARY",
@@ -6808,7 +7528,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
     "requiredRarity": "LEGENDARY",
@@ -6820,7 +7540,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -6832,7 +7552,7 @@ export const requirements = [
     "fromLevel": 23,
     "toLevel": 24,
     "levelLabel": "23→24",
-    "credits": "9T CREDITS",
+    "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -6844,7 +7564,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -6856,7 +7576,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
@@ -6868,7 +7588,7 @@ export const requirements = [
     "fromLevel": 24,
     "toLevel": 25,
     "levelLabel": "24→25",
-    "credits": "13.5T CREDITS",
+    "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
     "requiredRarity": "MYTHIC",
@@ -6880,7 +7600,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
     "requiredRarity": "MYTHIC",
@@ -6892,7 +7612,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
     "requiredRarity": "MYTHIC",
@@ -6904,7 +7624,7 @@ export const requirements = [
     "fromLevel": 25,
     "toLevel": 26,
     "levelLabel": "25→26",
-    "credits": "21T CREDITS",
+    "credits": "21.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
     "requiredRarity": "MYTHIC",
@@ -6916,7 +7636,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
     "requiredRarity": "MYTHIC",
@@ -6928,7 +7648,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -6940,7 +7660,7 @@ export const requirements = [
     "fromLevel": 26,
     "toLevel": 27,
     "levelLabel": "26→27",
-    "credits": "32T CREDITS",
+    "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
     "requiredRarity": "MYTHIC",
@@ -6952,7 +7672,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
     "requiredRarity": "LEGENDARY",
@@ -6964,7 +7684,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
     "requiredRarity": "MYTHIC",
@@ -6976,7 +7696,7 @@ export const requirements = [
     "fromLevel": 27,
     "toLevel": 28,
     "levelLabel": "27→28",
-    "credits": "45T CREDITS",
+    "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
@@ -6988,7 +7708,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
     "requiredRarity": "LEGENDARY",
@@ -7000,7 +7720,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
     "requiredRarity": "LEGENDARY",
@@ -7012,7 +7732,7 @@ export const requirements = [
     "fromLevel": 28,
     "toLevel": 29,
     "levelLabel": "28→29",
-    "credits": "68T CREDITS",
+    "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
     "requiredRarity": "MYTHIC",
@@ -7233,8 +7953,188 @@ export const requirements = [
     "droidId": "mo-trak",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r5-l35-mouse-kyber",
+    "rebirth": 5,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "MOUSE",
+    "droidId": "mouse",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l35-roll-r-kyber",
+    "rebirth": 5,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "ROLL-R",
+    "droidId": "roll-r",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l35-hov-r-kyber",
+    "rebirth": 5,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35→36",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "HOV-R",
+    "droidId": "hov-r",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l36-bb-kyber",
+    "rebirth": 5,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "BB",
+    "droidId": "bb",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l36-r2-kyber",
+    "rebirth": 5,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "R2",
+    "droidId": "r2",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l36-r6-kyber",
+    "rebirth": 5,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36→37",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "R6",
+    "droidId": "r6",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l37-lo-kyber",
+    "rebirth": 5,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "LO",
+    "droidId": "lo",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l37-trak-r-kyber",
+    "rebirth": 5,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "TRAK-R",
+    "droidId": "trak-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l37-mecha-droid-kyber",
+    "rebirth": 5,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37→38",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "MECHA-DROID",
+    "droidId": "mecha-droid",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l38-cyclo-grav-kyber",
+    "rebirth": 5,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "CYCLO-GRAV",
+    "droidId": "cyclo-grav",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l38-opti-strk-kyber",
+    "rebirth": 5,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "OPTI-STRK",
+    "droidId": "opti-strk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l38-ric-kyber",
+    "rebirth": 5,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38→39",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "RIC",
+    "droidId": "ric",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l39-loadlifter-kyber",
+    "rebirth": 5,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "LOADLIFTER",
+    "droidId": "loadlifter",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l39-lep-kyber",
+    "rebirth": 5,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "LEP",
+    "droidId": "lep",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r5-l39-ric-1200-kyber",
+    "rebirth": 5,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39→40",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "RIC-1200",
+    "droidId": "ric-1200",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
   }
 ] satisfies Requirement[];
 
 export const rebirths = [1, 2, 3, 4, 5] as const;
-export const maxLevel = 35;
+export const maxLevel = 40;

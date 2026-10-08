@@ -8,7 +8,7 @@ describe("variant normalization", () => {
     expect(normalizeVariant("BASIC")).toBe("BASE");
     expect(normalizeVariant("DEFAULT")).toBe("BASE");
     expect(normalizeVariant("gold")).toBe("GOLD");
-    expect(normalizeVariant("flawless")).toBe("FLAWLESS");
+    expect(normalizeVariant("kyber")).toBe("KYBER");
     expect(normalizeVariant("galactic")).toBe("GALACTIC");
     expect(normalizeVariant("stellar")).toBe("STELLAR");
   });
@@ -19,6 +19,8 @@ describe("variant coverage", () => {
     expect(variantSatisfies("GOLD", "BASE")).toBe(true);
     expect(variantSatisfies("BESKAR", "RAINBOW")).toBe(true);
     expect(variantSatisfies("STELLAR", "GALACTIC")).toBe(true);
+    expect(variantSatisfies("KYBER", "STELLAR")).toBe(true);
+    expect(variantSatisfies("STELLAR", "KYBER")).toBe(false);
     expect(variantSatisfies("BASE", "GOLD")).toBe(false);
     expect(variantSatisfies(undefined, "BASE")).toBe(false);
   });
@@ -50,13 +52,16 @@ describe("urgency and droid statuses", () => {
 });
 
 describe("source data", () => {
-  it("contains five cycles of 35 levels with Galactic and Stellar requirements", () => {
+  it("contains five cycles of 40 levels with Galactic, Stellar, and Kyber requirements", () => {
     expect(droids.some((droid) => droid.name === "TOTAL COLLECTED")).toBe(false);
     expect(droids.some((droid) => droid.rarity === "ICONIC")).toBe(false);
     expect(droids).toHaveLength(62);
-    expect(requirements).toHaveLength(525);
+    expect(requirements).toHaveLength(600);
     expect(new Set(requirements.map((item) => item.rebirth))).toEqual(new Set([1, 2, 3, 4, 5]));
     expect(requirements.filter((item) => item.requiredVariant === "GALACTIC")).not.toHaveLength(0);
     expect(requirements.filter((item) => item.requiredVariant === "STELLAR")).not.toHaveLength(0);
+    expect(requirements.filter((item) => item.requiredVariant === "KYBER")).not.toHaveLength(0);
+    expect(requirements.filter((item) => item.rebirth === 1 && item.fromLevel === 39)).toHaveLength(3);
+    expect(requirements.find((item) => item.rebirth === 1 && item.fromLevel === 39)?.credits).toBe("15.00Qa CREDITS");
   });
 });

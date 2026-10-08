@@ -2,13 +2,26 @@ import { fireEvent, render, screen, within } from "@testing-library/react";
 import { beforeEach, describe, expect, it } from "vitest";
 import { DroidTracker } from "@/components/tracker/droid-tracker";
 
+function renderExpandedTracker() {
+  const result = render(<DroidTracker />);
+  fireEvent.click(screen.getByRole("button", { name: /Your Droidex y requisitos/ }));
+  return result;
+}
+
 beforeEach(() => {
   window.localStorage.clear();
 });
 
 describe("DroidTracker", () => {
-  it("updates the requirements table when rebirth changes", () => {
+  it("starts with the droidex and requirements section collapsed", () => {
     render(<DroidTracker />);
+
+    expect(screen.getByRole("button", { name: /Your Droidex y requisitos/ })).toHaveAttribute("aria-expanded", "false");
+    expect(screen.queryByRole("heading", { name: "Requisitos de Rebirth 1" })).not.toBeInTheDocument();
+  });
+
+  it("updates the requirements table when rebirth changes", () => {
+    renderExpandedTracker();
 
     expect(screen.getByRole("heading", { name: "Requisitos de Rebirth 1" })).toBeInTheDocument();
 
@@ -19,7 +32,7 @@ describe("DroidTracker", () => {
   });
 
   it("recalculates urgency when the current level changes", () => {
-    render(<DroidTracker />);
+    renderExpandedTracker();
 
     expect(screen.getAllByText("Necesitás ahora").length).toBeGreaterThan(0);
 
@@ -31,7 +44,7 @@ describe("DroidTracker", () => {
   });
 
   it("hides levels that are already past the current level", () => {
-    render(<DroidTracker />);
+    renderExpandedTracker();
 
     fireEvent.change(screen.getByLabelText("Nivel actual"), { target: { value: "2" } });
 
@@ -41,7 +54,7 @@ describe("DroidTracker", () => {
   });
 
   it("keeps the requirements column compact", () => {
-    render(<DroidTracker />);
+    renderExpandedTracker();
 
     expect(screen.queryByRole("button", { name: "Ver próximo faltante" })).not.toBeInTheDocument();
     expect(screen.queryByText("Cobertura")).not.toBeInTheDocument();
@@ -50,23 +63,22 @@ describe("DroidTracker", () => {
     expect(screen.queryByText(/^Siguiente:/)).not.toBeInTheDocument();
   });
 
-  it("marks a requirement as covered when a satisfying variant is selected", () => {
-    render(<DroidTracker />);
+  it("does not show owned or requirement-status tracking in the rebirth requirements", () => {
+    renderExpandedTracker();
 
-    fireEvent.change(screen.getByPlaceholderText("Buscar droide"), { target: { value: "CB" } });
-    fireEvent.click(screen.getByLabelText("CB GOLD"));
-
-    expect(screen.getAllByText("Cubierto").length).toBeGreaterThan(0);
+    expect(screen.queryByText("Tenés:")).not.toBeInTheDocument();
+    expect(screen.queryByText("Cubierto")).not.toBeInTheDocument();
+    expect(screen.getAllByText(/Podés venderlo|Lo volvés a necesitar/).length).toBeGreaterThan(0);
   });
 
   it("persists inventory in localStorage", () => {
-    const { unmount } = render(<DroidTracker />);
+    const { unmount } = renderExpandedTracker();
 
     fireEvent.change(screen.getByPlaceholderText("Buscar droide"), { target: { value: "CB" } });
     fireEvent.click(screen.getByLabelText("CB GOLD"));
 
     unmount();
-    render(<DroidTracker />);
+    renderExpandedTracker();
 
     fireEvent.change(screen.getByPlaceholderText("Buscar droide"), { target: { value: "CB" } });
     expect(screen.getByLabelText("CB GOLD")).toBeChecked();

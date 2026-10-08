@@ -1,7 +1,7 @@
 import { droids, requirements } from "@/data/droidex";
 import type { Droid, DroidStatus, Inventory, Rebirth, Requirement, RequirementStatus, Variant } from "@/types/droid";
 
-export const variantOrder: Variant[] = ["BASE", "GOLD", "DIAMOND", "RAINBOW", "BESKAR", "GALACTIC", "STELLAR", "FLAWLESS"];
+export const variantOrder: Variant[] = ["BASE", "GOLD", "DIAMOND", "RAINBOW", "BESKAR", "GALACTIC", "STELLAR", "KYBER"];
 export const allVariants: Variant[] = [...variantOrder];
 
 export const rarityOrder = ["COMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC"] as const;
