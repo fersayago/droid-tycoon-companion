@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ChevronDown, Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
+import { ArrowUp, ChevronDown, DollarSign, Moon, Plus, Search, SlidersHorizontal, Sun, Trash2, X } from "lucide-react";
 import { droids, maxLevel, rebirths } from "@/data/droidex";
 import {
   getDroidStatus,
@@ -67,6 +67,7 @@ const rarityClasses: Record<DroidRarity, string> = {
   EPIC: "text-purple-700 dark:text-purple-300",
   LEGENDARY: "text-amber-700 dark:text-amber-300",
   MYTHIC: "text-red-700 dark:text-red-300",
+  ICONIC: "text-pink-700 dark:text-pink-300",
 };
 
 function normalizeLoadedInventory(rawInventory: unknown): Inventory {
@@ -218,7 +219,7 @@ export function DroidTracker() {
               </span>
               <div className="mt-1 flex gap-2">
                 <Select id="current-level" value={String(state.currentLevel)} onChange={(event) => patchState({ currentLevel: Number(event.target.value) })} className="bg-white dark:bg-slate-800">
-                  {Array.from({ length: maxLevel }, (_, level) => <option key={level} value={level}>{level} → {level + 1}</option>)}
+                  {Array.from({ length: maxLevel }, (_, level) => <option key={level} value={level}>{level}</option>)}
                 </Select>
               </div>
             </label>
@@ -230,7 +231,7 @@ export function DroidTracker() {
 
         <section className="space-y-4">
           <button type="button" aria-expanded={showTracker} onClick={() => setShowTracker((current) => !current)} className="flex w-full items-center justify-between rounded-xl border border-slate-200 bg-white px-5 py-4 text-left shadow-sm dark:border-slate-800 dark:bg-slate-900">
-            <span><span className="block font-semibold">Your Droidex y requisitos</span><span className="mt-1 block text-sm text-slate-500 dark:text-slate-400">Droids que tenés: {stats.ownedCount} · Requisitos pendientes: {stats.remaining}</span></span>
+            <span><span className="block font-semibold">Your Droidex y resumen</span><span className="mt-1 block text-sm text-slate-500 dark:text-slate-400">Droids que tenés: {stats.ownedCount} · Requisitos pendientes: {stats.remaining}</span></span>
             <ChevronDown className={cn("h-5 w-5 transition-transform", showTracker && "rotate-180")} />
           </button>
           {showTracker && <>
@@ -302,7 +303,8 @@ export function DroidTracker() {
                               checked={owned === variant}
                               onChange={() => handleVariantChange(droid.id, variant)}
                               aria-label={`${droid.name} ${variant}`}
-                              className="h-4 w-4 accent-slate-900"
+                              disabled={!droid.allowedVariants.some((allowedVariant) => allowedVariant === variant)}
+                              className="h-4 w-4 accent-slate-900 disabled:opacity-20"
                             />
                           </td>
                         ))}
@@ -324,6 +326,9 @@ export function DroidTracker() {
             </CardContent>
           </Card>
 
+        </div>
+          </>}
+
           <Card className="overflow-hidden border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <CardHeader>
               <CardTitle>Requisitos de Rebirth {state.selectedRebirth}</CardTitle>
@@ -335,7 +340,7 @@ export function DroidTracker() {
                   const isCurrent = group.fromLevel === state.currentLevel;
                   const isPast = group.fromLevel < state.currentLevel;
                   return (
-                    <section key={group.fromLevel} className={cn("rounded-xl border p-3", isCurrent ? "border-red-400 bg-red-50 ring-2 ring-red-100 dark:border-red-800 dark:bg-red-950/40 dark:ring-red-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
+                    <section key={group.fromLevel} className={cn("rounded-xl border p-3", isCurrent ? "border-slate-300 bg-slate-50 dark:border-slate-700 dark:bg-slate-900" : isPast ? rowStatusClasses.past : "border-slate-200 bg-white dark:border-slate-700 dark:bg-slate-900")}>
                       <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
                         <div>
                           <h3 className="text-lg font-bold">Nivel {group.label}</h3>
@@ -358,8 +363,6 @@ export function DroidTracker() {
               </div>
             </CardContent>
           </Card>
-        </div>
-          </>}
         </section>
       </div>
     </main>
@@ -367,7 +370,9 @@ export function DroidTracker() {
 }
 
 function RequirementRow({ requirement, requirements }: { requirement: Requirement; requirements: Requirement[] }) {
-  const laterUse = requirements.filter((candidate) => candidate.droidId === requirement.droidId && candidate.fromLevel > requirement.fromLevel).sort((a, b) => a.fromLevel - b.fromLevel)[0];
+  const laterLevels = [...new Set(requirements
+    .filter((candidate) => candidate.droidId === requirement.droidId && candidate.fromLevel > requirement.fromLevel)
+    .map((candidate) => candidate.levelLabel))];
 
   return (
     <div className="flex flex-wrap items-center justify-between gap-3 rounded-lg px-2 py-1.5">
@@ -377,7 +382,16 @@ function RequirementRow({ requirement, requirements }: { requirement: Requiremen
           <p className="text-xs text-slate-600 dark:text-slate-300">Rareza requerida: {requirement.requiredRarity}</p>
         </div>
       </div>
-      <p className="text-xs font-medium text-slate-700 dark:text-slate-200">{laterUse ? `Lo volvés a necesitar: ${laterUse.requiredRarity} · nivel ${laterUse.levelLabel}` : "Podés venderlo: no vuelve a aparecer en esta ruta"}</p>
+      {laterLevels.length > 0 ? (
+        <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-sky-700 dark:text-sky-300" aria-label={`Lo volvés a necesitar en los niveles ${laterLevels.join(", ")}`} title={`Lo volvés a necesitar en los niveles ${laterLevels.join(", ")}`}>
+          <ArrowUp className="h-4 w-4 shrink-0" aria-hidden="true" />
+          <span>{laterLevels.join(", ")}</span>
+        </span>
+      ) : (
+        <span className="inline-flex text-emerald-700 dark:text-emerald-300" aria-label="Podés venderlo; no vuelve a aparecer en esta ruta" title="Podés venderlo; no vuelve a aparecer en esta ruta">
+          <DollarSign className="h-4 w-4" aria-hidden="true" />
+        </span>
+      )}
     </div>
   );
 }

@@ -4,7 +4,7 @@ import type { Droid, DroidStatus, Inventory, Rebirth, Requirement, RequirementSt
 export const variantOrder: Variant[] = ["BASE", "GOLD", "DIAMOND", "RAINBOW", "BESKAR", "GALACTIC", "STELLAR", "KYBER"];
 export const allVariants: Variant[] = [...variantOrder];
 
-export const rarityOrder = ["COMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC"] as const;
+export const rarityOrder = ["COMMON", "RARE", "EPIC", "LEGENDARY", "MYTHIC", "ICONIC"] as const;
 
 export function normalizeVariant(value: string): Variant {
   const normalized = value.trim().toUpperCase();

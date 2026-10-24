@@ -213,7 +213,7 @@ export const droids = [
   },
   {
     "id": "bu-4d",
-    "name": "BU-4D",
+    "name": "B-U4D",
     "rarity": "RARE",
     "allowedVariants": [
       "BASE",
@@ -244,6 +244,36 @@ export const droids = [
   {
     "id": "roll-r",
     "name": "ROLL-R",
+    "rarity": "RARE",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "whl-ex",
+    "name": "WHL-EX",
+    "rarity": "RARE",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "eg-58",
+    "name": "EG-58",
     "rarity": "RARE",
     "allowedVariants": [
       "BASE",
@@ -317,6 +347,21 @@ export const droids = [
     ]
   },
   {
+    "id": "zro-tec",
+    "name": "ZRO-TEC",
+    "rarity": "RARE",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "b1-security",
     "name": "B1 SECURITY",
     "rarity": "RARE",
@@ -364,6 +409,36 @@ export const droids = [
   {
     "id": "hov-r",
     "name": "HOV-R",
+    "rarity": "RARE",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "btl-r",
+    "name": "BTL-R",
+    "rarity": "RARE",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "sa-5",
+    "name": "SA-5",
     "rarity": "RARE",
     "allowedVariants": [
       "BASE",
@@ -467,6 +542,51 @@ export const droids = [
     ]
   },
   {
+    "id": "n-ul",
+    "name": "N-UL",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "egl",
+    "name": "EGL",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "kt",
+    "name": "KT",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "bb",
     "name": "BB",
     "rarity": "EPIC",
@@ -544,6 +664,36 @@ export const droids = [
   {
     "id": "util-tec",
     "name": "UTIL-TEC",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "scrp-r",
+    "name": "SCRP-R",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "mph",
+    "name": "MPH",
     "rarity": "EPIC",
     "allowedVariants": [
       "BASE",
@@ -647,6 +797,51 @@ export const droids = [
     ]
   },
   {
+    "id": "arm-core",
+    "name": "ARM-CORE",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "opt-ar",
+    "name": "OPT-AR",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "lom",
+    "name": "LOM",
+    "rarity": "EPIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "proto-roller",
     "name": "PROTO-ROLLER",
     "rarity": "LEGENDARY",
@@ -692,6 +887,66 @@ export const droids = [
     ]
   },
   {
+    "id": "ro-tor",
+    "name": "RO-TOR",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "fus-3",
+    "name": "FUS-3",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "j09-4mn",
+    "name": "J09-4MN",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "plnk",
+    "name": "PLNK",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "bb9",
     "name": "BB9",
     "rarity": "LEGENDARY",
@@ -709,6 +964,21 @@ export const droids = [
   {
     "id": "r7",
     "name": "R7",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "qik-bit",
+    "name": "QIK-BIT",
     "rarity": "LEGENDARY",
     "allowedVariants": [
       "BASE",
@@ -754,6 +1024,36 @@ export const droids = [
   {
     "id": "opti-strk",
     "name": "OPTI-STRK",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "orb-xl",
+    "name": "ORB-XL",
+    "rarity": "LEGENDARY",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "pz",
+    "name": "PZ",
     "rarity": "LEGENDARY",
     "allowedVariants": [
       "BASE",
@@ -842,6 +1142,51 @@ export const droids = [
     ]
   },
   {
+    "id": "riv-3t",
+    "name": "RIV-3T",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "lug-g",
+    "name": "LUG-G",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "low-mo",
+    "name": "LOW-MO",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "drft-r",
     "name": "DRFT-R",
     "rarity": "MYTHIC",
@@ -902,6 +1247,36 @@ export const droids = [
     ]
   },
   {
+    "id": "axi-pod",
+    "name": "AXI-POD",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "ecg",
+    "name": "ECG",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
     "id": "ig",
     "name": "IG",
     "rarity": "MYTHIC",
@@ -930,16 +1305,141 @@ export const droids = [
       "STELLAR",
       "KYBER"
     ]
+  },
+  {
+    "id": "srv-o",
+    "name": "SRV-O",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "x-onk",
+    "name": "X-ONK",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "tda",
+    "name": "TDA",
+    "rarity": "MYTHIC",
+    "allowedVariants": [
+      "BASE",
+      "GOLD",
+      "DIAMOND",
+      "RAINBOW",
+      "BESKAR",
+      "GALACTIC",
+      "STELLAR",
+      "KYBER"
+    ]
+  },
+  {
+    "id": "bb-8",
+    "name": "BB-8",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "mister-bones",
+    "name": "MISTER BONES",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "ig-11-marshal",
+    "name": "IG-11 MARSHAL",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "dj-r3x",
+    "name": "DJ-R3X",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "cb-23",
+    "name": "CB-23",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "r2-d2",
+    "name": "R2-D2",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "c-3p0",
+    "name": "C-3P0",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "chopper",
+    "name": "CHOPPER",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "d-0",
+    "name": "D-0",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
+  },
+  {
+    "id": "wg-22",
+    "name": "WG-22",
+    "rarity": "ICONIC",
+    "allowedVariants": [
+      "BASE"
+    ]
   }
 ] satisfies Droid[];
 
 export const requirements = [
   {
-    "id": "r1-l0-cb-base",
+    "id": "r1-l0-cb-base-1",
     "rebirth": 1,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "CB",
     "droidId": "cb",
@@ -947,11 +1447,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l0-pit-base",
+    "id": "r1-l0-pit-base-2",
     "rebirth": 1,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "PIT",
     "droidId": "pit",
@@ -959,11 +1459,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l0-drk-1-probe-base",
+    "id": "r1-l0-drk-1-probe-base-3",
     "rebirth": 1,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "DRK-1 PROBE",
     "droidId": "drk-1-probe",
@@ -971,11 +1471,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l1-bdx-explorer-base",
+    "id": "r1-l1-bdx-explorer-base-1",
     "rebirth": 1,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -983,11 +1483,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l1-2bb-base",
+    "id": "r1-l1-2bb-base-2",
     "rebirth": 1,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -995,11 +1495,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l1-bal-core-base",
+    "id": "r1-l1-bal-core-base-3",
     "rebirth": 1,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -1007,11 +1507,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l2-a-lt-base",
+    "id": "r1-l2-a-lt-base-1",
     "rebirth": 1,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "A-LT",
     "droidId": "a-lt",
@@ -1019,23 +1519,23 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l2-bu-4d-base",
+    "id": "r1-l2-bu-4d-base-2",
     "rebirth": 1,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
-    "droidName": "BU-4D",
+    "droidName": "B-U4D",
     "droidId": "bu-4d",
     "requiredRarity": "RARE",
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l2-r9-gold",
+    "id": "r1-l2-r9-gold-3",
     "rebirth": 1,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -1043,11 +1543,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l3-arg-gold",
+    "id": "r1-l3-arg-gold-1",
     "rebirth": 1,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "ARG",
     "droidId": "arg",
@@ -1055,11 +1555,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l3-b1-security-gold",
+    "id": "r1-l3-b1-security-gold-2",
     "rebirth": 1,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -1067,11 +1567,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l3-groundmech-base",
+    "id": "r1-l3-groundmech-base-3",
     "rebirth": 1,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -1079,23 +1579,23 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l4-bu-4d-gold",
+    "id": "r1-l4-bu-4d-gold-1",
     "rebirth": 1,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
-    "droidName": "BU-4D",
+    "droidName": "B-U4D",
     "droidId": "bu-4d",
     "requiredRarity": "RARE",
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l4-hov-r-gold",
+    "id": "r1-l4-hov-r-gold-2",
     "rebirth": 1,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "HOV-R",
     "droidId": "hov-r",
@@ -1103,11 +1603,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l4-r9-diamond",
+    "id": "r1-l4-r9-diamond-3",
     "rebirth": 1,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -1115,11 +1615,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l5-a-lt-diamond",
+    "id": "r1-l5-a-lt-diamond-1",
     "rebirth": 1,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "A-LT",
     "droidId": "a-lt",
@@ -1127,11 +1627,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l5-arg-diamond",
+    "id": "r1-l5-arg-diamond-2",
     "rebirth": 1,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "ARG",
     "droidId": "arg",
@@ -1139,11 +1639,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l5-groundmech-gold",
+    "id": "r1-l5-groundmech-gold-3",
     "rebirth": 1,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -1151,23 +1651,23 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l6-bu-4d-diamond",
+    "id": "r1-l6-bu-4d-diamond-1",
     "rebirth": 1,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
-    "droidName": "BU-4D",
+    "droidName": "B-U4D",
     "droidId": "bu-4d",
     "requiredRarity": "RARE",
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l6-b1-security-diamond",
+    "id": "r1-l6-b1-security-diamond-2",
     "rebirth": 1,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -1175,11 +1675,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l6-bb-gold",
+    "id": "r1-l6-bb-gold-3",
     "rebirth": 1,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -1187,11 +1687,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l7-hov-r-diamond",
+    "id": "r1-l7-hov-r-diamond-1",
     "rebirth": 1,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "HOV-R",
     "droidId": "hov-r",
@@ -1199,11 +1699,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l7-lo-gold",
+    "id": "r1-l7-lo-gold-2",
     "rebirth": 1,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -1211,11 +1711,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l7-util-tec-gold",
+    "id": "r1-l7-util-tec-gold-3",
     "rebirth": 1,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -1223,11 +1723,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l8-trak-r-gold",
+    "id": "r1-l8-trak-r-gold-1",
     "rebirth": 1,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -1235,11 +1735,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l8-r6-gold",
+    "id": "r1-l8-r6-gold-2",
     "rebirth": 1,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -1247,11 +1747,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l8-groundmech-rainbow",
+    "id": "r1-l8-groundmech-rainbow-3",
     "rebirth": 1,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -1259,11 +1759,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l9-strike-orb-gold",
+    "id": "r1-l9-strike-orb-gold-1",
     "rebirth": 1,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -1271,11 +1771,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l9-haul-r-rainbow",
+    "id": "r1-l9-haul-r-rainbow-2",
     "rebirth": 1,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -1283,11 +1783,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l9-lo-rainbow",
+    "id": "r1-l9-lo-rainbow-3",
     "rebirth": 1,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -1295,11 +1795,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l10-amp-walker-rainbow",
+    "id": "r1-l10-amp-walker-rainbow-1",
     "rebirth": 1,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -1307,11 +1807,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l10-b1-heavy-rainbow",
+    "id": "r1-l10-b1-heavy-rainbow-2",
     "rebirth": 1,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -1319,11 +1819,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l10-bb9-base",
+    "id": "r1-l10-bb9-base-3",
     "rebirth": 1,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -1331,11 +1831,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l11-proto-roller-gold",
+    "id": "r1-l11-proto-roller-gold-1",
     "rebirth": 1,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -1343,11 +1843,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l11-mecha-droid-base",
+    "id": "r1-l11-mecha-droid-base-2",
     "rebirth": 1,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -1355,11 +1855,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l11-mono-wlkr-base",
+    "id": "r1-l11-mono-wlkr-base-3",
     "rebirth": 1,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1367,11 +1867,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l12-r7-base",
+    "id": "r1-l12-r7-base-1",
     "rebirth": 1,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -1379,11 +1879,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l12-cyclo-grav-base",
+    "id": "r1-l12-cyclo-grav-base-2",
     "rebirth": 1,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -1391,11 +1891,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l12-b2-rp-base",
+    "id": "r1-l12-b2-rp-base-3",
     "rebirth": 1,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1403,11 +1903,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l13-opti-strk-base",
+    "id": "r1-l13-opti-strk-base-1",
     "rebirth": 1,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -1415,11 +1915,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l13-mono-wlkr-gold",
+    "id": "r1-l13-mono-wlkr-gold-2",
     "rebirth": 1,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1427,11 +1927,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l13-mecha-droid-gold",
+    "id": "r1-l13-mecha-droid-gold-3",
     "rebirth": 1,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -1439,11 +1939,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l14-b2-rp-gold",
+    "id": "r1-l14-b2-rp-gold-1",
     "rebirth": 1,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1451,11 +1951,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l14-bb9-gold",
+    "id": "r1-l14-bb9-gold-2",
     "rebirth": 1,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -1463,11 +1963,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l14-r7-gold",
+    "id": "r1-l14-r7-gold-3",
     "rebirth": 1,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -1475,11 +1975,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l15-opti-strk-gold",
+    "id": "r1-l15-opti-strk-gold-1",
     "rebirth": 1,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -1487,11 +1987,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l15-mono-wlkr-diamond",
+    "id": "r1-l15-mono-wlkr-diamond-2",
     "rebirth": 1,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1499,11 +1999,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l15-proto-roller-diamond",
+    "id": "r1-l15-proto-roller-diamond-3",
     "rebirth": 1,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -1511,11 +2011,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l16-b2-rp-diamond",
+    "id": "r1-l16-b2-rp-diamond-1",
     "rebirth": 1,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1523,11 +2023,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l16-cyclo-grav-diamond",
+    "id": "r1-l16-cyclo-grav-diamond-2",
     "rebirth": 1,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -1535,11 +2035,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l16-mecha-droid-diamond",
+    "id": "r1-l16-mecha-droid-diamond-3",
     "rebirth": 1,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -1547,11 +2047,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l17-bb9-diamond",
+    "id": "r1-l17-bb9-diamond-1",
     "rebirth": 1,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -1559,11 +2059,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l17-r7-diamond",
+    "id": "r1-l17-r7-diamond-2",
     "rebirth": 1,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -1571,11 +2071,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l17-mono-wlkr-rainbow",
+    "id": "r1-l17-mono-wlkr-rainbow-3",
     "rebirth": 1,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1583,11 +2083,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l18-b2-rp-rainbow",
+    "id": "r1-l18-b2-rp-rainbow-1",
     "rebirth": 1,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1595,11 +2095,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l18-cyclo-grav-rainbow",
+    "id": "r1-l18-cyclo-grav-rainbow-2",
     "rebirth": 1,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -1607,11 +2107,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l18-proto-roller-rainbow",
+    "id": "r1-l18-proto-roller-rainbow-3",
     "rebirth": 1,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -1619,11 +2119,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l19-r7-rainbow",
+    "id": "r1-l19-r7-rainbow-1",
     "rebirth": 1,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -1631,11 +2131,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l19-opti-strk-rainbow",
+    "id": "r1-l19-opti-strk-rainbow-2",
     "rebirth": 1,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -1643,11 +2143,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l19-mecha-droid-rainbow",
+    "id": "r1-l19-mecha-droid-rainbow-3",
     "rebirth": 1,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -1655,11 +2155,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l20-bb-beskar",
+    "id": "r1-l20-bb-beskar-1",
     "rebirth": 1,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -1667,11 +2167,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l20-orb-walker-beskar",
+    "id": "r1-l20-orb-walker-beskar-2",
     "rebirth": 1,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -1679,11 +2179,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l20-groundmech-beskar",
+    "id": "r1-l20-groundmech-beskar-3",
     "rebirth": 1,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -1691,11 +2191,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l21-amp-walker-beskar",
+    "id": "r1-l21-amp-walker-beskar-1",
     "rebirth": 1,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -1703,11 +2203,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l21-b1-heavy-beskar",
+    "id": "r1-l21-b1-heavy-beskar-2",
     "rebirth": 1,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -1715,11 +2215,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l21-proto-roller-beskar",
+    "id": "r1-l21-proto-roller-beskar-3",
     "rebirth": 1,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -1727,11 +2227,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l22-opti-strk-beskar",
+    "id": "r1-l22-opti-strk-beskar-1",
     "rebirth": 1,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -1739,11 +2239,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l22-mono-wlkr-beskar",
+    "id": "r1-l22-mono-wlkr-beskar-2",
     "rebirth": 1,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1751,11 +2251,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l22-r7-beskar",
+    "id": "r1-l22-r7-beskar-3",
     "rebirth": 1,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -1763,11 +2263,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l23-bb9-beskar",
+    "id": "r1-l23-bb9-beskar-1",
     "rebirth": 1,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -1775,11 +2275,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l23-cyclo-grav-beskar",
+    "id": "r1-l23-cyclo-grav-beskar-2",
     "rebirth": 1,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -1787,11 +2287,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l23-mo-trak-base",
+    "id": "r1-l23-mo-trak-base-3",
     "rebirth": 1,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -1799,11 +2299,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l24-b2-rp-beskar",
+    "id": "r1-l24-b2-rp-beskar-1",
     "rebirth": 1,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1811,11 +2311,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l24-ig-base",
+    "id": "r1-l24-ig-base-2",
     "rebirth": 1,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -1823,11 +2323,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r1-l24-drft-r-gold",
+    "id": "r1-l24-drft-r-gold-3",
     "rebirth": 1,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -1835,11 +2335,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l25-cyclens-gold",
+    "id": "r1-l25-cyclens-gold-1",
     "rebirth": 1,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -1847,11 +2347,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r1-l25-loadlifter-diamond",
+    "id": "r1-l25-loadlifter-diamond-2",
     "rebirth": 1,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -1859,11 +2359,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l25-ric-1200-rainbow",
+    "id": "r1-l25-ric-1200-rainbow-3",
     "rebirth": 1,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -1871,11 +2371,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l26-kx-diamond",
+    "id": "r1-l26-kx-diamond-1",
     "rebirth": 1,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -1883,11 +2383,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r1-l26-tri-tek-rainbow",
+    "id": "r1-l26-tri-tek-rainbow-2",
     "rebirth": 1,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -1895,11 +2395,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l26-snow-mouse-beskar",
+    "id": "r1-l26-snow-mouse-beskar-3",
     "rebirth": 1,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -1907,11 +2407,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l27-proto-roller-galactic",
+    "id": "r1-l27-proto-roller-galactic-1",
     "rebirth": 1,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -1919,11 +2419,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l27-mo-trak-rainbow",
+    "id": "r1-l27-mo-trak-rainbow-2",
     "rebirth": 1,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -1931,11 +2431,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r1-l27-drft-r-beskar",
+    "id": "r1-l27-drft-r-beskar-3",
     "rebirth": 1,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -1943,11 +2443,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l28-mono-wlkr-galactic",
+    "id": "r1-l28-mono-wlkr-galactic-1",
     "rebirth": 1,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -1955,11 +2455,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l28-mecha-droid-galactic",
+    "id": "r1-l28-mecha-droid-galactic-2",
     "rebirth": 1,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -1967,11 +2467,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l28-ig-beskar",
+    "id": "r1-l28-ig-beskar-3",
     "rebirth": 1,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -1979,11 +2479,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l29-b2-rp-galactic",
+    "id": "r1-l29-b2-rp-galactic-1",
     "rebirth": 1,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -1991,11 +2491,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l29-cyclens-beskar",
+    "id": "r1-l29-cyclens-beskar-2",
     "rebirth": 1,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -2003,11 +2503,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l29-loadlifter-galactic",
+    "id": "r1-l29-loadlifter-galactic-3",
     "rebirth": 1,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -2015,11 +2515,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l30-sen-tri-stellar",
+    "id": "r1-l30-sen-tri-stellar-1",
     "rebirth": 1,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
@@ -2027,11 +2527,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l30-proto-roller-beskar",
+    "id": "r1-l30-proto-roller-beskar-2",
     "rebirth": 1,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -2039,11 +2539,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l30-kx-beskar",
+    "id": "r1-l30-kx-beskar-3",
     "rebirth": 1,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -2051,11 +2551,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l31-orb-walker-galactic",
+    "id": "r1-l31-orb-walker-galactic-1",
     "rebirth": 1,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -2063,11 +2563,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l31-opti-pod-galactic",
+    "id": "r1-l31-opti-pod-galactic-2",
     "rebirth": 1,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
@@ -2075,11 +2575,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l31-ric-beskar",
+    "id": "r1-l31-ric-beskar-3",
     "rebirth": 1,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -2087,11 +2587,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r1-l32-b1-heavy-stellar",
+    "id": "r1-l32-b1-heavy-stellar-1",
     "rebirth": 1,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -2099,11 +2599,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l32-cyclo-grav-galactic",
+    "id": "r1-l32-cyclo-grav-galactic-2",
     "rebirth": 1,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -2111,11 +2611,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l32-drft-r-galactic",
+    "id": "r1-l32-drft-r-galactic-3",
     "rebirth": 1,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -2123,11 +2623,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l33-groundmech-stellar",
+    "id": "r1-l33-groundmech-stellar-1",
     "rebirth": 1,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -2135,11 +2635,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l33-bb-stellar",
+    "id": "r1-l33-bb-stellar-2",
     "rebirth": 1,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -2147,11 +2647,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l33-cyclens-galactic",
+    "id": "r1-l33-cyclens-galactic-3",
     "rebirth": 1,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -2159,11 +2659,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r1-l34-bb9-stellar",
+    "id": "r1-l34-bb9-stellar-1",
     "rebirth": 1,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -2171,11 +2671,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l34-ig-stellar",
+    "id": "r1-l34-ig-stellar-2",
     "rebirth": 1,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -2183,11 +2683,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l34-snow-mouse-stellar",
+    "id": "r1-l34-snow-mouse-stellar-3",
     "rebirth": 1,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -2195,11 +2695,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r1-l35-bdx-explorer-kyber",
+    "id": "r1-l35-bdx-explorer-kyber-1",
     "rebirth": 1,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -2207,11 +2707,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l35-2bb-kyber",
+    "id": "r1-l35-2bb-kyber-2",
     "rebirth": 1,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -2219,11 +2719,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l35-a-lt-kyber",
+    "id": "r1-l35-a-lt-kyber-3",
     "rebirth": 1,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "A-LT",
     "droidId": "a-lt",
@@ -2231,11 +2731,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l36-b1-heavy-kyber",
+    "id": "r1-l36-b1-heavy-kyber-1",
     "rebirth": 1,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -2243,11 +2743,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l36-groundmech-kyber",
+    "id": "r1-l36-groundmech-kyber-2",
     "rebirth": 1,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -2255,11 +2755,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l36-bb-kyber",
+    "id": "r1-l36-bb-kyber-3",
     "rebirth": 1,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -2267,11 +2767,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l37-r2-kyber",
+    "id": "r1-l37-r2-kyber-1",
     "rebirth": 1,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -2279,11 +2779,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l37-r6-kyber",
+    "id": "r1-l37-r6-kyber-2",
     "rebirth": 1,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -2291,11 +2791,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l37-bb9-kyber",
+    "id": "r1-l37-bb9-kyber-3",
     "rebirth": 1,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -2303,11 +2803,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l38-r7-kyber",
+    "id": "r1-l38-r7-kyber-1",
     "rebirth": 1,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -2315,11 +2815,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l38-proto-roller-kyber",
+    "id": "r1-l38-proto-roller-kyber-2",
     "rebirth": 1,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -2327,11 +2827,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l38-ig-kyber",
+    "id": "r1-l38-ig-kyber-3",
     "rebirth": 1,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -2339,11 +2839,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l39-snow-mouse-kyber",
+    "id": "r1-l39-snow-mouse-kyber-1",
     "rebirth": 1,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -2351,11 +2851,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l39-drft-r-kyber",
+    "id": "r1-l39-drft-r-kyber-2",
     "rebirth": 1,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -2363,11 +2863,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r1-l39-cyclens-kyber",
+    "id": "r1-l39-cyclens-kyber-3",
     "rebirth": 1,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -2375,11 +2875,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l0-id10-base",
+    "id": "r2-l0-id10-base-1",
     "rebirth": 2,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "ID10",
     "droidId": "id10",
@@ -2387,11 +2887,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l0-mouse-base",
+    "id": "r2-l0-mouse-base-2",
     "rebirth": 2,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "MOUSE",
     "droidId": "mouse",
@@ -2399,11 +2899,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l0-gonk-base",
+    "id": "r2-l0-gonk-base-3",
     "rebirth": 2,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "GONK",
     "droidId": "gonk",
@@ -2411,11 +2911,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l1-roll-r-base",
+    "id": "r2-l1-roll-r-base-1",
     "rebirth": 2,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "ROLL-R",
     "droidId": "roll-r",
@@ -2423,11 +2923,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l1-senate-hovercam-base",
+    "id": "r2-l1-senate-hovercam-base-2",
     "rebirth": 2,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -2435,11 +2935,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l1-nav-ex-base",
+    "id": "r2-l1-nav-ex-base-3",
     "rebirth": 2,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "NAV-EX",
     "droidId": "nav-ex",
@@ -2447,11 +2947,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l2-r4-base",
+    "id": "r2-l2-r4-base-1",
     "rebirth": 2,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -2459,11 +2959,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l2-vect-arm-base",
+    "id": "r2-l2-vect-arm-base-2",
     "rebirth": 2,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "VECT-ARM",
     "droidId": "vect-arm",
@@ -2471,11 +2971,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l2-bdx-explorer-gold",
+    "id": "r2-l2-bdx-explorer-gold-3",
     "rebirth": 2,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -2483,11 +2983,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l3-2bb-gold",
+    "id": "r2-l3-2bb-gold-1",
     "rebirth": 2,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -2495,11 +2995,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l3-bal-core-gold",
+    "id": "r2-l3-bal-core-gold-2",
     "rebirth": 2,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -2507,11 +3007,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l3-orb-walker-base",
+    "id": "r2-l3-orb-walker-base-3",
     "rebirth": 2,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -2519,11 +3019,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l4-r4-gold",
+    "id": "r2-l4-r4-gold-1",
     "rebirth": 2,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -2531,11 +3031,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l4-vect-arm-gold",
+    "id": "r2-l4-vect-arm-gold-2",
     "rebirth": 2,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "VECT-ARM",
     "droidId": "vect-arm",
@@ -2543,11 +3043,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l4-nav-ex-gold",
+    "id": "r2-l4-nav-ex-gold-3",
     "rebirth": 2,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "NAV-EX",
     "droidId": "nav-ex",
@@ -2555,11 +3055,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l5-gunrunner-base",
+    "id": "r2-l5-gunrunner-base-1",
     "rebirth": 2,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -2567,11 +3067,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l5-2bb-diamond",
+    "id": "r2-l5-2bb-diamond-2",
     "rebirth": 2,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -2579,11 +3079,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l5-bal-core-diamond",
+    "id": "r2-l5-bal-core-diamond-3",
     "rebirth": 2,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -2591,11 +3091,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l6-roll-r-diamond",
+    "id": "r2-l6-roll-r-diamond-1",
     "rebirth": 2,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "ROLL-R",
     "droidId": "roll-r",
@@ -2603,11 +3103,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l6-bdx-explorer-diamond",
+    "id": "r2-l6-bdx-explorer-diamond-2",
     "rebirth": 2,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -2615,11 +3115,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l6-r2-gold",
+    "id": "r2-l6-r2-gold-3",
     "rebirth": 2,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -2627,11 +3127,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l7-r4-diamond",
+    "id": "r2-l7-r4-diamond-1",
     "rebirth": 2,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -2639,11 +3139,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l7-b2-super-gold",
+    "id": "r2-l7-b2-super-gold-2",
     "rebirth": 2,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -2651,11 +3151,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l7-gunrunner-gold",
+    "id": "r2-l7-gunrunner-gold-3",
     "rebirth": 2,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -2663,11 +3163,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l8-nav-ex-rainbow",
+    "id": "r2-l8-nav-ex-rainbow-1",
     "rebirth": 2,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "NAV-EX",
     "droidId": "nav-ex",
@@ -2675,11 +3175,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l8-strike-orb-gold",
+    "id": "r2-l8-strike-orb-gold-2",
     "rebirth": 2,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -2687,11 +3187,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l8-amp-walker-gold",
+    "id": "r2-l8-amp-walker-gold-3",
     "rebirth": 2,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -2699,11 +3199,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l9-vect-arm-rainbow",
+    "id": "r2-l9-vect-arm-rainbow-1",
     "rebirth": 2,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "VECT-ARM",
     "droidId": "vect-arm",
@@ -2711,11 +3211,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l9-r2-diamond",
+    "id": "r2-l9-r2-diamond-2",
     "rebirth": 2,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -2723,11 +3223,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l9-b2-super-diamond",
+    "id": "r2-l9-b2-super-diamond-3",
     "rebirth": 2,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -2735,11 +3235,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l10-bal-core-rainbow",
+    "id": "r2-l10-bal-core-rainbow-1",
     "rebirth": 2,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -2747,11 +3247,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l10-strike-orb-diamond",
+    "id": "r2-l10-strike-orb-diamond-2",
     "rebirth": 2,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -2759,11 +3259,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l10-b2-heavy-diamond",
+    "id": "r2-l10-b2-heavy-diamond-3",
     "rebirth": 2,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -2771,11 +3271,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l11-orb-walker-rainbow",
+    "id": "r2-l11-orb-walker-rainbow-1",
     "rebirth": 2,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -2783,11 +3283,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l11-r2-rainbow",
+    "id": "r2-l11-r2-rainbow-2",
     "rebirth": 2,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -2795,11 +3295,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l11-bb9-base",
+    "id": "r2-l11-bb9-base-3",
     "rebirth": 2,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -2807,11 +3307,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l12-b2-super-rainbow",
+    "id": "r2-l12-b2-super-rainbow-1",
     "rebirth": 2,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -2819,11 +3319,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l12-mecha-droid-base",
+    "id": "r2-l12-mecha-droid-base-2",
     "rebirth": 2,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -2831,11 +3331,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l12-proto-roller-base",
+    "id": "r2-l12-proto-roller-base-3",
     "rebirth": 2,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -2843,11 +3343,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l13-b2-heavy-rainbow",
+    "id": "r2-l13-b2-heavy-rainbow-1",
     "rebirth": 2,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -2855,11 +3355,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l13-b2-rp-base",
+    "id": "r2-l13-b2-rp-base-2",
     "rebirth": 2,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -2867,11 +3367,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l13-r7-gold",
+    "id": "r2-l13-r7-gold-3",
     "rebirth": 2,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -2879,11 +3379,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l14-strike-orb-rainbow",
+    "id": "r2-l14-strike-orb-rainbow-1",
     "rebirth": 2,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -2891,11 +3391,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l14-bb9-gold",
+    "id": "r2-l14-bb9-gold-2",
     "rebirth": 2,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -2903,11 +3403,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l14-proto-roller-gold",
+    "id": "r2-l14-proto-roller-gold-3",
     "rebirth": 2,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -2915,11 +3415,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l15-amp-walker-rainbow",
+    "id": "r2-l15-amp-walker-rainbow-1",
     "rebirth": 2,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -2927,11 +3427,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l15-mecha-droid-gold",
+    "id": "r2-l15-mecha-droid-gold-2",
     "rebirth": 2,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -2939,11 +3439,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l15-b2-rp-diamond",
+    "id": "r2-l15-b2-rp-diamond-3",
     "rebirth": 2,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -2951,11 +3451,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l16-opti-pod-rainbow",
+    "id": "r2-l16-opti-pod-rainbow-1",
     "rebirth": 2,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
@@ -2963,11 +3463,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l16-mono-wlkr-gold",
+    "id": "r2-l16-mono-wlkr-gold-2",
     "rebirth": 2,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -2975,11 +3475,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l16-r7-diamond",
+    "id": "r2-l16-r7-diamond-3",
     "rebirth": 2,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -2987,11 +3487,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l17-util-tec-rainbow",
+    "id": "r2-l17-util-tec-rainbow-1",
     "rebirth": 2,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -2999,11 +3499,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l17-bb9-diamond",
+    "id": "r2-l17-bb9-diamond-2",
     "rebirth": 2,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -3011,11 +3511,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l17-proto-roller-diamond",
+    "id": "r2-l17-proto-roller-diamond-3",
     "rebirth": 2,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -3023,11 +3523,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l18-mecha-droid-diamond",
+    "id": "r2-l18-mecha-droid-diamond-1",
     "rebirth": 2,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -3035,11 +3535,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l18-r7-rainbow",
+    "id": "r2-l18-r7-rainbow-2",
     "rebirth": 2,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -3047,11 +3547,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l18-b2-rp-rainbow",
+    "id": "r2-l18-b2-rp-rainbow-3",
     "rebirth": 2,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -3059,11 +3559,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l19-mono-wlkr-rainbow",
+    "id": "r2-l19-mono-wlkr-rainbow-1",
     "rebirth": 2,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -3071,11 +3571,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l19-opti-strk-rainbow",
+    "id": "r2-l19-opti-strk-rainbow-2",
     "rebirth": 2,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -3083,11 +3583,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l19-cyclo-grav-rainbow",
+    "id": "r2-l19-cyclo-grav-rainbow-3",
     "rebirth": 2,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -3095,11 +3595,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l20-lo-beskar",
+    "id": "r2-l20-lo-beskar-1",
     "rebirth": 2,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -3107,11 +3607,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l20-r6-beskar",
+    "id": "r2-l20-r6-beskar-2",
     "rebirth": 2,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -3119,11 +3619,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l20-haul-r-beskar",
+    "id": "r2-l20-haul-r-beskar-3",
     "rebirth": 2,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -3131,11 +3631,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l21-sen-tri-beskar",
+    "id": "r2-l21-sen-tri-beskar-1",
     "rebirth": 2,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
@@ -3143,11 +3643,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l21-strike-orb-beskar",
+    "id": "r2-l21-strike-orb-beskar-2",
     "rebirth": 2,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -3155,11 +3655,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l21-proto-roller-beskar",
+    "id": "r2-l21-proto-roller-beskar-3",
     "rebirth": 2,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -3167,11 +3667,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l22-bb9-beskar",
+    "id": "r2-l22-bb9-beskar-1",
     "rebirth": 2,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -3179,11 +3679,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l22-cyclo-grav-beskar",
+    "id": "r2-l22-cyclo-grav-beskar-2",
     "rebirth": 2,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -3191,11 +3691,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l22-b2-rp-beskar",
+    "id": "r2-l22-b2-rp-beskar-3",
     "rebirth": 2,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -3203,11 +3703,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l23-opti-strk-beskar",
+    "id": "r2-l23-opti-strk-beskar-1",
     "rebirth": 2,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -3215,11 +3715,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l23-b2-rp-beskar",
+    "id": "r2-l23-b2-rp-beskar-2",
     "rebirth": 2,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -3227,11 +3727,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l23-snow-mouse-base",
+    "id": "r2-l23-snow-mouse-base-3",
     "rebirth": 2,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -3239,11 +3739,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l24-mono-wlkr-beskar",
+    "id": "r2-l24-mono-wlkr-beskar-1",
     "rebirth": 2,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -3251,11 +3751,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l24-tri-tek-gold",
+    "id": "r2-l24-tri-tek-gold-2",
     "rebirth": 2,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -3263,11 +3763,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l24-ric-1200-base",
+    "id": "r2-l24-ric-1200-base-3",
     "rebirth": 2,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -3275,11 +3775,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r2-l25-kx-gold",
+    "id": "r2-l25-kx-gold-1",
     "rebirth": 2,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -3287,11 +3787,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r2-l25-drft-r-diamond",
+    "id": "r2-l25-drft-r-diamond-2",
     "rebirth": 2,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -3299,11 +3799,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l25-ig-rainbow",
+    "id": "r2-l25-ig-rainbow-3",
     "rebirth": 2,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -3311,11 +3811,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l26-lep-diamond",
+    "id": "r2-l26-lep-diamond-1",
     "rebirth": 2,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -3323,11 +3823,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r2-l26-loadlifter-rainbow",
+    "id": "r2-l26-loadlifter-rainbow-2",
     "rebirth": 2,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -3335,11 +3835,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l26-mo-trak-beskar",
+    "id": "r2-l26-mo-trak-beskar-3",
     "rebirth": 2,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -3347,11 +3847,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l27-mecha-droid-galactic",
+    "id": "r2-l27-mecha-droid-galactic-1",
     "rebirth": 2,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -3359,11 +3859,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l27-snow-mouse-rainbow",
+    "id": "r2-l27-snow-mouse-rainbow-2",
     "rebirth": 2,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -3371,11 +3871,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r2-l27-tri-tek-beskar",
+    "id": "r2-l27-tri-tek-beskar-3",
     "rebirth": 2,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -3383,11 +3883,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l28-cyclo-grav-galactic",
+    "id": "r2-l28-cyclo-grav-galactic-1",
     "rebirth": 2,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -3395,11 +3895,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l28-r7-galactic",
+    "id": "r2-l28-r7-galactic-2",
     "rebirth": 2,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -3407,11 +3907,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l28-ric-beskar",
+    "id": "r2-l28-ric-beskar-3",
     "rebirth": 2,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -3419,11 +3919,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l29-opti-strk-galactic",
+    "id": "r2-l29-opti-strk-galactic-1",
     "rebirth": 2,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -3431,11 +3931,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l29-kx-beskar",
+    "id": "r2-l29-kx-beskar-2",
     "rebirth": 2,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -3443,11 +3943,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l29-drft-r-galactic",
+    "id": "r2-l29-drft-r-galactic-3",
     "rebirth": 2,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -3455,11 +3955,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l30-b2-super-stellar",
+    "id": "r2-l30-b2-super-stellar-1",
     "rebirth": 2,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -3467,11 +3967,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l30-b2-rp-beskar",
+    "id": "r2-l30-b2-rp-beskar-2",
     "rebirth": 2,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -3479,11 +3979,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l30-loadlifter-beskar",
+    "id": "r2-l30-loadlifter-beskar-3",
     "rebirth": 2,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -3491,11 +3991,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l31-gunrunner-galactic",
+    "id": "r2-l31-gunrunner-galactic-1",
     "rebirth": 2,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -3503,11 +4003,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l31-b1-heavy-galactic",
+    "id": "r2-l31-b1-heavy-galactic-2",
     "rebirth": 2,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -3515,11 +4015,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l31-lep-beskar",
+    "id": "r2-l31-lep-beskar-3",
     "rebirth": 2,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -3527,11 +4027,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r2-l32-r2-stellar",
+    "id": "r2-l32-r2-stellar-1",
     "rebirth": 2,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -3539,11 +4039,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l32-opti-strk-galactic",
+    "id": "r2-l32-opti-strk-galactic-2",
     "rebirth": 2,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -3551,11 +4051,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l32-kx-galactic",
+    "id": "r2-l32-kx-galactic-3",
     "rebirth": 2,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -3563,11 +4063,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l33-r6-stellar",
+    "id": "r2-l33-r6-stellar-1",
     "rebirth": 2,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -3575,11 +4075,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l33-lo-stellar",
+    "id": "r2-l33-lo-stellar-2",
     "rebirth": 2,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -3587,11 +4087,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l33-ric-galactic",
+    "id": "r2-l33-ric-galactic-3",
     "rebirth": 2,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -3599,11 +4099,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r2-l34-r7-stellar",
+    "id": "r2-l34-r7-stellar-1",
     "rebirth": 2,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -3611,11 +4111,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l34-drft-r-stellar",
+    "id": "r2-l34-drft-r-stellar-2",
     "rebirth": 2,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -3623,11 +4123,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l34-cyclens-stellar",
+    "id": "r2-l34-cyclens-stellar-3",
     "rebirth": 2,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -3635,11 +4135,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r2-l35-b1-security-kyber",
+    "id": "r2-l35-b1-security-kyber-1",
     "rebirth": 2,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -3647,11 +4147,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l35-r4-kyber",
+    "id": "r2-l35-r4-kyber-2",
     "rebirth": 2,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -3659,11 +4159,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l35-r9-kyber",
+    "id": "r2-l35-r9-kyber-3",
     "rebirth": 2,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -3671,11 +4171,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l36-lo-kyber",
+    "id": "r2-l36-lo-kyber-1",
     "rebirth": 2,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -3683,11 +4183,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l36-trak-r-kyber",
+    "id": "r2-l36-trak-r-kyber-2",
     "rebirth": 2,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -3695,11 +4195,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l36-orb-walker-kyber",
+    "id": "r2-l36-orb-walker-kyber-3",
     "rebirth": 2,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -3707,11 +4207,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l37-b2-super-kyber",
+    "id": "r2-l37-b2-super-kyber-1",
     "rebirth": 2,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -3719,11 +4219,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l37-b2-heavy-kyber",
+    "id": "r2-l37-b2-heavy-kyber-2",
     "rebirth": 2,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -3731,11 +4231,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l37-b2-rp-kyber",
+    "id": "r2-l37-b2-rp-kyber-3",
     "rebirth": 2,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -3743,11 +4243,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l38-mecha-droid-kyber",
+    "id": "r2-l38-mecha-droid-kyber-1",
     "rebirth": 2,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -3755,11 +4255,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l38-cyclo-grav-kyber",
+    "id": "r2-l38-cyclo-grav-kyber-2",
     "rebirth": 2,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -3767,11 +4267,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l38-kx-kyber",
+    "id": "r2-l38-kx-kyber-3",
     "rebirth": 2,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -3779,11 +4279,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l39-ric-kyber",
+    "id": "r2-l39-ric-kyber-1",
     "rebirth": 2,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -3791,11 +4291,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l39-loadlifter-kyber",
+    "id": "r2-l39-loadlifter-kyber-2",
     "rebirth": 2,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -3803,11 +4303,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r2-l39-lep-kyber",
+    "id": "r2-l39-lep-kyber-3",
     "rebirth": 2,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -3815,11 +4315,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l0-mouse-base",
+    "id": "r3-l0-mouse-base-1",
     "rebirth": 3,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "MOUSE",
     "droidId": "mouse",
@@ -3827,11 +4327,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l0-pit-base",
+    "id": "r3-l0-pit-base-2",
     "rebirth": 3,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "PIT",
     "droidId": "pit",
@@ -3839,11 +4339,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l0-gonk-base",
+    "id": "r3-l0-gonk-base-3",
     "rebirth": 3,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "GONK",
     "droidId": "gonk",
@@ -3851,11 +4351,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l1-r3-base",
+    "id": "r3-l1-r3-base-1",
     "rebirth": 3,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -3863,11 +4363,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l1-2bb-base",
+    "id": "r3-l1-2bb-base-2",
     "rebirth": 3,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -3875,11 +4375,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l1-senate-hovercam-base",
+    "id": "r3-l1-senate-hovercam-base-3",
     "rebirth": 3,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -3887,11 +4387,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l2-r8-base",
+    "id": "r3-l2-r8-base-1",
     "rebirth": 3,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R8",
     "droidId": "r8",
@@ -3899,11 +4399,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l2-r5-base",
+    "id": "r3-l2-r5-base-2",
     "rebirth": 3,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -3911,11 +4411,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l2-r4-base",
+    "id": "r3-l2-r4-base-3",
     "rebirth": 3,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -3923,11 +4423,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l3-b1-battle-gold",
+    "id": "r3-l3-b1-battle-gold-1",
     "rebirth": 3,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -3935,11 +4435,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l3-r9-gold",
+    "id": "r3-l3-r9-gold-2",
     "rebirth": 3,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -3947,11 +4447,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l3-b1-security-gold",
+    "id": "r3-l3-b1-security-gold-3",
     "rebirth": 3,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -3959,11 +4459,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l4-r3-gold",
+    "id": "r3-l4-r3-gold-1",
     "rebirth": 3,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -3971,11 +4471,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l4-2bb-gold",
+    "id": "r3-l4-2bb-gold-2",
     "rebirth": 3,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -3983,11 +4483,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l4-senate-hovercam-gold",
+    "id": "r3-l4-senate-hovercam-gold-3",
     "rebirth": 3,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -3995,11 +4495,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l5-r5-diamond",
+    "id": "r3-l5-r5-diamond-1",
     "rebirth": 3,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -4007,11 +4507,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l5-r4-diamond",
+    "id": "r3-l5-r4-diamond-2",
     "rebirth": 3,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -4019,11 +4519,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l5-bdx-explorer-diamond",
+    "id": "r3-l5-bdx-explorer-diamond-3",
     "rebirth": 3,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -4031,11 +4531,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l6-r8-diamond",
+    "id": "r3-l6-r8-diamond-1",
     "rebirth": 3,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R8",
     "droidId": "r8",
@@ -4043,11 +4543,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l6-b1-battle-diamond",
+    "id": "r3-l6-b1-battle-diamond-2",
     "rebirth": 3,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -4055,11 +4555,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l6-r9-diamond",
+    "id": "r3-l6-r9-diamond-3",
     "rebirth": 3,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -4067,11 +4567,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l7-r3-rainbow",
+    "id": "r3-l7-r3-rainbow-1",
     "rebirth": 3,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -4079,11 +4579,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l7-2bb-rainbow",
+    "id": "r3-l7-2bb-rainbow-2",
     "rebirth": 3,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -4091,11 +4591,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l7-b1-security-rainbow",
+    "id": "r3-l7-b1-security-rainbow-3",
     "rebirth": 3,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -4103,11 +4603,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l8-r5-rainbow",
+    "id": "r3-l8-r5-rainbow-1",
     "rebirth": 3,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -4115,11 +4615,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l8-r4-rainbow",
+    "id": "r3-l8-r4-rainbow-2",
     "rebirth": 3,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -4127,11 +4627,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l8-bdx-explorer-rainbow",
+    "id": "r3-l8-bdx-explorer-rainbow-3",
     "rebirth": 3,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -4139,11 +4639,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l9-senate-hovercam-rainbow",
+    "id": "r3-l9-senate-hovercam-rainbow-1",
     "rebirth": 3,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -4151,11 +4651,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l9-groundmech-base",
+    "id": "r3-l9-groundmech-base-2",
     "rebirth": 3,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -4163,11 +4663,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l9-trak-r-base",
+    "id": "r3-l9-trak-r-base-3",
     "rebirth": 3,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -4175,11 +4675,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l10-b2-heavy-base",
+    "id": "r3-l10-b2-heavy-base-1",
     "rebirth": 3,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -4187,11 +4687,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l10-b2-super-base",
+    "id": "r3-l10-b2-super-base-2",
     "rebirth": 3,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -4199,11 +4699,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l10-util-tec-base",
+    "id": "r3-l10-util-tec-base-3",
     "rebirth": 3,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -4211,11 +4711,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l11-bal-core-rainbow",
+    "id": "r3-l11-bal-core-rainbow-1",
     "rebirth": 3,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -4223,11 +4723,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l11-groundmech-gold",
+    "id": "r3-l11-groundmech-gold-2",
     "rebirth": 3,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -4235,11 +4735,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l11-trak-r-gold",
+    "id": "r3-l11-trak-r-gold-3",
     "rebirth": 3,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -4247,11 +4747,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l12-b2-super-rainbow",
+    "id": "r3-l12-b2-super-rainbow-1",
     "rebirth": 3,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -4259,11 +4759,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l12-mecha-droid-base",
+    "id": "r3-l12-mecha-droid-base-2",
     "rebirth": 3,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4271,11 +4771,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l12-proto-roller-base",
+    "id": "r3-l12-proto-roller-base-3",
     "rebirth": 3,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -4283,11 +4783,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l13-b2-heavy-rainbow",
+    "id": "r3-l13-b2-heavy-rainbow-1",
     "rebirth": 3,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -4295,11 +4795,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l13-b2-rp-base",
+    "id": "r3-l13-b2-rp-base-2",
     "rebirth": 3,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -4307,11 +4807,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l13-r7-gold",
+    "id": "r3-l13-r7-gold-3",
     "rebirth": 3,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -4319,11 +4819,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l14-strike-orb-rainbow",
+    "id": "r3-l14-strike-orb-rainbow-1",
     "rebirth": 3,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -4331,11 +4831,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l14-bb9-gold",
+    "id": "r3-l14-bb9-gold-2",
     "rebirth": 3,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -4343,11 +4843,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l14-proto-roller-gold",
+    "id": "r3-l14-proto-roller-gold-3",
     "rebirth": 3,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -4355,11 +4855,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l15-amp-walker-rainbow",
+    "id": "r3-l15-amp-walker-rainbow-1",
     "rebirth": 3,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -4367,11 +4867,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l15-mecha-droid-gold",
+    "id": "r3-l15-mecha-droid-gold-2",
     "rebirth": 3,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4379,11 +4879,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l15-b2-rp-diamond",
+    "id": "r3-l15-b2-rp-diamond-3",
     "rebirth": 3,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -4391,11 +4891,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l16-opti-pod-rainbow",
+    "id": "r3-l16-opti-pod-rainbow-1",
     "rebirth": 3,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
@@ -4403,11 +4903,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l16-mono-wlkr-gold",
+    "id": "r3-l16-mono-wlkr-gold-2",
     "rebirth": 3,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -4415,11 +4915,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l16-r7-diamond",
+    "id": "r3-l16-r7-diamond-3",
     "rebirth": 3,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -4427,11 +4927,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l17-util-tec-rainbow",
+    "id": "r3-l17-util-tec-rainbow-1",
     "rebirth": 3,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -4439,11 +4939,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l17-bb9-diamond",
+    "id": "r3-l17-bb9-diamond-2",
     "rebirth": 3,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -4451,11 +4951,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l17-proto-roller-diamond",
+    "id": "r3-l17-proto-roller-diamond-3",
     "rebirth": 3,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -4463,11 +4963,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l18-mecha-droid-diamond",
+    "id": "r3-l18-mecha-droid-diamond-1",
     "rebirth": 3,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4475,11 +4975,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l18-r7-rainbow",
+    "id": "r3-l18-r7-rainbow-2",
     "rebirth": 3,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -4487,11 +4987,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l18-b2-rp-rainbow",
+    "id": "r3-l18-b2-rp-rainbow-3",
     "rebirth": 3,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -4499,11 +4999,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l19-mono-wlkr-rainbow",
+    "id": "r3-l19-mono-wlkr-rainbow-1",
     "rebirth": 3,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -4511,11 +5011,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l19-opti-strk-rainbow",
+    "id": "r3-l19-opti-strk-rainbow-2",
     "rebirth": 3,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -4523,11 +5023,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l19-cyclo-grav-rainbow",
+    "id": "r3-l19-cyclo-grav-rainbow-3",
     "rebirth": 3,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -4535,11 +5035,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l20-b2-super-beskar",
+    "id": "r3-l20-b2-super-beskar-1",
     "rebirth": 3,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -4547,11 +5047,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l20-opti-pod-beskar",
+    "id": "r3-l20-opti-pod-beskar-2",
     "rebirth": 3,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
@@ -4559,11 +5059,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l20-r2-beskar",
+    "id": "r3-l20-r2-beskar-3",
     "rebirth": 3,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -4571,11 +5071,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l21-gunrunner-beskar",
+    "id": "r3-l21-gunrunner-beskar-1",
     "rebirth": 3,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -4583,11 +5083,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l21-lng-shot-beskar",
+    "id": "r3-l21-lng-shot-beskar-2",
     "rebirth": 3,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "LNG-SHOT",
     "droidId": "lng-shot",
@@ -4595,11 +5095,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l21-b2-rp-beskar",
+    "id": "r3-l21-b2-rp-beskar-3",
     "rebirth": 3,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -4607,11 +5107,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l22-mono-wlkr-beskar",
+    "id": "r3-l22-mono-wlkr-beskar-1",
     "rebirth": 3,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -4619,11 +5119,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l22-cyclo-grav-beskar",
+    "id": "r3-l22-cyclo-grav-beskar-2",
     "rebirth": 3,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -4631,11 +5131,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l22-mecha-droid-beskar",
+    "id": "r3-l22-mecha-droid-beskar-3",
     "rebirth": 3,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4643,11 +5143,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l23-bb9-beskar",
+    "id": "r3-l23-bb9-beskar-1",
     "rebirth": 3,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -4655,11 +5155,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l23-b2-rp-beskar",
+    "id": "r3-l23-b2-rp-beskar-2",
     "rebirth": 3,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -4667,11 +5167,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l23-ric-base",
+    "id": "r3-l23-ric-base-3",
     "rebirth": 3,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -4679,11 +5179,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l24-proto-roller-beskar",
+    "id": "r3-l24-proto-roller-beskar-1",
     "rebirth": 3,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -4691,11 +5191,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l24-loadlifter-base",
+    "id": "r3-l24-loadlifter-base-2",
     "rebirth": 3,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -4703,11 +5203,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r3-l24-mo-trak-gold",
+    "id": "r3-l24-mo-trak-gold-3",
     "rebirth": 3,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -4715,11 +5215,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l25-lep-gold",
+    "id": "r3-l25-lep-gold-1",
     "rebirth": 3,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -4727,11 +5227,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r3-l25-tri-tek-diamond",
+    "id": "r3-l25-tri-tek-diamond-2",
     "rebirth": 3,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -4739,11 +5239,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l25-snow-mouse-rainbow",
+    "id": "r3-l25-snow-mouse-rainbow-3",
     "rebirth": 3,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -4751,11 +5251,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l26-ric-1200-diamond",
+    "id": "r3-l26-ric-1200-diamond-1",
     "rebirth": 3,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -4763,11 +5263,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r3-l26-ig-rainbow",
+    "id": "r3-l26-ig-rainbow-2",
     "rebirth": 3,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -4775,11 +5275,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l26-drft-r-beskar",
+    "id": "r3-l26-drft-r-beskar-3",
     "rebirth": 3,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -4787,11 +5287,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l27-bb9-galactic",
+    "id": "r3-l27-bb9-galactic-1",
     "rebirth": 3,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -4799,11 +5299,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l27-ric-rainbow",
+    "id": "r3-l27-ric-rainbow-2",
     "rebirth": 3,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -4811,11 +5311,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r3-l27-mo-trak-beskar",
+    "id": "r3-l27-mo-trak-beskar-3",
     "rebirth": 3,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -4823,11 +5323,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l28-mecha-droid-galactic",
+    "id": "r3-l28-mecha-droid-galactic-1",
     "rebirth": 3,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4835,11 +5335,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l28-opti-strk-galactic",
+    "id": "r3-l28-opti-strk-galactic-2",
     "rebirth": 3,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -4847,11 +5347,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l28-ig-beskar",
+    "id": "r3-l28-ig-beskar-3",
     "rebirth": 3,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -4859,11 +5359,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l29-r7-galactic",
+    "id": "r3-l29-r7-galactic-1",
     "rebirth": 3,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -4871,11 +5371,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l29-lep-beskar",
+    "id": "r3-l29-lep-beskar-2",
     "rebirth": 3,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -4883,11 +5383,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l29-drft-r-galactic",
+    "id": "r3-l29-drft-r-galactic-3",
     "rebirth": 3,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -4895,11 +5395,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l30-b2-heavy-stellar",
+    "id": "r3-l30-b2-heavy-stellar-1",
     "rebirth": 3,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -4907,11 +5407,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l30-mecha-droid-beskar",
+    "id": "r3-l30-mecha-droid-beskar-2",
     "rebirth": 3,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -4919,11 +5419,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l30-ric-1200-beskar",
+    "id": "r3-l30-ric-1200-beskar-3",
     "rebirth": 3,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -4931,11 +5431,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l31-groundmech-galactic",
+    "id": "r3-l31-groundmech-galactic-1",
     "rebirth": 3,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -4943,11 +5443,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l31-bb-galactic",
+    "id": "r3-l31-bb-galactic-2",
     "rebirth": 3,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -4955,11 +5455,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l31-mo-trak-beskar",
+    "id": "r3-l31-mo-trak-beskar-3",
     "rebirth": 3,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -4967,11 +5467,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r3-l32-trak-r-stellar",
+    "id": "r3-l32-trak-r-stellar-1",
     "rebirth": 3,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -4979,11 +5479,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l32-mono-wlkr-galactic",
+    "id": "r3-l32-mono-wlkr-galactic-2",
     "rebirth": 3,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -4991,11 +5491,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l32-loadlifter-galactic",
+    "id": "r3-l32-loadlifter-galactic-3",
     "rebirth": 3,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -5003,11 +5503,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l33-orb-walker-stellar",
+    "id": "r3-l33-orb-walker-stellar-1",
     "rebirth": 3,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "ORB-WALKER",
     "droidId": "orb-walker",
@@ -5015,11 +5515,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l33-b2-super-stellar",
+    "id": "r3-l33-b2-super-stellar-2",
     "rebirth": 3,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -5027,11 +5527,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l33-lep-galactic",
+    "id": "r3-l33-lep-galactic-3",
     "rebirth": 3,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -5039,11 +5539,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r3-l34-proto-roller-stellar",
+    "id": "r3-l34-proto-roller-stellar-1",
     "rebirth": 3,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -5051,11 +5551,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l34-kx-stellar",
+    "id": "r3-l34-kx-stellar-2",
     "rebirth": 3,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -5063,11 +5563,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l34-ric-stellar",
+    "id": "r3-l34-ric-stellar-3",
     "rebirth": 3,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -5075,11 +5575,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r3-l35-arg-kyber",
+    "id": "r3-l35-arg-kyber-1",
     "rebirth": 3,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "ARG",
     "droidId": "arg",
@@ -5087,11 +5587,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l35-senate-hovercam-kyber",
+    "id": "r3-l35-senate-hovercam-kyber-2",
     "rebirth": 3,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -5099,23 +5599,23 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l35-bu-4d-kyber",
+    "id": "r3-l35-bu-4d-kyber-3",
     "rebirth": 3,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
-    "droidName": "BU-4D",
+    "droidName": "B-U4D",
     "droidId": "bu-4d",
     "requiredRarity": "RARE",
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l36-strike-orb-kyber",
+    "id": "r3-l36-strike-orb-kyber-1",
     "rebirth": 3,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -5123,11 +5623,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l36-amp-walker-kyber",
+    "id": "r3-l36-amp-walker-kyber-2",
     "rebirth": 3,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -5135,11 +5635,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l36-util-tec-kyber",
+    "id": "r3-l36-util-tec-kyber-3",
     "rebirth": 3,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -5147,11 +5647,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l37-haul-r-kyber",
+    "id": "r3-l37-haul-r-kyber-1",
     "rebirth": 3,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -5159,11 +5659,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l37-lng-shot-kyber",
+    "id": "r3-l37-lng-shot-kyber-2",
     "rebirth": 3,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "LNG-SHOT",
     "droidId": "lng-shot",
@@ -5171,11 +5671,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l37-opti-strk-kyber",
+    "id": "r3-l37-opti-strk-kyber-3",
     "rebirth": 3,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -5183,11 +5683,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l38-mono-wlkr-kyber",
+    "id": "r3-l38-mono-wlkr-kyber-1",
     "rebirth": 3,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -5195,11 +5695,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l38-bb9-kyber",
+    "id": "r3-l38-bb9-kyber-2",
     "rebirth": 3,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -5207,11 +5707,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l38-ric-1200-kyber",
+    "id": "r3-l38-ric-1200-kyber-3",
     "rebirth": 3,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -5219,11 +5719,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l39-mo-trak-kyber",
+    "id": "r3-l39-mo-trak-kyber-1",
     "rebirth": 3,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -5231,11 +5731,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l39-tri-tek-kyber",
+    "id": "r3-l39-tri-tek-kyber-2",
     "rebirth": 3,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -5243,11 +5743,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r3-l39-ig-kyber",
+    "id": "r3-l39-ig-kyber-3",
     "rebirth": 3,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -5255,11 +5755,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l0-id10-base",
+    "id": "r4-l0-id10-base-1",
     "rebirth": 4,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "ID10",
     "droidId": "id10",
@@ -5267,11 +5767,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l0-pit-base",
+    "id": "r4-l0-pit-base-2",
     "rebirth": 4,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "PIT",
     "droidId": "pit",
@@ -5279,11 +5779,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l0-drk-1-probe-base",
+    "id": "r4-l0-drk-1-probe-base-3",
     "rebirth": 4,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "DRK-1 PROBE",
     "droidId": "drk-1-probe",
@@ -5291,11 +5791,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l1-r3-base",
+    "id": "r4-l1-r3-base-1",
     "rebirth": 4,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -5303,11 +5803,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l1-2bb-base",
+    "id": "r4-l1-2bb-base-2",
     "rebirth": 4,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -5315,11 +5815,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l1-senate-hovercam-base",
+    "id": "r4-l1-senate-hovercam-base-3",
     "rebirth": 4,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -5327,11 +5827,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l2-r5-gold",
+    "id": "r4-l2-r5-gold-1",
     "rebirth": 4,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -5339,11 +5839,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l2-r8-gold",
+    "id": "r4-l2-r8-gold-2",
     "rebirth": 4,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R8",
     "droidId": "r8",
@@ -5351,11 +5851,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l2-r4-base",
+    "id": "r4-l2-r4-base-3",
     "rebirth": 4,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -5363,11 +5863,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l3-b1-battle-gold",
+    "id": "r4-l3-b1-battle-gold-1",
     "rebirth": 4,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -5375,11 +5875,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l3-r9-gold",
+    "id": "r4-l3-r9-gold-2",
     "rebirth": 4,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -5387,11 +5887,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l3-b1-security-gold",
+    "id": "r4-l3-b1-security-gold-3",
     "rebirth": 4,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -5399,11 +5899,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l4-r3-gold",
+    "id": "r4-l4-r3-gold-1",
     "rebirth": 4,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -5411,11 +5911,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l4-2bb-gold",
+    "id": "r4-l4-2bb-gold-2",
     "rebirth": 4,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -5423,11 +5923,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l4-senate-hovercam-gold",
+    "id": "r4-l4-senate-hovercam-gold-3",
     "rebirth": 4,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -5435,11 +5935,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l5-r5-diamond",
+    "id": "r4-l5-r5-diamond-1",
     "rebirth": 4,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -5447,11 +5947,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l5-r4-diamond",
+    "id": "r4-l5-r4-diamond-2",
     "rebirth": 4,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -5459,11 +5959,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l5-bdx-explorer-diamond",
+    "id": "r4-l5-bdx-explorer-diamond-3",
     "rebirth": 4,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -5471,11 +5971,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l6-r8-diamond",
+    "id": "r4-l6-r8-diamond-1",
     "rebirth": 4,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R8",
     "droidId": "r8",
@@ -5483,11 +5983,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l6-b1-battle-diamond",
+    "id": "r4-l6-b1-battle-diamond-2",
     "rebirth": 4,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -5495,11 +5995,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l6-r9-diamond",
+    "id": "r4-l6-r9-diamond-3",
     "rebirth": 4,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -5507,11 +6007,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l7-r3-rainbow",
+    "id": "r4-l7-r3-rainbow-1",
     "rebirth": 4,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -5519,11 +6019,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l7-b1-security-rainbow",
+    "id": "r4-l7-b1-security-rainbow-2",
     "rebirth": 4,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -5531,11 +6031,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l7-2bb-rainbow",
+    "id": "r4-l7-2bb-rainbow-3",
     "rebirth": 4,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -5543,11 +6043,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l8-r5-rainbow",
+    "id": "r4-l8-r5-rainbow-1",
     "rebirth": 4,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -5555,11 +6055,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l8-r4-rainbow",
+    "id": "r4-l8-r4-rainbow-2",
     "rebirth": 4,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -5567,11 +6067,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l8-bdx-explorer-rainbow",
+    "id": "r4-l8-bdx-explorer-rainbow-3",
     "rebirth": 4,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -5579,11 +6079,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l9-senate-hovercam-rainbow",
+    "id": "r4-l9-senate-hovercam-rainbow-1",
     "rebirth": 4,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "SENATE HOVERCAM",
     "droidId": "senate-hovercam",
@@ -5591,11 +6091,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l9-groundmech-base",
+    "id": "r4-l9-groundmech-base-2",
     "rebirth": 4,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -5603,11 +6103,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l9-trak-r-base",
+    "id": "r4-l9-trak-r-base-3",
     "rebirth": 4,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -5615,11 +6115,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l10-b2-heavy-base",
+    "id": "r4-l10-b2-heavy-base-1",
     "rebirth": 4,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -5627,11 +6127,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l10-b2-super-base",
+    "id": "r4-l10-b2-super-base-2",
     "rebirth": 4,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -5639,11 +6139,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l10-util-tec-base",
+    "id": "r4-l10-util-tec-base-3",
     "rebirth": 4,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -5651,11 +6151,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l11-bal-core-rainbow",
+    "id": "r4-l11-bal-core-rainbow-1",
     "rebirth": 4,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -5663,11 +6163,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l11-groundmech-gold",
+    "id": "r4-l11-groundmech-gold-2",
     "rebirth": 4,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -5675,11 +6175,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l11-trak-r-gold",
+    "id": "r4-l11-trak-r-gold-3",
     "rebirth": 4,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -5687,11 +6187,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l12-b2-super-rainbow",
+    "id": "r4-l12-b2-super-rainbow-1",
     "rebirth": 4,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -5699,11 +6199,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l12-mecha-droid-base",
+    "id": "r4-l12-mecha-droid-base-2",
     "rebirth": 4,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -5711,11 +6211,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l12-proto-roller-base",
+    "id": "r4-l12-proto-roller-base-3",
     "rebirth": 4,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -5723,11 +6223,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l13-bal-core-diamond",
+    "id": "r4-l13-bal-core-diamond-1",
     "rebirth": 4,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -5735,11 +6235,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l13-groundmech-diamond",
+    "id": "r4-l13-groundmech-diamond-2",
     "rebirth": 4,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -5747,11 +6247,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l13-trak-r-rainbow",
+    "id": "r4-l13-trak-r-rainbow-3",
     "rebirth": 4,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -5759,11 +6259,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l14-b2-heavy-diamond",
+    "id": "r4-l14-b2-heavy-diamond-1",
     "rebirth": 4,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -5771,11 +6271,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l14-b2-super-rainbow",
+    "id": "r4-l14-b2-super-rainbow-2",
     "rebirth": 4,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -5783,11 +6283,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l14-b2-rp-base",
+    "id": "r4-l14-b2-rp-base-3",
     "rebirth": 4,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -5795,11 +6295,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l15-util-tec-rainbow",
+    "id": "r4-l15-util-tec-rainbow-1",
     "rebirth": 4,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -5807,11 +6307,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l15-bb9-base",
+    "id": "r4-l15-bb9-base-2",
     "rebirth": 4,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -5819,11 +6319,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l15-r7-gold",
+    "id": "r4-l15-r7-gold-3",
     "rebirth": 4,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -5831,11 +6331,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l16-opti-strk-base",
+    "id": "r4-l16-opti-strk-base-1",
     "rebirth": 4,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -5843,11 +6343,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l16-cyclo-grav-gold",
+    "id": "r4-l16-cyclo-grav-gold-2",
     "rebirth": 4,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -5855,11 +6355,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l16-mecha-droid-gold",
+    "id": "r4-l16-mecha-droid-gold-3",
     "rebirth": 4,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -5867,11 +6367,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l17-b2-rp-gold",
+    "id": "r4-l17-b2-rp-gold-1",
     "rebirth": 4,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -5879,11 +6379,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l17-bb9-gold",
+    "id": "r4-l17-bb9-gold-2",
     "rebirth": 4,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -5891,11 +6391,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l17-r7-diamond",
+    "id": "r4-l17-r7-diamond-3",
     "rebirth": 4,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -5903,11 +6403,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l18-mecha-droid-diamond",
+    "id": "r4-l18-mecha-droid-diamond-1",
     "rebirth": 4,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -5915,11 +6415,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l18-r7-rainbow",
+    "id": "r4-l18-r7-rainbow-2",
     "rebirth": 4,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -5927,11 +6427,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l18-b2-rp-rainbow",
+    "id": "r4-l18-b2-rp-rainbow-3",
     "rebirth": 4,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -5939,11 +6439,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l19-mono-wlkr-rainbow",
+    "id": "r4-l19-mono-wlkr-rainbow-1",
     "rebirth": 4,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -5951,11 +6451,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l19-opti-strk-rainbow",
+    "id": "r4-l19-opti-strk-rainbow-2",
     "rebirth": 4,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -5963,11 +6463,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l19-cyclo-grav-rainbow",
+    "id": "r4-l19-cyclo-grav-rainbow-3",
     "rebirth": 4,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -5975,11 +6475,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l20-amp-walker-beskar",
+    "id": "r4-l20-amp-walker-beskar-1",
     "rebirth": 4,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -5987,11 +6487,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l20-groundmech-beskar",
+    "id": "r4-l20-groundmech-beskar-2",
     "rebirth": 4,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -5999,11 +6499,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l20-haul-r-beskar",
+    "id": "r4-l20-haul-r-beskar-3",
     "rebirth": 4,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -6011,11 +6511,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l21-gunrunner-beskar",
+    "id": "r4-l21-gunrunner-beskar-1",
     "rebirth": 4,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -6023,11 +6523,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l21-strike-orb-beskar",
+    "id": "r4-l21-strike-orb-beskar-2",
     "rebirth": 4,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -6035,11 +6535,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l21-b2-super-beskar",
+    "id": "r4-l21-b2-super-beskar-3",
     "rebirth": 4,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -6047,11 +6547,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l22-mono-wlkr-beskar",
+    "id": "r4-l22-mono-wlkr-beskar-1",
     "rebirth": 4,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -6059,11 +6559,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l22-cyclo-grav-beskar",
+    "id": "r4-l22-cyclo-grav-beskar-2",
     "rebirth": 4,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -6071,11 +6571,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l22-b2-rp-beskar",
+    "id": "r4-l22-b2-rp-beskar-3",
     "rebirth": 4,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -6083,11 +6583,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l23-mecha-droid-beskar",
+    "id": "r4-l23-mecha-droid-beskar-1",
     "rebirth": 4,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -6095,11 +6595,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l23-proto-roller-beskar",
+    "id": "r4-l23-proto-roller-beskar-2",
     "rebirth": 4,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -6107,11 +6607,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l23-mo-trak-base",
+    "id": "r4-l23-mo-trak-base-3",
     "rebirth": 4,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -6119,11 +6619,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l24-opti-strk-beskar",
+    "id": "r4-l24-opti-strk-beskar-1",
     "rebirth": 4,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -6131,11 +6631,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l24-tri-tek-base",
+    "id": "r4-l24-tri-tek-base-2",
     "rebirth": 4,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -6143,11 +6643,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r4-l24-drft-r-gold",
+    "id": "r4-l24-drft-r-gold-3",
     "rebirth": 4,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -6155,11 +6655,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l25-cyclens-gold",
+    "id": "r4-l25-cyclens-gold-1",
     "rebirth": 4,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -6167,11 +6667,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r4-l25-lep-diamond",
+    "id": "r4-l25-lep-diamond-2",
     "rebirth": 4,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -6179,11 +6679,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l25-mo-trak-rainbow",
+    "id": "r4-l25-mo-trak-rainbow-3",
     "rebirth": 4,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -6191,11 +6691,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l26-ric-1200-diamond",
+    "id": "r4-l26-ric-1200-diamond-1",
     "rebirth": 4,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -6203,11 +6703,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r4-l26-snow-mouse-rainbow",
+    "id": "r4-l26-snow-mouse-rainbow-2",
     "rebirth": 4,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -6215,11 +6715,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l26-loadlifter-beskar",
+    "id": "r4-l26-loadlifter-beskar-3",
     "rebirth": 4,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -6227,11 +6727,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l27-opti-strk-galactic",
+    "id": "r4-l27-opti-strk-galactic-1",
     "rebirth": 4,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -6239,11 +6739,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l27-ig-rainbow",
+    "id": "r4-l27-ig-rainbow-2",
     "rebirth": 4,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -6251,11 +6751,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r4-l27-kx-beskar",
+    "id": "r4-l27-kx-beskar-3",
     "rebirth": 4,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -6263,11 +6763,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l28-bb9-galactic",
+    "id": "r4-l28-bb9-galactic-1",
     "rebirth": 4,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -6275,11 +6775,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l28-r7-galactic",
+    "id": "r4-l28-r7-galactic-2",
     "rebirth": 4,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -6287,11 +6787,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l28-tri-tek-beskar",
+    "id": "r4-l28-tri-tek-beskar-3",
     "rebirth": 4,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -6299,11 +6799,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l29-mono-wlkr-galactic",
+    "id": "r4-l29-mono-wlkr-galactic-1",
     "rebirth": 4,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -6311,11 +6811,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l29-cyclens-beskar",
+    "id": "r4-l29-cyclens-beskar-2",
     "rebirth": 4,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -6323,11 +6823,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l29-ig-galactic",
+    "id": "r4-l29-ig-galactic-3",
     "rebirth": 4,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -6335,11 +6835,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l30-trak-r-stellar",
+    "id": "r4-l30-trak-r-stellar-1",
     "rebirth": 4,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -6347,11 +6847,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l30-cyclo-grav-beskar",
+    "id": "r4-l30-cyclo-grav-beskar-2",
     "rebirth": 4,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -6359,11 +6859,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l30-tri-tek-beskar",
+    "id": "r4-l30-tri-tek-beskar-3",
     "rebirth": 4,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -6371,11 +6871,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l31-r2-galactic",
+    "id": "r4-l31-r2-galactic-1",
     "rebirth": 4,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -6383,11 +6883,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l31-r6-galactic",
+    "id": "r4-l31-r6-galactic-2",
     "rebirth": 4,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -6395,11 +6895,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l31-ig-beskar",
+    "id": "r4-l31-ig-beskar-3",
     "rebirth": 4,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -6407,11 +6907,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r4-l32-b2-heavy-stellar",
+    "id": "r4-l32-b2-heavy-stellar-1",
     "rebirth": 4,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -6419,11 +6919,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l32-bb9-galactic",
+    "id": "r4-l32-bb9-galactic-2",
     "rebirth": 4,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -6431,11 +6931,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l32-ric-1200-galactic",
+    "id": "r4-l32-ric-1200-galactic-3",
     "rebirth": 4,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -6443,11 +6943,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l33-strike-orb-stellar",
+    "id": "r4-l33-strike-orb-stellar-1",
     "rebirth": 4,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -6455,11 +6955,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l33-amp-walker-stellar",
+    "id": "r4-l33-amp-walker-stellar-2",
     "rebirth": 4,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -6467,11 +6967,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l33-mo-trak-galactic",
+    "id": "r4-l33-mo-trak-galactic-3",
     "rebirth": 4,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -6479,11 +6979,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r4-l34-b2-rp-stellar",
+    "id": "r4-l34-b2-rp-stellar-1",
     "rebirth": 4,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -6491,11 +6991,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l34-loadlifter-stellar",
+    "id": "r4-l34-loadlifter-stellar-2",
     "rebirth": 4,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -6503,11 +7003,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l34-lep-stellar",
+    "id": "r4-l34-lep-stellar-3",
     "rebirth": 4,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -6515,11 +7015,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r4-l35-nav-ex-kyber",
+    "id": "r4-l35-nav-ex-kyber-1",
     "rebirth": 4,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "NAV-EX",
     "droidId": "nav-ex",
@@ -6527,11 +7027,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l35-bal-core-kyber",
+    "id": "r4-l35-bal-core-kyber-2",
     "rebirth": 4,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -6539,11 +7039,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l35-vect-arm-kyber",
+    "id": "r4-l35-vect-arm-kyber-3",
     "rebirth": 4,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "VECT-ARM",
     "droidId": "vect-arm",
@@ -6551,11 +7051,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l36-sen-tri-kyber",
+    "id": "r4-l36-sen-tri-kyber-1",
     "rebirth": 4,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
@@ -6563,11 +7063,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l36-opti-pod-kyber",
+    "id": "r4-l36-opti-pod-kyber-2",
     "rebirth": 4,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "OPTI-POD",
     "droidId": "opti-pod",
@@ -6575,11 +7075,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l36-gunrunner-kyber",
+    "id": "r4-l36-gunrunner-kyber-3",
     "rebirth": 4,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -6587,11 +7087,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l37-b1-heavy-kyber",
+    "id": "r4-l37-b1-heavy-kyber-1",
     "rebirth": 4,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "B1 HEAVY",
     "droidId": "b1-heavy",
@@ -6599,11 +7099,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l37-groundmech-kyber",
+    "id": "r4-l37-groundmech-kyber-2",
     "rebirth": 4,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -6611,11 +7111,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l37-r7-kyber",
+    "id": "r4-l37-r7-kyber-3",
     "rebirth": 4,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -6623,11 +7123,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l38-proto-roller-kyber",
+    "id": "r4-l38-proto-roller-kyber-1",
     "rebirth": 4,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -6635,11 +7135,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l38-b2-rp-kyber",
+    "id": "r4-l38-b2-rp-kyber-2",
     "rebirth": 4,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -6647,11 +7147,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l38-snow-mouse-kyber",
+    "id": "r4-l38-snow-mouse-kyber-3",
     "rebirth": 4,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -6659,11 +7159,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l39-drft-r-kyber",
+    "id": "r4-l39-drft-r-kyber-1",
     "rebirth": 4,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -6671,11 +7171,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l39-cyclens-kyber",
+    "id": "r4-l39-cyclens-kyber-2",
     "rebirth": 4,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -6683,11 +7183,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r4-l39-kx-kyber",
+    "id": "r4-l39-kx-kyber-3",
     "rebirth": 4,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "KX",
     "droidId": "kx",
@@ -6695,11 +7195,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l0-id10-base",
+    "id": "r5-l0-id10-base-1",
     "rebirth": 5,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "ID10",
     "droidId": "id10",
@@ -6707,11 +7207,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l0-mouse-base",
+    "id": "r5-l0-mouse-base-2",
     "rebirth": 5,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "MOUSE",
     "droidId": "mouse",
@@ -6719,11 +7219,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l0-gonk-base",
+    "id": "r5-l0-gonk-base-3",
     "rebirth": 5,
     "fromLevel": 0,
     "toLevel": 1,
-    "levelLabel": "0→1",
+    "levelLabel": "0",
     "credits": "10K CREDITS",
     "droidName": "GONK",
     "droidId": "gonk",
@@ -6731,11 +7231,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l1-imperial-probe-gold",
+    "id": "r5-l1-imperial-probe-gold-1",
     "rebirth": 5,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "IMPERIAL PROBE",
     "droidId": "imperial-probe",
@@ -6743,11 +7243,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l1-2bb-base",
+    "id": "r5-l1-2bb-base-2",
     "rebirth": 5,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -6755,11 +7255,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l1-roll-r-base",
+    "id": "r5-l1-roll-r-base-3",
     "rebirth": 5,
     "fromLevel": 1,
     "toLevel": 2,
-    "levelLabel": "1→2",
+    "levelLabel": "1",
     "credits": "150K CREDITS",
     "droidName": "ROLL-R",
     "droidId": "roll-r",
@@ -6767,11 +7267,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l2-r4-base",
+    "id": "r5-l2-r4-base-1",
     "rebirth": 5,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -6779,11 +7279,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l2-vect-arm-base",
+    "id": "r5-l2-vect-arm-base-2",
     "rebirth": 5,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "VECT-ARM",
     "droidId": "vect-arm",
@@ -6791,11 +7291,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l2-bdx-explorer-gold",
+    "id": "r5-l2-bdx-explorer-gold-3",
     "rebirth": 5,
     "fromLevel": 2,
     "toLevel": 3,
-    "levelLabel": "2→3",
+    "levelLabel": "2",
     "credits": "975K CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -6803,11 +7303,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l3-b1-battle-gold",
+    "id": "r5-l3-b1-battle-gold-1",
     "rebirth": 5,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -6815,11 +7315,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l3-r9-gold",
+    "id": "r5-l3-r9-gold-2",
     "rebirth": 5,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "R9",
     "droidId": "r9",
@@ -6827,11 +7327,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l3-b1-security-gold",
+    "id": "r5-l3-b1-security-gold-3",
     "rebirth": 5,
     "fromLevel": 3,
     "toLevel": 4,
-    "levelLabel": "3→4",
+    "levelLabel": "3",
     "credits": "2.95M CREDITS",
     "droidName": "B1 SECURITY",
     "droidId": "b1-security",
@@ -6839,11 +7339,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l4-r3-gold",
+    "id": "r5-l4-r3-gold-1",
     "rebirth": 5,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R3",
     "droidId": "r3",
@@ -6851,11 +7351,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l4-bal-core-gold",
+    "id": "r5-l4-bal-core-gold-2",
     "rebirth": 5,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -6863,11 +7363,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l4-r4-gold",
+    "id": "r5-l4-r4-gold-3",
     "rebirth": 5,
     "fromLevel": 4,
     "toLevel": 5,
-    "levelLabel": "4→5",
+    "levelLabel": "4",
     "credits": "5.35M CREDITS",
     "droidName": "R4",
     "droidId": "r4",
@@ -6875,11 +7375,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l5-2bb-diamond",
+    "id": "r5-l5-2bb-diamond-1",
     "rebirth": 5,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "2BB",
     "droidId": "2bb",
@@ -6887,11 +7387,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l5-bdx-explorer-diamond",
+    "id": "r5-l5-bdx-explorer-diamond-2",
     "rebirth": 5,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "BDX EXPLORER",
     "droidId": "bdx-explorer",
@@ -6899,11 +7399,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l5-gunrunner-base",
+    "id": "r5-l5-gunrunner-base-3",
     "rebirth": 5,
     "fromLevel": 5,
     "toLevel": 6,
-    "levelLabel": "5→6",
+    "levelLabel": "5",
     "credits": "9.85M CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -6911,11 +7411,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l6-r5-diamond",
+    "id": "r5-l6-r5-diamond-1",
     "rebirth": 5,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R5",
     "droidId": "r5",
@@ -6923,11 +7423,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l6-roll-r-diamond",
+    "id": "r5-l6-roll-r-diamond-2",
     "rebirth": 5,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "ROLL-R",
     "droidId": "roll-r",
@@ -6935,11 +7435,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l6-r2-gold",
+    "id": "r5-l6-r2-gold-3",
     "rebirth": 5,
     "fromLevel": 6,
     "toLevel": 7,
-    "levelLabel": "6→7",
+    "levelLabel": "6",
     "credits": "14.5M CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -6947,11 +7447,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l7-r8-diamond",
+    "id": "r5-l7-r8-diamond-1",
     "rebirth": 5,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "R8",
     "droidId": "r8",
@@ -6959,11 +7459,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l7-b1-battle-diamond",
+    "id": "r5-l7-b1-battle-diamond-2",
     "rebirth": 5,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "B1 BATTLE",
     "droidId": "b1-battle",
@@ -6971,11 +7471,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l7-b2-super-gold",
+    "id": "r5-l7-b2-super-gold-3",
     "rebirth": 5,
     "fromLevel": 7,
     "toLevel": 8,
-    "levelLabel": "7→8",
+    "levelLabel": "7",
     "credits": "36M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -6983,11 +7483,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l8-nav-ex-rainbow",
+    "id": "r5-l8-nav-ex-rainbow-1",
     "rebirth": 5,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "NAV-EX",
     "droidId": "nav-ex",
@@ -6995,11 +7495,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l8-strike-orb-gold",
+    "id": "r5-l8-strike-orb-gold-2",
     "rebirth": 5,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -7007,11 +7507,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l8-amp-walker-gold",
+    "id": "r5-l8-amp-walker-gold-3",
     "rebirth": 5,
     "fromLevel": 8,
     "toLevel": 9,
-    "levelLabel": "8→9",
+    "levelLabel": "8",
     "credits": "89M CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -7019,11 +7519,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l9-imperial-probe-beskar",
+    "id": "r5-l9-imperial-probe-beskar-1",
     "rebirth": 5,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "IMPERIAL PROBE",
     "droidId": "imperial-probe",
@@ -7031,11 +7531,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l9-groundmech-base",
+    "id": "r5-l9-groundmech-base-2",
     "rebirth": 5,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -7043,11 +7543,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l9-trak-r-base",
+    "id": "r5-l9-trak-r-base-3",
     "rebirth": 5,
     "fromLevel": 9,
     "toLevel": 10,
-    "levelLabel": "9→10",
+    "levelLabel": "9",
     "credits": "220M CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -7055,11 +7555,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l10-b2-heavy-base",
+    "id": "r5-l10-b2-heavy-base-1",
     "rebirth": 5,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -7067,11 +7567,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l10-b2-super-base",
+    "id": "r5-l10-b2-super-base-2",
     "rebirth": 5,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -7079,11 +7579,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l10-util-tec-base",
+    "id": "r5-l10-util-tec-base-3",
     "rebirth": 5,
     "fromLevel": 10,
     "toLevel": 11,
-    "levelLabel": "10→11",
+    "levelLabel": "10",
     "credits": "550M CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -7091,11 +7591,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l11-bal-core-rainbow",
+    "id": "r5-l11-bal-core-rainbow-1",
     "rebirth": 5,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "BAL-CORE",
     "droidId": "bal-core",
@@ -7103,11 +7603,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l11-groundmech-gold",
+    "id": "r5-l11-groundmech-gold-2",
     "rebirth": 5,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -7115,11 +7615,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l11-trak-r-gold",
+    "id": "r5-l11-trak-r-gold-3",
     "rebirth": 5,
     "fromLevel": 11,
     "toLevel": 12,
-    "levelLabel": "11→12",
+    "levelLabel": "11",
     "credits": "1.36B CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -7127,11 +7627,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l12-b2-super-gold",
+    "id": "r5-l12-b2-super-gold-1",
     "rebirth": 5,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -7139,11 +7639,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l12-b2-heavy-gold",
+    "id": "r5-l12-b2-heavy-gold-2",
     "rebirth": 5,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -7151,11 +7651,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l12-r2-diamond",
+    "id": "r5-l12-r2-diamond-3",
     "rebirth": 5,
     "fromLevel": 12,
     "toLevel": 13,
-    "levelLabel": "12→13",
+    "levelLabel": "12",
     "credits": "3.40B CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -7163,11 +7663,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l13-groundmech-diamond",
+    "id": "r5-l13-groundmech-diamond-1",
     "rebirth": 5,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "GROUNDMECH",
     "droidId": "groundmech",
@@ -7175,11 +7675,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l13-trak-r-diamond",
+    "id": "r5-l13-trak-r-diamond-2",
     "rebirth": 5,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -7187,11 +7687,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l13-util-tec-rainbow",
+    "id": "r5-l13-util-tec-rainbow-3",
     "rebirth": 5,
     "fromLevel": 13,
     "toLevel": 14,
-    "levelLabel": "13→14",
+    "levelLabel": "13",
     "credits": "8.45B CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -7199,11 +7699,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l14-b2-heavy-diamond",
+    "id": "r5-l14-b2-heavy-diamond-1",
     "rebirth": 5,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2 HEAVY",
     "droidId": "b2-heavy",
@@ -7211,11 +7711,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l14-b2-super-diamond",
+    "id": "r5-l14-b2-super-diamond-2",
     "rebirth": 5,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2 SUPER",
     "droidId": "b2-super",
@@ -7223,11 +7723,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l14-b2-rp-base",
+    "id": "r5-l14-b2-rp-base-3",
     "rebirth": 5,
     "fromLevel": 14,
     "toLevel": 15,
-    "levelLabel": "14→15",
+    "levelLabel": "14",
     "credits": "21.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -7235,11 +7735,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l15-bb9-base",
+    "id": "r5-l15-bb9-base-1",
     "rebirth": 5,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -7247,11 +7747,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l15-r7-gold",
+    "id": "r5-l15-r7-gold-2",
     "rebirth": 5,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -7259,11 +7759,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l15-proto-roller-gold",
+    "id": "r5-l15-proto-roller-gold-3",
     "rebirth": 5,
     "fromLevel": 15,
     "toLevel": 16,
-    "levelLabel": "15→16",
+    "levelLabel": "15",
     "credits": "52.00B CREDITS",
     "droidName": "PROTO-ROLLER",
     "droidId": "proto-roller",
@@ -7271,11 +7771,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l16-opti-strk-base",
+    "id": "r5-l16-opti-strk-base-1",
     "rebirth": 5,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -7283,11 +7783,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l16-cyclo-grav-gold",
+    "id": "r5-l16-cyclo-grav-gold-2",
     "rebirth": 5,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -7295,11 +7795,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l16-mecha-droid-gold",
+    "id": "r5-l16-mecha-droid-gold-3",
     "rebirth": 5,
     "fromLevel": 16,
     "toLevel": 17,
-    "levelLabel": "16→17",
+    "levelLabel": "16",
     "credits": "130.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -7307,11 +7807,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l17-bb9-gold",
+    "id": "r5-l17-bb9-gold-1",
     "rebirth": 5,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -7319,11 +7819,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l17-b2-rp-gold",
+    "id": "r5-l17-b2-rp-gold-2",
     "rebirth": 5,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -7331,11 +7831,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l17-r7-diamond",
+    "id": "r5-l17-r7-diamond-3",
     "rebirth": 5,
     "fromLevel": 17,
     "toLevel": 18,
-    "levelLabel": "17→18",
+    "levelLabel": "17",
     "credits": "325.00B CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -7343,11 +7843,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l18-opti-strk-diamond",
+    "id": "r5-l18-opti-strk-diamond-1",
     "rebirth": 5,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -7355,11 +7855,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l18-cyclo-grav-diamond",
+    "id": "r5-l18-cyclo-grav-diamond-2",
     "rebirth": 5,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -7367,11 +7867,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l18-mecha-droid-rainbow",
+    "id": "r5-l18-mecha-droid-rainbow-3",
     "rebirth": 5,
     "fromLevel": 18,
     "toLevel": 19,
-    "levelLabel": "18→19",
+    "levelLabel": "18",
     "credits": "810.00B CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -7379,11 +7879,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l19-b2-rp-rainbow",
+    "id": "r5-l19-b2-rp-rainbow-1",
     "rebirth": 5,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -7391,11 +7891,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l19-bb9-rainbow",
+    "id": "r5-l19-bb9-rainbow-2",
     "rebirth": 5,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -7403,11 +7903,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l19-r7-rainbow",
+    "id": "r5-l19-r7-rainbow-3",
     "rebirth": 5,
     "fromLevel": 19,
     "toLevel": 20,
-    "levelLabel": "19→20",
+    "levelLabel": "19",
     "credits": "2.00T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -7415,11 +7915,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l20-lo-beskar",
+    "id": "r5-l20-lo-beskar-1",
     "rebirth": 5,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -7427,11 +7927,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l20-strike-orb-beskar",
+    "id": "r5-l20-strike-orb-beskar-2",
     "rebirth": 5,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "STRIKE-ORB",
     "droidId": "strike-orb",
@@ -7439,11 +7939,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l20-haul-r-beskar",
+    "id": "r5-l20-haul-r-beskar-3",
     "rebirth": 5,
     "fromLevel": 20,
     "toLevel": 21,
-    "levelLabel": "20→21",
+    "levelLabel": "20",
     "credits": "3.00T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -7451,11 +7951,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l21-sen-tri-beskar",
+    "id": "r5-l21-sen-tri-beskar-1",
     "rebirth": 5,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "SEN-TRI",
     "droidId": "sen-tri",
@@ -7463,11 +7963,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l21-r6-beskar",
+    "id": "r5-l21-r6-beskar-2",
     "rebirth": 5,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -7475,11 +7975,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l21-gunrunner-beskar",
+    "id": "r5-l21-gunrunner-beskar-3",
     "rebirth": 5,
     "fromLevel": 21,
     "toLevel": 22,
-    "levelLabel": "21→22",
+    "levelLabel": "21",
     "credits": "4.50T CREDITS",
     "droidName": "GUNRUNNER",
     "droidId": "gunrunner",
@@ -7487,11 +7987,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l22-bb9-beskar",
+    "id": "r5-l22-bb9-beskar-1",
     "rebirth": 5,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -7499,11 +7999,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l22-cyclo-grav-beskar",
+    "id": "r5-l22-cyclo-grav-beskar-2",
     "rebirth": 5,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -7511,11 +8011,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l22-b2-rp-beskar",
+    "id": "r5-l22-b2-rp-beskar-3",
     "rebirth": 5,
     "fromLevel": 22,
     "toLevel": 23,
-    "levelLabel": "22→23",
+    "levelLabel": "22",
     "credits": "6.00T CREDITS",
     "droidName": "B2-RP",
     "droidId": "b2-rp",
@@ -7523,11 +8023,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l23-mono-wlkr-beskar",
+    "id": "r5-l23-mono-wlkr-beskar-1",
     "rebirth": 5,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "MONO-WLKR",
     "droidId": "mono-wlkr",
@@ -7535,11 +8035,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l23-opti-strk-beskar",
+    "id": "r5-l23-opti-strk-beskar-2",
     "rebirth": 5,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -7547,11 +8047,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l23-mo-trak-base",
+    "id": "r5-l23-mo-trak-base-3",
     "rebirth": 5,
     "fromLevel": 23,
     "toLevel": 24,
-    "levelLabel": "23→24",
+    "levelLabel": "23",
     "credits": "9.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -7559,11 +8059,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l24-mecha-droid-beskar",
+    "id": "r5-l24-mecha-droid-beskar-1",
     "rebirth": 5,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -7571,11 +8071,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l24-ric-base",
+    "id": "r5-l24-ric-base-2",
     "rebirth": 5,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -7583,11 +8083,11 @@ export const requirements = [
     "requiredVariant": "BASE"
   },
   {
-    "id": "r5-l24-tri-tek-gold",
+    "id": "r5-l24-tri-tek-gold-3",
     "rebirth": 5,
     "fromLevel": 24,
     "toLevel": 25,
-    "levelLabel": "24→25",
+    "levelLabel": "24",
     "credits": "13.50T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -7595,11 +8095,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l25-cyclens-gold",
+    "id": "r5-l25-cyclens-gold-1",
     "rebirth": 5,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -7607,11 +8107,11 @@ export const requirements = [
     "requiredVariant": "GOLD"
   },
   {
-    "id": "r5-l25-lep-diamond",
+    "id": "r5-l25-lep-diamond-2",
     "rebirth": 5,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -7619,11 +8119,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l25-snow-mouse-rainbow",
+    "id": "r5-l25-snow-mouse-rainbow-3",
     "rebirth": 5,
     "fromLevel": 25,
     "toLevel": 26,
-    "levelLabel": "25→26",
+    "levelLabel": "25",
     "credits": "21.00T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -7631,11 +8131,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l26-ric-1200-diamond",
+    "id": "r5-l26-ric-1200-diamond-1",
     "rebirth": 5,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -7643,11 +8143,11 @@ export const requirements = [
     "requiredVariant": "DIAMOND"
   },
   {
-    "id": "r5-l26-ig-rainbow",
+    "id": "r5-l26-ig-rainbow-2",
     "rebirth": 5,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -7655,11 +8155,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l26-loadlifter-beskar",
+    "id": "r5-l26-loadlifter-beskar-3",
     "rebirth": 5,
     "fromLevel": 26,
     "toLevel": 27,
-    "levelLabel": "26→27",
+    "levelLabel": "26",
     "credits": "32.00T CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -7667,11 +8167,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l27-bb9-galactic",
+    "id": "r5-l27-bb9-galactic-1",
     "rebirth": 5,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "BB9",
     "droidId": "bb9",
@@ -7679,11 +8179,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l27-ric-rainbow",
+    "id": "r5-l27-ric-rainbow-2",
     "rebirth": 5,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -7691,11 +8191,11 @@ export const requirements = [
     "requiredVariant": "RAINBOW"
   },
   {
-    "id": "r5-l27-mo-trak-beskar",
+    "id": "r5-l27-mo-trak-beskar-3",
     "rebirth": 5,
     "fromLevel": 27,
     "toLevel": 28,
-    "levelLabel": "27→28",
+    "levelLabel": "27",
     "credits": "45.00T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -7703,11 +8203,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l28-mecha-droid-galactic",
+    "id": "r5-l28-mecha-droid-galactic-1",
     "rebirth": 5,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -7715,11 +8215,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l28-opti-strk-galactic",
+    "id": "r5-l28-opti-strk-galactic-2",
     "rebirth": 5,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -7727,11 +8227,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l28-ig-beskar",
+    "id": "r5-l28-ig-beskar-3",
     "rebirth": 5,
     "fromLevel": 28,
     "toLevel": 29,
-    "levelLabel": "28→29",
+    "levelLabel": "28",
     "credits": "68.00T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -7739,11 +8239,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l29-r7-galactic",
+    "id": "r5-l29-r7-galactic-1",
     "rebirth": 5,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -7751,11 +8251,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l29-lep-beskar",
+    "id": "r5-l29-lep-beskar-2",
     "rebirth": 5,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -7763,11 +8263,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l29-cyclens-galactic",
+    "id": "r5-l29-cyclens-galactic-3",
     "rebirth": 5,
     "fromLevel": 29,
     "toLevel": 30,
-    "levelLabel": "29→30",
+    "levelLabel": "29",
     "credits": "100T CREDITS",
     "droidName": "CYCLENS",
     "droidId": "cyclens",
@@ -7775,11 +8275,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l30-amp-walker-stellar",
+    "id": "r5-l30-amp-walker-stellar-1",
     "rebirth": 5,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "AMP WALKER",
     "droidId": "amp-walker",
@@ -7787,11 +8287,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l30-opti-strk-beskar",
+    "id": "r5-l30-opti-strk-beskar-2",
     "rebirth": 5,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -7799,11 +8299,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l30-snow-mouse-beskar",
+    "id": "r5-l30-snow-mouse-beskar-3",
     "rebirth": 5,
     "fromLevel": 30,
     "toLevel": 31,
-    "levelLabel": "30→31",
+    "levelLabel": "30",
     "credits": "150T CREDITS",
     "droidName": "SNOW MOUSE",
     "droidId": "snow-mouse",
@@ -7811,11 +8311,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l31-lo-galactic",
+    "id": "r5-l31-lo-galactic-1",
     "rebirth": 5,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -7823,11 +8323,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l31-trak-r-galactic",
+    "id": "r5-l31-trak-r-galactic-2",
     "rebirth": 5,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -7835,11 +8335,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l31-drft-r-beskar",
+    "id": "r5-l31-drft-r-beskar-3",
     "rebirth": 5,
     "fromLevel": 31,
     "toLevel": 32,
-    "levelLabel": "31→32",
+    "levelLabel": "31",
     "credits": "230T CREDITS",
     "droidName": "DRFT-R",
     "droidId": "drft-r",
@@ -7847,11 +8347,11 @@ export const requirements = [
     "requiredVariant": "BESKAR"
   },
   {
-    "id": "r5-l32-util-tec-stellar",
+    "id": "r5-l32-util-tec-stellar-1",
     "rebirth": 5,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "UTIL-TEC",
     "droidId": "util-tec",
@@ -7859,11 +8359,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l32-r7-galactic",
+    "id": "r5-l32-r7-galactic-2",
     "rebirth": 5,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "R7",
     "droidId": "r7",
@@ -7871,11 +8371,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l32-tri-tek-galactic",
+    "id": "r5-l32-tri-tek-galactic-3",
     "rebirth": 5,
     "fromLevel": 32,
     "toLevel": 33,
-    "levelLabel": "32→33",
+    "levelLabel": "32",
     "credits": "345T CREDITS",
     "droidName": "TRI-TEK",
     "droidId": "tri-tek",
@@ -7883,11 +8383,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l33-haul-r-stellar",
+    "id": "r5-l33-haul-r-stellar-1",
     "rebirth": 5,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "HAUL-R",
     "droidId": "haul-r",
@@ -7895,11 +8395,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l33-lng-shot-stellar",
+    "id": "r5-l33-lng-shot-stellar-2",
     "rebirth": 5,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "LNG-SHOT",
     "droidId": "lng-shot",
@@ -7907,11 +8407,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l33-ig-galactic",
+    "id": "r5-l33-ig-galactic-3",
     "rebirth": 5,
     "fromLevel": 33,
     "toLevel": 34,
-    "levelLabel": "33→34",
+    "levelLabel": "33",
     "credits": "520T CREDITS",
     "droidName": "IG",
     "droidId": "ig",
@@ -7919,11 +8419,11 @@ export const requirements = [
     "requiredVariant": "GALACTIC"
   },
   {
-    "id": "r5-l34-mecha-droid-stellar",
+    "id": "r5-l34-mecha-droid-stellar-1",
     "rebirth": 5,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -7931,11 +8431,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l34-ric-1200-stellar",
+    "id": "r5-l34-ric-1200-stellar-2",
     "rebirth": 5,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
@@ -7943,11 +8443,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l34-mo-trak-stellar",
+    "id": "r5-l34-mo-trak-stellar-3",
     "rebirth": 5,
     "fromLevel": 34,
     "toLevel": 35,
-    "levelLabel": "34→35",
+    "levelLabel": "34",
     "credits": "778T CREDITS",
     "droidName": "MO-TRAK",
     "droidId": "mo-trak",
@@ -7955,11 +8455,11 @@ export const requirements = [
     "requiredVariant": "STELLAR"
   },
   {
-    "id": "r5-l35-mouse-kyber",
+    "id": "r5-l35-mouse-kyber-1",
     "rebirth": 5,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "MOUSE",
     "droidId": "mouse",
@@ -7967,11 +8467,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l35-roll-r-kyber",
+    "id": "r5-l35-roll-r-kyber-2",
     "rebirth": 5,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "ROLL-R",
     "droidId": "roll-r",
@@ -7979,11 +8479,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l35-hov-r-kyber",
+    "id": "r5-l35-hov-r-kyber-3",
     "rebirth": 5,
     "fromLevel": 35,
     "toLevel": 36,
-    "levelLabel": "35→36",
+    "levelLabel": "35",
     "credits": "1.19Qa CREDITS",
     "droidName": "HOV-R",
     "droidId": "hov-r",
@@ -7991,11 +8491,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l36-bb-kyber",
+    "id": "r5-l36-bb-kyber-1",
     "rebirth": 5,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "BB",
     "droidId": "bb",
@@ -8003,11 +8503,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l36-r2-kyber",
+    "id": "r5-l36-r2-kyber-2",
     "rebirth": 5,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "R2",
     "droidId": "r2",
@@ -8015,11 +8515,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l36-r6-kyber",
+    "id": "r5-l36-r6-kyber-3",
     "rebirth": 5,
     "fromLevel": 36,
     "toLevel": 37,
-    "levelLabel": "36→37",
+    "levelLabel": "36",
     "credits": "2.50Qa CREDITS",
     "droidName": "R6",
     "droidId": "r6",
@@ -8027,11 +8527,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l37-lo-kyber",
+    "id": "r5-l37-lo-kyber-1",
     "rebirth": 5,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "LO",
     "droidId": "lo",
@@ -8039,11 +8539,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l37-trak-r-kyber",
+    "id": "r5-l37-trak-r-kyber-2",
     "rebirth": 5,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "TRAK-R",
     "droidId": "trak-r",
@@ -8051,11 +8551,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l37-mecha-droid-kyber",
+    "id": "r5-l37-mecha-droid-kyber-3",
     "rebirth": 5,
     "fromLevel": 37,
     "toLevel": 38,
-    "levelLabel": "37→38",
+    "levelLabel": "37",
     "credits": "4.50Qa CREDITS",
     "droidName": "MECHA-DROID",
     "droidId": "mecha-droid",
@@ -8063,11 +8563,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l38-cyclo-grav-kyber",
+    "id": "r5-l38-cyclo-grav-kyber-1",
     "rebirth": 5,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "CYCLO-GRAV",
     "droidId": "cyclo-grav",
@@ -8075,11 +8575,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l38-opti-strk-kyber",
+    "id": "r5-l38-opti-strk-kyber-2",
     "rebirth": 5,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "OPTI-STRK",
     "droidId": "opti-strk",
@@ -8087,11 +8587,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l38-ric-kyber",
+    "id": "r5-l38-ric-kyber-3",
     "rebirth": 5,
     "fromLevel": 38,
     "toLevel": 39,
-    "levelLabel": "38→39",
+    "levelLabel": "38",
     "credits": "8.00Qa CREDITS",
     "droidName": "RIC",
     "droidId": "ric",
@@ -8099,11 +8599,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l39-loadlifter-kyber",
+    "id": "r5-l39-loadlifter-kyber-1",
     "rebirth": 5,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "LOADLIFTER",
     "droidId": "loadlifter",
@@ -8111,11 +8611,11 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l39-lep-kyber",
+    "id": "r5-l39-lep-kyber-2",
     "rebirth": 5,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "LEP",
     "droidId": "lep",
@@ -8123,18 +8623,1458 @@ export const requirements = [
     "requiredVariant": "KYBER"
   },
   {
-    "id": "r5-l39-ric-1200-kyber",
+    "id": "r5-l39-ric-1200-kyber-3",
     "rebirth": 5,
     "fromLevel": 39,
     "toLevel": 40,
-    "levelLabel": "39→40",
+    "levelLabel": "39",
     "credits": "15.00Qa CREDITS",
     "droidName": "RIC-1200",
     "droidId": "ric-1200",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l0-gonk-base-1",
+    "rebirth": 6,
+    "fromLevel": 0,
+    "toLevel": 1,
+    "levelLabel": "0",
+    "credits": "10K CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l0-mouse-base-2",
+    "rebirth": 6,
+    "fromLevel": 0,
+    "toLevel": 1,
+    "levelLabel": "0",
+    "credits": "10K CREDITS",
+    "droidName": "MOUSE",
+    "droidId": "mouse",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l0-id10-base-3",
+    "rebirth": 6,
+    "fromLevel": 0,
+    "toLevel": 1,
+    "levelLabel": "0",
+    "credits": "10K CREDITS",
+    "droidName": "ID10",
+    "droidId": "id10",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l1-pit-base-1",
+    "rebirth": 6,
+    "fromLevel": 1,
+    "toLevel": 2,
+    "levelLabel": "1",
+    "credits": "150K CREDITS",
+    "droidName": "PIT",
+    "droidId": "pit",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l1-eg-58-base-2",
+    "rebirth": 6,
+    "fromLevel": 1,
+    "toLevel": 2,
+    "levelLabel": "1",
+    "credits": "150K CREDITS",
+    "droidName": "EG-58",
+    "droidId": "eg-58",
+    "requiredRarity": "RARE",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l1-2bb-base-3",
+    "rebirth": 6,
+    "fromLevel": 1,
+    "toLevel": 2,
+    "levelLabel": "1",
+    "credits": "150K CREDITS",
+    "droidName": "2BB",
+    "droidId": "2bb",
+    "requiredRarity": "RARE",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l2-r3-base-1",
+    "rebirth": 6,
+    "fromLevel": 2,
+    "toLevel": 3,
+    "levelLabel": "2",
+    "credits": "975K CREDITS",
+    "droidName": "R3",
+    "droidId": "r3",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l2-r4-base-2",
+    "rebirth": 6,
+    "fromLevel": 2,
+    "toLevel": 3,
+    "levelLabel": "2",
+    "credits": "975K CREDITS",
+    "droidName": "R4",
+    "droidId": "r4",
+    "requiredRarity": "RARE",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l2-roll-r-base-3",
+    "rebirth": 6,
+    "fromLevel": 2,
+    "toLevel": 3,
+    "levelLabel": "2",
+    "credits": "975K CREDITS",
+    "droidName": "ROLL-R",
+    "droidId": "roll-r",
+    "requiredRarity": "RARE",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l3-eg-58-gold-1",
+    "rebirth": 6,
+    "fromLevel": 3,
+    "toLevel": 4,
+    "levelLabel": "3",
+    "credits": "2.95M CREDITS",
+    "droidName": "EG-58",
+    "droidId": "eg-58",
+    "requiredRarity": "RARE",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l3-r9-gold-2",
+    "rebirth": 6,
+    "fromLevel": 3,
+    "toLevel": 4,
+    "levelLabel": "3",
+    "credits": "2.95M CREDITS",
+    "droidName": "R9",
+    "droidId": "r9",
+    "requiredRarity": "RARE",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l3-b1-security-gold-3",
+    "rebirth": 6,
+    "fromLevel": 3,
+    "toLevel": 4,
+    "levelLabel": "3",
+    "credits": "2.95M CREDITS",
+    "droidName": "B1 SECURITY",
+    "droidId": "b1-security",
+    "requiredRarity": "RARE",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l4-gonk-gold-1",
+    "rebirth": 6,
+    "fromLevel": 4,
+    "toLevel": 5,
+    "levelLabel": "4",
+    "credits": "5.35M CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l4-r5-gold-2",
+    "rebirth": 6,
+    "fromLevel": 4,
+    "toLevel": 5,
+    "levelLabel": "4",
+    "credits": "5.35M CREDITS",
+    "droidName": "R5",
+    "droidId": "r5",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l4-vect-arm-gold-3",
+    "rebirth": 6,
+    "fromLevel": 4,
+    "toLevel": 5,
+    "levelLabel": "4",
+    "credits": "5.35M CREDITS",
+    "droidName": "VECT-ARM",
+    "droidId": "vect-arm",
+    "requiredRarity": "RARE",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l5-eg-58-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 5,
+    "toLevel": 6,
+    "levelLabel": "5",
+    "credits": "9.85M CREDITS",
+    "droidName": "EG-58",
+    "droidId": "eg-58",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l5-2bb-diamond-2",
+    "rebirth": 6,
+    "fromLevel": 5,
+    "toLevel": 6,
+    "levelLabel": "5",
+    "credits": "9.85M CREDITS",
+    "droidName": "2BB",
+    "droidId": "2bb",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l5-egl-base-3",
+    "rebirth": 6,
+    "fromLevel": 5,
+    "toLevel": 6,
+    "levelLabel": "5",
+    "credits": "9.85M CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l6-r4-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 6,
+    "toLevel": 7,
+    "levelLabel": "6",
+    "credits": "14.5M CREDITS",
+    "droidName": "R4",
+    "droidId": "r4",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l6-r9-diamond-2",
+    "rebirth": 6,
+    "fromLevel": 6,
+    "toLevel": 7,
+    "levelLabel": "6",
+    "credits": "14.5M CREDITS",
+    "droidName": "R9",
+    "droidId": "r9",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l6-kt-base-3",
+    "rebirth": 6,
+    "fromLevel": 6,
+    "toLevel": 7,
+    "levelLabel": "6",
+    "credits": "14.5M CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l7-b1-security-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 7,
+    "toLevel": 8,
+    "levelLabel": "7",
+    "credits": "36M CREDITS",
+    "droidName": "B1 SECURITY",
+    "droidId": "b1-security",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l7-nav-ex-diamond-2",
+    "rebirth": 6,
+    "fromLevel": 7,
+    "toLevel": 8,
+    "levelLabel": "7",
+    "credits": "36M CREDITS",
+    "droidName": "NAV-EX",
+    "droidId": "nav-ex",
+    "requiredRarity": "RARE",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l7-mph-base-3",
+    "rebirth": 6,
+    "fromLevel": 7,
+    "toLevel": 8,
+    "levelLabel": "7",
+    "credits": "36M CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l8-gonk-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 8,
+    "toLevel": 9,
+    "levelLabel": "8",
+    "credits": "89M CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l8-egl-gold-2",
+    "rebirth": 6,
+    "fromLevel": 8,
+    "toLevel": 9,
+    "levelLabel": "8",
+    "credits": "89M CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l8-strike-orb-gold-3",
+    "rebirth": 6,
+    "fromLevel": 8,
+    "toLevel": 9,
+    "levelLabel": "8",
+    "credits": "89M CREDITS",
+    "droidName": "STRIKE-ORB",
+    "droidId": "strike-orb",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l9-groundmech-base-1",
+    "rebirth": 6,
+    "fromLevel": 9,
+    "toLevel": 10,
+    "levelLabel": "9",
+    "credits": "220M CREDITS",
+    "droidName": "GROUNDMECH",
+    "droidId": "groundmech",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l9-trak-r-base-2",
+    "rebirth": 6,
+    "fromLevel": 9,
+    "toLevel": 10,
+    "levelLabel": "9",
+    "credits": "220M CREDITS",
+    "droidName": "TRAK-R",
+    "droidId": "trak-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l9-amp-walker-base-3",
+    "rebirth": 6,
+    "fromLevel": 9,
+    "toLevel": 10,
+    "levelLabel": "9",
+    "credits": "220M CREDITS",
+    "droidName": "AMP WALKER",
+    "droidId": "amp-walker",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l10-b2-super-base-1",
+    "rebirth": 6,
+    "fromLevel": 10,
+    "toLevel": 11,
+    "levelLabel": "10",
+    "credits": "550M CREDITS",
+    "droidName": "B2 SUPER",
+    "droidId": "b2-super",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l10-haul-r-base-2",
+    "rebirth": 6,
+    "fromLevel": 10,
+    "toLevel": 11,
+    "levelLabel": "10",
+    "credits": "550M CREDITS",
+    "droidName": "HAUL-R",
+    "droidId": "haul-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l10-r2-base-3",
+    "rebirth": 6,
+    "fromLevel": 10,
+    "toLevel": 11,
+    "levelLabel": "10",
+    "credits": "550M CREDITS",
+    "droidName": "R2",
+    "droidId": "r2",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l11-gonk-rainbow-1",
+    "rebirth": 6,
+    "fromLevel": 11,
+    "toLevel": 12,
+    "levelLabel": "11",
+    "credits": "1.36B CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l11-groundmech-gold-2",
+    "rebirth": 6,
+    "fromLevel": 11,
+    "toLevel": 12,
+    "levelLabel": "11",
+    "credits": "1.36B CREDITS",
+    "droidName": "GROUNDMECH",
+    "droidId": "groundmech",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l11-trak-r-gold-3",
+    "rebirth": 6,
+    "fromLevel": 11,
+    "toLevel": 12,
+    "levelLabel": "11",
+    "credits": "1.36B CREDITS",
+    "droidName": "TRAK-R",
+    "droidId": "trak-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l12-kt-gold-1",
+    "rebirth": 6,
+    "fromLevel": 12,
+    "toLevel": 13,
+    "levelLabel": "12",
+    "credits": "3.40B CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l12-mph-gold-2",
+    "rebirth": 6,
+    "fromLevel": 12,
+    "toLevel": 13,
+    "levelLabel": "12",
+    "credits": "3.40B CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l12-proto-roller-base-3",
+    "rebirth": 6,
+    "fromLevel": 12,
+    "toLevel": 13,
+    "levelLabel": "12",
+    "credits": "3.40B CREDITS",
+    "droidName": "PROTO-ROLLER",
+    "droidId": "proto-roller",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l13-egl-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 13,
+    "toLevel": 14,
+    "levelLabel": "13",
+    "credits": "8.45B CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l13-b2-super-gold-2",
+    "rebirth": 6,
+    "fromLevel": 13,
+    "toLevel": 14,
+    "levelLabel": "13",
+    "credits": "8.45B CREDITS",
+    "droidName": "B2 SUPER",
+    "droidId": "b2-super",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l13-b2-rp-base-3",
+    "rebirth": 6,
+    "fromLevel": 13,
+    "toLevel": 14,
+    "levelLabel": "13",
+    "credits": "8.45B CREDITS",
+    "droidName": "B2-RP",
+    "droidId": "b2-rp",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l14-kt-diamond-1",
+    "rebirth": 6,
+    "fromLevel": 14,
+    "toLevel": 15,
+    "levelLabel": "14",
+    "credits": "21.00B CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l14-mph-diamond-2",
+    "rebirth": 6,
+    "fromLevel": 14,
+    "toLevel": 15,
+    "levelLabel": "14",
+    "credits": "21.00B CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l14-j09-4mn-base-3",
+    "rebirth": 6,
+    "fromLevel": 14,
+    "toLevel": 15,
+    "levelLabel": "14",
+    "credits": "21.00B CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l15-plnk-base-1",
+    "rebirth": 6,
+    "fromLevel": 15,
+    "toLevel": 16,
+    "levelLabel": "15",
+    "credits": "52.00B CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l15-bb9-base-2",
+    "rebirth": 6,
+    "fromLevel": 15,
+    "toLevel": 16,
+    "levelLabel": "15",
+    "credits": "52.00B CREDITS",
+    "droidName": "BB9",
+    "droidId": "bb9",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l15-r7-gold-3",
+    "rebirth": 6,
+    "fromLevel": 15,
+    "toLevel": 16,
+    "levelLabel": "15",
+    "credits": "52.00B CREDITS",
+    "droidName": "R7",
+    "droidId": "r7",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l16-egl-rainbow-1",
+    "rebirth": 6,
+    "fromLevel": 16,
+    "toLevel": 17,
+    "levelLabel": "16",
+    "credits": "130.00B CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l16-mecha-droid-base-2",
+    "rebirth": 6,
+    "fromLevel": 16,
+    "toLevel": 17,
+    "levelLabel": "16",
+    "credits": "130.00B CREDITS",
+    "droidName": "MECHA-DROID",
+    "droidId": "mecha-droid",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l16-j09-4mn-gold-3",
+    "rebirth": 6,
+    "fromLevel": 16,
+    "toLevel": 17,
+    "levelLabel": "16",
+    "credits": "130.00B CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l17-kt-rainbow-1",
+    "rebirth": 6,
+    "fromLevel": 17,
+    "toLevel": 18,
+    "levelLabel": "17",
+    "credits": "325.00B CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l17-mph-rainbow-2",
+    "rebirth": 6,
+    "fromLevel": 17,
+    "toLevel": 18,
+    "levelLabel": "17",
+    "credits": "325.00B CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l17-plnk-gold-3",
+    "rebirth": 6,
+    "fromLevel": 17,
+    "toLevel": 18,
+    "levelLabel": "17",
+    "credits": "325.00B CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l18-proto-roller-gold-1",
+    "rebirth": 6,
+    "fromLevel": 18,
+    "toLevel": 19,
+    "levelLabel": "18",
+    "credits": "810.00B CREDITS",
+    "droidName": "PROTO-ROLLER",
+    "droidId": "proto-roller",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l18-j09-4mn-diamond-2",
+    "rebirth": 6,
+    "fromLevel": 18,
+    "toLevel": 19,
+    "levelLabel": "18",
+    "credits": "810.00B CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l18-r7-diamond-3",
+    "rebirth": 6,
+    "fromLevel": 18,
+    "toLevel": 19,
+    "levelLabel": "18",
+    "credits": "810.00B CREDITS",
+    "droidName": "R7",
+    "droidId": "r7",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l19-plnk-rainbow-1",
+    "rebirth": 6,
+    "fromLevel": 19,
+    "toLevel": 20,
+    "levelLabel": "19",
+    "credits": "2.00T CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l19-mecha-droid-rainbow-2",
+    "rebirth": 6,
+    "fromLevel": 19,
+    "toLevel": 20,
+    "levelLabel": "19",
+    "credits": "2.00T CREDITS",
+    "droidName": "MECHA-DROID",
+    "droidId": "mecha-droid",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l19-b2-rp-rainbow-3",
+    "rebirth": 6,
+    "fromLevel": 19,
+    "toLevel": 20,
+    "levelLabel": "19",
+    "credits": "2.00T CREDITS",
+    "droidName": "B2-RP",
+    "droidId": "b2-rp",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l20-gonk-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 20,
+    "toLevel": 21,
+    "levelLabel": "20",
+    "credits": "3.00T CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l20-egl-beskar-2",
+    "rebirth": 6,
+    "fromLevel": 20,
+    "toLevel": 21,
+    "levelLabel": "20",
+    "credits": "3.00T CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l20-haul-r-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 20,
+    "toLevel": 21,
+    "levelLabel": "20",
+    "credits": "3.00T CREDITS",
+    "droidName": "HAUL-R",
+    "droidId": "haul-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l21-kt-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 21,
+    "toLevel": 22,
+    "levelLabel": "21",
+    "credits": "4.50T CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l21-groundmech-beskar-2",
+    "rebirth": 6,
+    "fromLevel": 21,
+    "toLevel": 22,
+    "levelLabel": "21",
+    "credits": "4.50T CREDITS",
+    "droidName": "GROUNDMECH",
+    "droidId": "groundmech",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l21-r2-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 21,
+    "toLevel": 22,
+    "levelLabel": "21",
+    "credits": "4.50T CREDITS",
+    "droidName": "R2",
+    "droidId": "r2",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l22-mph-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 22,
+    "toLevel": 23,
+    "levelLabel": "22",
+    "credits": "6.00T CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l22-j09-4mn-beskar-2",
+    "rebirth": 6,
+    "fromLevel": 22,
+    "toLevel": 23,
+    "levelLabel": "22",
+    "credits": "6.00T CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l22-bb9-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 22,
+    "toLevel": 23,
+    "levelLabel": "22",
+    "credits": "6.00T CREDITS",
+    "droidName": "BB9",
+    "droidId": "bb9",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l23-plnk-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 23,
+    "toLevel": 24,
+    "levelLabel": "23",
+    "credits": "9.00T CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l23-proto-roller-beskar-2",
+    "rebirth": 6,
+    "fromLevel": 23,
+    "toLevel": 24,
+    "levelLabel": "23",
+    "credits": "9.00T CREDITS",
+    "droidName": "PROTO-ROLLER",
+    "droidId": "proto-roller",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l23-ecg-base-3",
+    "rebirth": 6,
+    "fromLevel": 23,
+    "toLevel": 24,
+    "levelLabel": "23",
+    "credits": "9.00T CREDITS",
+    "droidName": "ECG",
+    "droidId": "ecg",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l24-r7-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 24,
+    "toLevel": 25,
+    "levelLabel": "24",
+    "credits": "13.50T CREDITS",
+    "droidName": "R7",
+    "droidId": "r7",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l24-ig-base-2",
+    "rebirth": 6,
+    "fromLevel": 24,
+    "toLevel": 25,
+    "levelLabel": "24",
+    "credits": "13.50T CREDITS",
+    "droidName": "IG",
+    "droidId": "ig",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l24-loadlifter-base-3",
+    "rebirth": 6,
+    "fromLevel": 24,
+    "toLevel": 25,
+    "levelLabel": "24",
+    "credits": "13.50T CREDITS",
+    "droidName": "LOADLIFTER",
+    "droidId": "loadlifter",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BASE"
+  },
+  {
+    "id": "r6-l25-mo-trak-gold-1",
+    "rebirth": 6,
+    "fromLevel": 25,
+    "toLevel": 26,
+    "levelLabel": "25",
+    "credits": "21.00T CREDITS",
+    "droidName": "MO-TRAK",
+    "droidId": "mo-trak",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l25-ecg-gold-2",
+    "rebirth": 6,
+    "fromLevel": 25,
+    "toLevel": 26,
+    "levelLabel": "25",
+    "credits": "21.00T CREDITS",
+    "droidName": "ECG",
+    "droidId": "ecg",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GOLD"
+  },
+  {
+    "id": "r6-l25-drft-r-diamond-3",
+    "rebirth": 6,
+    "fromLevel": 25,
+    "toLevel": 26,
+    "levelLabel": "25",
+    "credits": "21.00T CREDITS",
+    "droidName": "DRFT-R",
+    "droidId": "drft-r",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "DIAMOND"
+  },
+  {
+    "id": "r6-l26-cyclens-rainbow-1",
+    "rebirth": 6,
+    "fromLevel": 26,
+    "toLevel": 27,
+    "levelLabel": "26",
+    "credits": "32.00T CREDITS",
+    "droidName": "CYCLENS",
+    "droidId": "cyclens",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l26-snow-mouse-rainbow-2",
+    "rebirth": 6,
+    "fromLevel": 26,
+    "toLevel": 27,
+    "levelLabel": "26",
+    "credits": "32.00T CREDITS",
+    "droidName": "SNOW MOUSE",
+    "droidId": "snow-mouse",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "RAINBOW"
+  },
+  {
+    "id": "r6-l26-tri-tek-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 26,
+    "toLevel": 27,
+    "levelLabel": "26",
+    "credits": "32.00T CREDITS",
+    "droidName": "TRI-TEK",
+    "droidId": "tri-tek",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l27-egl-galactic-1",
+    "rebirth": 6,
+    "fromLevel": 27,
+    "toLevel": 28,
+    "levelLabel": "27",
+    "credits": "45.00T CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l27-j09-4mn-galactic-2",
+    "rebirth": 6,
+    "fromLevel": 27,
+    "toLevel": 28,
+    "levelLabel": "27",
+    "credits": "45.00T CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l27-bb9-galactic-3",
+    "rebirth": 6,
+    "fromLevel": 27,
+    "toLevel": 28,
+    "levelLabel": "27",
+    "credits": "45.00T CREDITS",
+    "droidName": "BB9",
+    "droidId": "bb9",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l28-kt-galactic-1",
+    "rebirth": 6,
+    "fromLevel": 28,
+    "toLevel": 29,
+    "levelLabel": "28",
+    "credits": "68.00T CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l28-plnk-galactic-2",
+    "rebirth": 6,
+    "fromLevel": 28,
+    "toLevel": 29,
+    "levelLabel": "28",
+    "credits": "68.00T CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l28-ig-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 28,
+    "toLevel": 29,
+    "levelLabel": "28",
+    "credits": "68.00T CREDITS",
+    "droidName": "IG",
+    "droidId": "ig",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l29-mph-galactic-1",
+    "rebirth": 6,
+    "fromLevel": 29,
+    "toLevel": 30,
+    "levelLabel": "29",
+    "credits": "100T CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l29-b2-rp-galactic-2",
+    "rebirth": 6,
+    "fromLevel": 29,
+    "toLevel": 30,
+    "levelLabel": "29",
+    "credits": "100T CREDITS",
+    "droidName": "B2-RP",
+    "droidId": "b2-rp",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l29-drft-r-galactic-3",
+    "rebirth": 6,
+    "fromLevel": 29,
+    "toLevel": 30,
+    "levelLabel": "29",
+    "credits": "100T CREDITS",
+    "droidName": "DRFT-R",
+    "droidId": "drft-r",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l30-eg-58-beskar-1",
+    "rebirth": 6,
+    "fromLevel": 30,
+    "toLevel": 31,
+    "levelLabel": "30",
+    "credits": "150T CREDITS",
+    "droidName": "EG-58",
+    "droidId": "eg-58",
+    "requiredRarity": "RARE",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l30-egl-stellar-2",
+    "rebirth": 6,
+    "fromLevel": 30,
+    "toLevel": 31,
+    "levelLabel": "30",
+    "credits": "150T CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l30-snow-mouse-beskar-3",
+    "rebirth": 6,
+    "fromLevel": 30,
+    "toLevel": 31,
+    "levelLabel": "30",
+    "credits": "150T CREDITS",
+    "droidName": "SNOW MOUSE",
+    "droidId": "snow-mouse",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l31-trak-r-galactic-1",
+    "rebirth": 6,
+    "fromLevel": 31,
+    "toLevel": 32,
+    "levelLabel": "31",
+    "credits": "230T CREDITS",
+    "droidName": "TRAK-R",
+    "droidId": "trak-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l31-cyclens-beskar-2",
+    "rebirth": 6,
+    "fromLevel": 31,
+    "toLevel": 32,
+    "levelLabel": "31",
+    "credits": "230T CREDITS",
+    "droidName": "CYCLENS",
+    "droidId": "cyclens",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "BESKAR"
+  },
+  {
+    "id": "r6-l31-ecg-galactic-3",
+    "rebirth": 6,
+    "fromLevel": 31,
+    "toLevel": 32,
+    "levelLabel": "31",
+    "credits": "230T CREDITS",
+    "droidName": "ECG",
+    "droidId": "ecg",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l32-kt-stellar-1",
+    "rebirth": 6,
+    "fromLevel": 32,
+    "toLevel": 33,
+    "levelLabel": "32",
+    "credits": "345T CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l32-cyclo-grav-galactic-2",
+    "rebirth": 6,
+    "fromLevel": 32,
+    "toLevel": 33,
+    "levelLabel": "32",
+    "credits": "345T CREDITS",
+    "droidName": "CYCLO-GRAV",
+    "droidId": "cyclo-grav",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l32-tri-tek-galactic-3",
+    "rebirth": 6,
+    "fromLevel": 32,
+    "toLevel": 33,
+    "levelLabel": "32",
+    "credits": "345T CREDITS",
+    "droidName": "TRI-TEK",
+    "droidId": "tri-tek",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l33-mph-stellar-1",
+    "rebirth": 6,
+    "fromLevel": 33,
+    "toLevel": 34,
+    "levelLabel": "33",
+    "credits": "520T CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l33-haul-r-stellar-2",
+    "rebirth": 6,
+    "fromLevel": 33,
+    "toLevel": 34,
+    "levelLabel": "33",
+    "credits": "520T CREDITS",
+    "droidName": "HAUL-R",
+    "droidId": "haul-r",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l33-ig-galactic-3",
+    "rebirth": 6,
+    "fromLevel": 33,
+    "toLevel": 34,
+    "levelLabel": "33",
+    "credits": "520T CREDITS",
+    "droidName": "IG",
+    "droidId": "ig",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "GALACTIC"
+  },
+  {
+    "id": "r6-l34-j09-4mn-stellar-1",
+    "rebirth": 6,
+    "fromLevel": 34,
+    "toLevel": 35,
+    "levelLabel": "34",
+    "credits": "778T CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l34-plnk-stellar-2",
+    "rebirth": 6,
+    "fromLevel": 34,
+    "toLevel": 35,
+    "levelLabel": "34",
+    "credits": "778T CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l34-ecg-stellar-3",
+    "rebirth": 6,
+    "fromLevel": 34,
+    "toLevel": 35,
+    "levelLabel": "34",
+    "credits": "778T CREDITS",
+    "droidName": "ECG",
+    "droidId": "ecg",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "STELLAR"
+  },
+  {
+    "id": "r6-l35-gonk-kyber-1",
+    "rebirth": 6,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "GONK",
+    "droidId": "gonk",
+    "requiredRarity": "COMMON",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l35-eg-58-kyber-2",
+    "rebirth": 6,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "EG-58",
+    "droidId": "eg-58",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l35-roll-r-kyber-3",
+    "rebirth": 6,
+    "fromLevel": 35,
+    "toLevel": 36,
+    "levelLabel": "35",
+    "credits": "1.19Qa CREDITS",
+    "droidName": "ROLL-R",
+    "droidId": "roll-r",
+    "requiredRarity": "RARE",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l36-egl-kyber-1",
+    "rebirth": 6,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "EGL",
+    "droidId": "egl",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l36-r2-kyber-2",
+    "rebirth": 6,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "R2",
+    "droidId": "r2",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l36-b2-super-kyber-3",
+    "rebirth": 6,
+    "fromLevel": 36,
+    "toLevel": 37,
+    "levelLabel": "36",
+    "credits": "2.50Qa CREDITS",
+    "droidName": "B2 SUPER",
+    "droidId": "b2-super",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l37-kt-kyber-1",
+    "rebirth": 6,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "KT",
+    "droidId": "kt",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l37-mph-kyber-2",
+    "rebirth": 6,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "MPH",
+    "droidId": "mph",
+    "requiredRarity": "EPIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l37-snow-mouse-kyber-3",
+    "rebirth": 6,
+    "fromLevel": 37,
+    "toLevel": 38,
+    "levelLabel": "37",
+    "credits": "4.50Qa CREDITS",
+    "droidName": "SNOW MOUSE",
+    "droidId": "snow-mouse",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l38-j09-4mn-kyber-1",
+    "rebirth": 6,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "J09-4MN",
+    "droidId": "j09-4mn",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l38-cyclo-grav-kyber-2",
+    "rebirth": 6,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "CYCLO-GRAV",
+    "droidId": "cyclo-grav",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l38-tri-tek-kyber-3",
+    "rebirth": 6,
+    "fromLevel": 38,
+    "toLevel": 39,
+    "levelLabel": "38",
+    "credits": "8.00Qa CREDITS",
+    "droidName": "TRI-TEK",
+    "droidId": "tri-tek",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l39-plnk-kyber-1",
+    "rebirth": 6,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "PLNK",
+    "droidId": "plnk",
+    "requiredRarity": "LEGENDARY",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l39-ecg-kyber-2",
+    "rebirth": 6,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "ECG",
+    "droidId": "ecg",
+    "requiredRarity": "MYTHIC",
+    "requiredVariant": "KYBER"
+  },
+  {
+    "id": "r6-l39-drft-r-kyber-3",
+    "rebirth": 6,
+    "fromLevel": 39,
+    "toLevel": 40,
+    "levelLabel": "39",
+    "credits": "15.00Qa CREDITS",
+    "droidName": "DRFT-R",
+    "droidId": "drft-r",
     "requiredRarity": "MYTHIC",
     "requiredVariant": "KYBER"
   }
 ] satisfies Requirement[];
 
-export const rebirths = [1, 2, 3, 4, 5] as const;
+export const rebirths = [1, 2, 3, 4, 5, 6] as const;
 export const maxLevel = 40;
